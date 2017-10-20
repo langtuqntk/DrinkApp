@@ -6,6 +6,15 @@ nav {
   margin-top: 16px;
 }
 
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~typeface-exo/index.css";
+@import "~roboto-fontface/css/roboto/roboto-fontface.css";
+@import "~ionicons/css/ionicons.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "~nebular-icons/css/nebular-icons.css";
+@import "~socicon/css/socicon.css";
+@import "~app/app/@theme/styles/styles.scss";
+
 nav a {
   background-color: $nav-button-color;
   color: white;
