@@ -21,7 +21,7 @@ import { PostsService } from './posts/posts.service';
   template: `
     <header>
     <md-toolbar color="primary">
-     <a [routerLink]="['/']" class="logotTxt">MEAN</a>
+     <a [routerLink]="['/']" class="logotTxt">DRINKAPP</a>
    <a class="links" [routerLink]="['/posts']">Posts</a>
    <a class="links" [routerLink]="['/react']">react</a>
     </md-toolbar>
