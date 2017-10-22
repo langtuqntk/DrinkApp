@@ -1,0 +1,14 @@
+machine:
+  node:
+    version: 6.11.4
+    
+test:
+  override:
+    - echo "skip"
+
+
+deployment:
+  prod:
+    branch: master
+    heroku:
+      appname: drinkapp-mean
