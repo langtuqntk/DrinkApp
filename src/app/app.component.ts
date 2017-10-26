@@ -15,20 +15,8 @@ import { PostsService } from './posts/posts.service';
 @Component({
   selector: 'app',
   encapsulation: ViewEncapsulation.None,
-  styleUrls: [
-    './app.component.scss'
-  ],
   template: `
-    <header>
-    <md-toolbar color="primary">
-     <a [routerLink]="['/']" class="logotTxt">DRINKAPP</a>
-   <a class="links" [routerLink]="['/posts']">Posts</a>
-   <a class="links" [routerLink]="['/react']">react</a>
-    </md-toolbar>
-    </header>
-      <router-outlet></router-outlet>
-    <footer>
-    </footer>
+    <router-outlet></router-outlet>
   `,
   providers: [PostsService]
 })

@@ -8,8 +8,78 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'FEATURES',
+    title: 'BÁN HÀNG',
     group: true,
+  },
+  {
+    title: 'NHẬP HÀNG',
+    group: true,
+  },
+  {
+    title: 'CẬP NHẬT GIÁ BÁN',
+    group: true,
+  },
+  {
+    title: 'QUẢN LÝ DANH MỤC',
+    icon: 'nb-tables',
+    children: [
+      {
+        title: 'QUẢN LÝ BÀN',
+        link: '/app/pages/tables/smart-table',
+      },
+      {
+        title: 'QUẢN LÝ KHÁCH',
+        link: '/app/pages/tables/smart-table',
+      },
+      {
+        title: 'QUẢN LÝ HÀNG',
+        link: '/app/pages/tables/smart-table',
+      },
+      {
+        title: 'QUẢN LÝ PHIẾU NHẬP',
+        link: '/app/pages/tables/smart-table',
+      },
+      {
+        title: 'QUẢN LÝ HÀNG BÁN',
+        link: '/app/pages/tables/smart-table',
+      },
+      {
+        title: 'QUẢN LÝ NHÂN VIÊN',
+        link: '/app/pages/tables/smart-table',
+      },
+    ],
+  },
+  {
+    title: 'THỐNG KÊ',
+    icon: 'nb-tables',
+    children: [
+      {
+        title: 'THỐNG KÊ BÁN HÀNG',
+        link: '/app/pages/tables/smart-table',
+      },
+      {
+        title: 'THỐNG KÊ HÀNG TRONG KHO',
+        link: '/app/pages/tables/smart-table',
+      },
+    ],
+  },
+  {
+    title: 'HỆ THỐNG',
+    icon: 'nb-tables',
+    children: [
+      {
+        title: 'QUẢN LÝ TÀI KHOẢN',
+        link: '/app/pages/tables/smart-table',
+      },
+      {
+        title: 'THIẾT LẬP',
+        link: '/app/pages/tables/smart-table',
+      },
+      {
+        title: 'HƯỚNG DẪN',
+        link: '/app/pages/tables/smart-table',
+      },
+    ],
   },
   {
     title: 'UI Features',
