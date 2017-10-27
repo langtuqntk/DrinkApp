@@ -1,5 +1,9 @@
 import express from 'express';
 import userRoutes from './user.route';
+import nhanvienRoutes from './nhanvien.route';
+import khachhangRoutes from './khachhang.route';
+import hangRoutes from './hang.route';
+import banRoutes from './ban.route';
 import authRoutes from './auth.route';
 import postRoutes from './post.route';
 
@@ -12,6 +16,10 @@ router.get('/health-check', (req, res) =>
 
 // mount user routes at /users
 router.use('/users', userRoutes);
+router.use('/nhanviens', nhanvienRoutes);
+router.use('/khachhangs', khachhangRoutes);
+router.use('/hangs', hangRoutes);
+router.use('/bans', banRoutes);
 
 // mount auth routes at /auth
 router.use('/auth', authRoutes);
