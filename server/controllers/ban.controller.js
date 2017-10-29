@@ -1,79 +1,81 @@
-import User from '../models/user.model';
+import Ban from '../models/Ban.model';
 
 /**
- * Load user and append to req.
+ * Load Ban and append to req.
  */
 function load(req, res, next, id) {
-  User.get(id)
-    .then((user) => {
-      req.user = user; // eslint-disable-line no-param-reassign
+  Ban.get(id)
+    .then((ban) => {
+      req.Ban = ban; // eslint-disable-line no-param-reassign
       return next();
     })
     .catch(e => next(e));
 }
 
 /**
- * Get user
- * @returns {User}
+ * Get Ban
+ * @returns {Ban}
  */
 function get(req, res) {
-  return res.json(req.user);
+  return res.json(req.Ban);
 }
 
 /**
- * Create new user
- * @property {string} req.body.username - The username of user.
- * @property {string} req.body.mobileNumber - The mobileNumber of user.
- * @returns {User}
+ * Create new Ban
+ * @property {string} req.body.Banname - The Banname of Ban.
+ * @property {string} req.body.mobileNumber - The mobileNumber of Ban.
+ * @returns {Ban}
  */
 function create(req, res, next) {
-  const user = new User({
-    username: req.body.username,
-    mobileNumber: req.body.mobileNumber
+  console.log(123);
+  const ban = new Ban({
+    Maban: req.body.Maban,
+    Tenban: req.body.Tenban,
+    Khuvuc: req.body.Khuvuc
   });
 
-  user.save()
-    .then(savedUser => res.json(savedUser))
+  ban.save()
+    .then(savedBan => res.json(savedBan))
     .catch(e => next(e));
 }
 
 /**
- * Update existing user
- * @property {string} req.body.username - The username of user.
- * @property {string} req.body.mobileNumber - The mobileNumber of user.
- * @returns {User}
+ * Update existing Ban
+ * @property {string} req.body.Banname - The Banname of Ban.
+ * @property {string} req.body.mobileNumber - The mobileNumber of Ban.
+ * @returns {Ban}
  */
 function update(req, res, next) {
-  const user = req.user;
-  user.username = req.body.username;
-  user.mobileNumber = req.body.mobileNumber;
-
-  user.save()
-    .then(savedUser => res.json(savedUser))
+  const ban = req.Ban;
+  ban.Maban = req.body.Maban;
+  ban.Tenban = req.body.Tenban;
+  ban.Khuvuc = req.body.Khuvuc;
+  ban.save()
+    .then(savedBan => res.json(savedBan))
     .catch(e => next(e));
 }
 
 /**
- * Get user list.
- * @property {number} req.query.skip - Number of users to be skipped.
- * @property {number} req.query.limit - Limit number of users to be returned.
- * @returns {User[]}
+ * Get Ban list.
+ * @property {number} req.query.skip - Number of Bans to be skipped.
+ * @property {number} req.query.limit - Limit number of Bans to be returned.
+ * @returns {Ban[]}
  */
 function list(req, res, next) {
   const { limit = 50, skip = 0 } = req.query;
-  User.list({ limit, skip })
-    .then(users => res.json(users))
+  Ban.list({ limit, skip })
+    .then(Bans => res.json(Bans))
     .catch(e => next(e));
 }
 
 /**
- * Delete user.
- * @returns {User}
+ * Delete Ban.
+ * @returns {Ban}
  */
 function remove(req, res, next) {
-  const user = req.user;
-  user.remove()
-    .then(deletedUser => res.json(deletedUser))
+  const ban = req.Ban;
+  ban.remove()
+    .then(deletedBan => res.json(deletedBan))
     .catch(e => next(e));
 }
 

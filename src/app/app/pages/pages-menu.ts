@@ -25,7 +25,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'QUẢN LÝ BÀN',
-        link: '/app/pages/tables/smart-table',
+        link: '/app/pages/tables/bans',
       },
       {
         title: 'QUẢN LÝ KHÁCH',

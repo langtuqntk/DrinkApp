@@ -10,19 +10,19 @@ router.route('/')
   .get(nhanvienCtrl.list)
 
   /** POST /api/users - Create new user */
-  .post(validate(paramValidation.createUser), nhanvienCtrl.create);
+  .post(nhanvienCtrl.create);
 
-router.route('/:MaNV')
+router.route('/:nhanvienId')
   /** GET /api/users/:userId - Get user */
-  .get(userCtrl.get)
+  .get(nhanvienCtrl.get)
 
   /** PUT /api/users/:userId - Update user */
-  .put(validate(paramValidation.updateUser), nhanvienCtrl.update)
+  .put(nhanvienCtrl.update)
 
   /** DELETE /api/users/:userId - Delete user */
   .delete(nhanvienCtrl.remove);
 
 /** Load user when API with userId route parameter is hit */
-router.param('MaNV', nhanvienCtrl.load);
+router.param('nhanvienId', nhanvienCtrl.load);
 
 export default router;

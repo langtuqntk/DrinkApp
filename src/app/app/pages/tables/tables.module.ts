@@ -4,7 +4,8 @@ import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { ThemeModule } from '../../@theme/theme.module';
 import { TablesRoutingModule, routedComponents } from './tables-routing.module';
 import { SmartTableService } from '../../@core/data/smart-table.service';
-
+import { BanService } from '../../@core/data/ban.service'
+ 
 @NgModule({
   imports: [
     ThemeModule,
@@ -16,6 +17,7 @@ import { SmartTableService } from '../../@core/data/smart-table.service';
   ],
   providers: [
     SmartTableService,
+    BanService,
   ],
 })
 export class TablesModule { }

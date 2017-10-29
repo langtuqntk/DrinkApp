@@ -1,28 +1,28 @@
 import express from 'express';
 import validate from 'express-validation';
 import paramValidation from '../config/param-validation';
-import userCtrl from '../controllers/user.controller';
+import khachhangCtrl from '../controllers/khachhang.controller';
 
 const router = express.Router(); // eslint-disable-line new-cap
 
 router.route('/')
-  /** GET /api/users - Get list of users */
-  .get(userCtrl.list)
+  /** GET /api/khachhangs - Get list of khachhangs */
+  .get(khachhangCtrl.list)
 
-  /** POST /api/users - Create new user */
-  .post(validate(paramValidation.createUser), userCtrl.create);
+  /** POST /api/khachhangs - Create new khachhang */
+  .post(khachhangCtrl.create);
 
-router.route('/:userId')
-  /** GET /api/users/:userId - Get user */
-  .get(userCtrl.get)
+router.route('/:khachhangId')
+  /** GET /api/khachhangs/:khachhangId - Get khachhang */
+  .get(khachhangCtrl.get)
 
-  /** PUT /api/users/:userId - Update user */
-  .put(validate(paramValidation.updateUser), userCtrl.update)
+  /** PUT /api/khachhangs/:khachhangId - Update khachhang */
+  .put(khachhangCtrl.update)
 
-  /** DELETE /api/users/:userId - Delete user */
-  .delete(userCtrl.remove);
+  /** DELETE /api/khachhangs/:khachhangId - Delete khachhang */
+  .delete(khachhangCtrl.remove);
 
-/** Load user when API with userId route parameter is hit */
-router.param('userId', userCtrl.load);
+/** Load khachhang when API with khachhangId route parameter is hit */
+router.param('khachhangId', khachhangCtrl.load);
 
 export default router;
