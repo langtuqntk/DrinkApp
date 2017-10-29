@@ -1,5 +1,5 @@
 export class Ban {
-    objectId: string;
+    _id: string;
     Maban: string;
     Tenban: string;
     Khuvuc: string;
