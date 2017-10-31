@@ -1,79 +1,87 @@
-import User from '../models/user.model';
+import NhanVien from '../models/NhanVien.model';
 
 /**
- * Load user and append to req.
+ * Load NhanVien and append to req.
  */
 function load(req, res, next, id) {
-  User.get(id)
-    .then((user) => {
-      req.user = user; // eslint-disable-line no-param-reassign
+  NhanVien.get(id)
+    .then((NhanVien) => {
+      req.NhanVien = NhanVien; // eslint-disable-line no-param-reassign
       return next();
     })
     .catch(e => next(e));
 }
 
 /**
- * Get user
- * @returns {User}
+ * Get NhanVien
+ * @returns {NhanVien}
  */
 function get(req, res) {
-  return res.json(req.user);
+  return res.json(req.NhanVien);
 }
 
 /**
- * Create new user
- * @property {string} req.body.username - The username of user.
- * @property {string} req.body.mobileNumber - The mobileNumber of user.
- * @returns {User}
+ * Create new NhanVien
+ * @property {string} req.body.NhanVienname - The NhanVienname of NhanVien.
+ * @property {string} req.body.mobileNumber - The mobileNumber of NhanVien.
+ * @returns {NhanVien}
  */
 function create(req, res, next) {
-  const user = new User({
-    username: req.body.username,
-    mobileNumber: req.body.mobileNumber
+  const nhanVien = new NhanVien({
+    MaNV: req.body.MaNV,
+    TenNV: req.body.TenNV,
+    Ngaysinh: req.body.Ngaysinh,
+    Diachi: req.body.Diachi,
+    Dienthoai: req.body.Dienthoai,
+    Matkhau: req.body.Matkhau
   });
 
-  user.save()
-    .then(savedUser => res.json(savedUser))
+  nhanVien.save()
+    .then(savedNhanVien => res.json(savedNhanVien))
     .catch(e => next(e));
 }
 
 /**
- * Update existing user
- * @property {string} req.body.username - The username of user.
- * @property {string} req.body.mobileNumber - The mobileNumber of user.
- * @returns {User}
+ * Update existing NhanVien
+ * @property {string} req.body.NhanVienname - The NhanVienname of NhanVien.
+ * @property {string} req.body.mobileNumber - The mobileNumber of NhanVien.
+ * @returns {NhanVien}
  */
 function update(req, res, next) {
-  const user = req.user;
-  user.username = req.body.username;
-  user.mobileNumber = req.body.mobileNumber;
+  const nhanVien = req.NhanVien;
+  nhanVien.MaNV = req.body.MaNV,
+  nhanVien.TenNV = req.body.TenNV,
+  nhanVien.Ngaysinh = req.body.Ngaysinh,
+  nhanVien.Diachi = req.body.Diachi,
+  nhanVien.Dienthoai = req.body.Dienthoai,
+  nhanVien.Matkhau = req.body.Matkhau
 
-  user.save()
-    .then(savedUser => res.json(savedUser))
+  nhanVien.save()
+    .then(savedNhanVien => res.json(savedNhanVien))
     .catch(e => next(e));
 }
 
 /**
- * Get user list.
- * @property {number} req.query.skip - Number of users to be skipped.
- * @property {number} req.query.limit - Limit number of users to be returned.
- * @returns {User[]}
+ * Get NhanVien list.
+ * @property {number} req.query.skip - Number of NhanViens to be skipped.
+ * @property {number} req.query.limit - Limit number of NhanViens to be returned.
+ * @returns {NhanVien[]}
  */
 function list(req, res, next) {
   const { limit = 50, skip = 0 } = req.query;
-  User.list({ limit, skip })
-    .then(users => res.json(users))
+  NhanVien.list({ limit, skip })
+    .then(NhanViens => res.json(NhanViens))
     .catch(e => next(e));
 }
 
 /**
- * Delete user.
- * @returns {User}
+ * Delete NhanVien.
+ * @returns {NhanVien}
  */
 function remove(req, res, next) {
-  const user = req.user;
-  user.remove()
-    .then(deletedUser => res.json(deletedUser))
+  const nhanVien = req.NhanVien;
+  nhanVien.remove()
+    .then(deletedNhanVien => res.json(deletedNhanVien))
     .catch(e => next(e));
 }
 

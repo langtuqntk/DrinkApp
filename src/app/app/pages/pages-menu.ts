@@ -29,11 +29,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: 'QUẢN LÝ KHÁCH',
-        link: '/app/pages/tables/smart-table',
+        link: '/app/pages/tables/khachhangs',
       },
       {
         title: 'QUẢN LÝ HÀNG',
-        link: '/app/pages/tables/smart-table',
+        link: '/app/pages/tables/hangs',
       },
       {
         title: 'QUẢN LÝ PHIẾU NHẬP',
@@ -45,7 +45,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: 'QUẢN LÝ NHÂN VIÊN',
-        link: '/app/pages/tables/smart-table',
+        link: '/app/pages/tables/nhanviens',
       },
     ],
   },

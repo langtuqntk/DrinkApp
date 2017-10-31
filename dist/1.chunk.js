@@ -1,42 +1,42 @@
 webpackJsonpac__name_([1],{
 
-/***/ 1331:
+/***/ 1338:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__posts_module__ = __webpack_require__(1930);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__posts_module__ = __webpack_require__(1939);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PostsModule", function() { return __WEBPACK_IMPORTED_MODULE_0__posts_module__["a"]; });
 
 
 
 /***/ }),
 
-/***/ 1346:
+/***/ 1353:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(19);
-var debounceTime_1 = __webpack_require__(593);
+var debounceTime_1 = __webpack_require__(599);
 Observable_1.Observable.prototype.debounceTime = debounceTime_1.debounceTime;
 //# sourceMappingURL=debounceTime.js.map
 
 /***/ }),
 
-/***/ 1355:
+/***/ 1362:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(19);
-var map_1 = __webpack_require__(210);
+var map_1 = __webpack_require__(212);
 Observable_1.Observable.prototype.map = map_1.map;
 //# sourceMappingURL=map.js.map
 
 /***/ }),
 
-/***/ 1363:
+/***/ 1370:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71,19 +71,19 @@ exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError;
 
 /***/ }),
 
-/***/ 1413:
+/***/ 1419:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(19);
-var take_1 = __webpack_require__(1516);
+var take_1 = __webpack_require__(1523);
 Observable_1.Observable.prototype.take = take_1.take;
 //# sourceMappingURL=take.js.map
 
 /***/ }),
 
-/***/ 1516:
+/***/ 1523:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -93,9 +93,9 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Subscriber_1 = __webpack_require__(37);
-var ArgumentOutOfRangeError_1 = __webpack_require__(1363);
-var EmptyObservable_1 = __webpack_require__(154);
+var Subscriber_1 = __webpack_require__(33);
+var ArgumentOutOfRangeError_1 = __webpack_require__(1370);
+var EmptyObservable_1 = __webpack_require__(156);
 /**
  * Emits only the first `count` values emitted by the source Observable.
  *
@@ -179,18 +179,18 @@ var TakeSubscriber = (function (_super) {
 
 /***/ }),
 
-/***/ 1539:
+/***/ 1547:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditPostComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(580);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_apollo_angular__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__graphql_queries__ = __webpack_require__(585);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__graphql_mutations__ = __webpack_require__(589);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_apollo_angular__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__graphql_queries__ = __webpack_require__(591);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__graphql_mutations__ = __webpack_require__(595);
 
 
 
@@ -258,8 +258,8 @@ var EditPostComponent = (function () {
 EditPostComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'edit-post',
-        template: __webpack_require__(2393),
-        styles: [__webpack_require__(2663)]
+        template: __webpack_require__(2404),
+        styles: [__webpack_require__(2673)]
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormBuilder"],
         __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* ActivatedRoute */],
@@ -271,18 +271,18 @@ EditPostComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1540:
+/***/ 1548:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NewPostComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(580);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_apollo_angular__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__graphql_queries__ = __webpack_require__(585);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__graphql_mutations__ = __webpack_require__(589);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_apollo_angular__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__graphql_queries__ = __webpack_require__(591);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__graphql_mutations__ = __webpack_require__(595);
 
 
 
@@ -335,8 +335,8 @@ var NewPostComponent = (function () {
 NewPostComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'new-post',
-        template: __webpack_require__(2394),
-        styles: [__webpack_require__(2664)]
+        template: __webpack_require__(2405),
+        styles: [__webpack_require__(2674)]
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormBuilder"],
         __WEBPACK_IMPORTED_MODULE_3__angular_router__["d" /* Router */],
@@ -347,25 +347,25 @@ NewPostComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1541:
+/***/ 1549:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return postDetailComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_apollo_angular__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_apollo_angular__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_router__ = __webpack_require__(580);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime__ = __webpack_require__(1346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_router__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime__ = __webpack_require__(1353);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(1355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(1362);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_take__ = __webpack_require__(1413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_take__ = __webpack_require__(1419);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_take___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_take__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__graphql_queries__ = __webpack_require__(585);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__graphql_queries__ = __webpack_require__(591);
 
 
 
@@ -406,8 +406,8 @@ var postDetailComponent = (function () {
 }());
 postDetailComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
-        template: __webpack_require__(2395),
-        styles: [__webpack_require__(2665)]
+        template: __webpack_require__(2406),
+        styles: [__webpack_require__(2675)]
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_apollo_angular__["b" /* Apollo */], __WEBPACK_IMPORTED_MODULE_5__angular_router__["c" /* ActivatedRoute */]])
 ], postDetailComponent);
@@ -416,23 +416,23 @@ postDetailComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */](
 
 /***/ }),
 
-/***/ 1542:
+/***/ 1550:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PostListComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__posts_service__ = __webpack_require__(596);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material__ = __webpack_require__(588);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime__ = __webpack_require__(1346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__posts_service__ = __webpack_require__(602);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material__ = __webpack_require__(594);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime__ = __webpack_require__(1353);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(1355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(1362);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_take__ = __webpack_require__(1413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_take__ = __webpack_require__(1419);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_take___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_take__);
 
 
@@ -480,8 +480,8 @@ var PostListComponent = (function () {
 PostListComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'post-list',
-        template: __webpack_require__(2396),
-        styles: [__webpack_require__(2666)]
+        template: __webpack_require__(2407),
+        styles: [__webpack_require__(2676)]
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__posts_service__["a" /* PostsService */], __WEBPACK_IMPORTED_MODULE_5__angular_material__["h" /* MatSnackBar */]])
 ], PostListComponent);
@@ -490,13 +490,13 @@ PostListComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1929:
+/***/ 1938:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PostsFilterPipe; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var PostsFilterPipe = (function () {
@@ -518,24 +518,24 @@ PostsFilterPipe = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1930:
+/***/ 1939:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PostsModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(580);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(586);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(300);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_material__ = __webpack_require__(588);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__posts_routes__ = __webpack_require__(1931);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__post_list_post_list_component__ = __webpack_require__(1542);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__post_detail_post_detail_component__ = __webpack_require__(1541);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__new_post_new_post_component__ = __webpack_require__(1540);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__edit_post_edit_post_component__ = __webpack_require__(1539);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__posts_filter_posts_filter_pipe__ = __webpack_require__(1929);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_material__ = __webpack_require__(594);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__posts_routes__ = __webpack_require__(1940);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__post_list_post_list_component__ = __webpack_require__(1550);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__post_detail_post_detail_component__ = __webpack_require__(1549);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__new_post_new_post_component__ = __webpack_require__(1548);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__edit_post_edit_post_component__ = __webpack_require__(1547);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__posts_filter_posts_filter_pipe__ = __webpack_require__(1938);
 
 
 
@@ -588,15 +588,15 @@ PostsModule = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1931:
+/***/ 1940:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routes; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__post_list_post_list_component__ = __webpack_require__(1542);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__new_post_new_post_component__ = __webpack_require__(1540);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_post_edit_post_component__ = __webpack_require__(1539);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__post_detail_post_detail_component__ = __webpack_require__(1541);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__post_list_post_list_component__ = __webpack_require__(1550);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__new_post_new_post_component__ = __webpack_require__(1548);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_post_edit_post_component__ = __webpack_require__(1547);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__post_detail_post_detail_component__ = __webpack_require__(1549);
 
 
 
@@ -615,10 +615,10 @@ var routes = [
 
 /***/ }),
 
-/***/ 2075:
+/***/ 2085:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -630,10 +630,10 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ 2076:
+/***/ 2086:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -645,10 +645,10 @@ exports.push([module.i, ".postDetail {\n  width: 70%;\n  margin: auto; }\n", ""]
 
 /***/ }),
 
-/***/ 2077:
+/***/ 2087:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -660,10 +660,10 @@ exports.push([module.i, ".post {\n  width: 70%;\n  margin: auto; }\n  .post .tit
 
 /***/ }),
 
-/***/ 2078:
+/***/ 2088:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -675,39 +675,39 @@ exports.push([module.i, ".posts {\n  width: 70%;\n  margin: auto; }\n  .posts .a
 
 /***/ }),
 
-/***/ 2393:
+/***/ 2404:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"postDetail\">\n    <div *ngIf=\"post\">\n        <h5>Edit post:</h5>\n        <form [formGroup]=\"form\" (ngSubmit)=\"save()\">\n            <mat-input-container>\n                <input matInput formControlName=\"title\"  placeholder=\"Title\">\n                <mat-error>This field is required</mat-error>\n            </mat-input-container><br>\n            <mat-input-container>\n                <textarea matInput mat-autosize minRows=\"6\" placeholder=\"Your post content...\" formControlName=\"content\"></textarea>\n            </mat-input-container>\n            <button mat-raised-button type=\"submit\">Save</button>\n        </form>\n    </div>\n</div>"
 
 /***/ }),
 
-/***/ 2394:
+/***/ 2405:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"postDetail\">\n    <h5>Add new post:</h5>\n    <form [formGroup]=\"form\" (ngSubmit)=\"save()\">\n        <mat-input-container>\n            <input matInput formControlName=\"title\" placeholder=\"Title\">\n            <mat-error>This field is required</mat-error>\n        </mat-input-container><br>\n        <mat-input-container>\n            <textarea matInput mat-autosize minRows=\"6\" placeholder=\"Your post content...\" formControlName=\"content\"></textarea>\n        </mat-input-container>\n        <button mat-raised-button type=\"submit\">Save</button>\n    </form>\n</div>"
 
 /***/ }),
 
-/***/ 2395:
+/***/ 2406:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"post\"> \n    <h2>{{pageTitle}}</h2>\n    <div *ngIf=\"post\">\n        <mat-card>\n            <mat-card-header>\n                <mat-card-title class=\"title\">{{post.title }}</mat-card-title>\n                <mat-card-subtitle>_________________________</mat-card-subtitle>\n            </mat-card-header>\n            <mat-card-content>\n                <p>{{post.content}}</p>\n            </mat-card-content>\n        </mat-card>\n    </div>\n\n</div>"
 
 /***/ }),
 
-/***/ 2396:
+/***/ 2407:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"posts\">\n        <p>The post list is composed by the angular components querying the GraphQL and displaying the result</p>\n        \n    <div aria-flowto=\"<left></left>\">\n        <h2>Posts list</h2>\n        <button class=\"addBtn\" mat-fab [routerLink]=\"['/posts/new']\"> <mat-icon>add</mat-icon></button>\n        <br>\n    </div>\n    <mat-input-container>\n        <input matInput type=\"search\" [(ngModel)]='listPostFilter' [formControl]=\"postControl\" placeholder=\"search...\">\n    </mat-input-container>\n    <mat-card *ngFor=\"let post of posts | async | postsFilter:listPostFilter\">\n        <mat-list>\n            <mat-list-item>\n                <a mat-line [routerLink]=\"['/posts/post-detail', post.id]\"> {{post.title}} </a>\n                <p mat-line>\n                    <span>{{post.content}}</span>\n                </p>\n                <span><button mat-button (click)='deletePost(post.id)'><mat-icon>delete</mat-icon></button></span>\n                <span><button mat-button [routerLink]=\"['/posts/edit', post.id]\"><mat-icon>edit</mat-icon></button></span>\n            </mat-list-item>\n        </mat-list>\n    </mat-card>\n</div>\n"
 
 /***/ }),
 
-/***/ 2663:
+/***/ 2673:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(2075);
+        var result = __webpack_require__(2085);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -718,11 +718,11 @@ module.exports = "<div class=\"posts\">\n        <p>The post list is composed by
 
 /***/ }),
 
-/***/ 2664:
+/***/ 2674:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(2076);
+        var result = __webpack_require__(2086);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -733,11 +733,11 @@ module.exports = "<div class=\"posts\">\n        <p>The post list is composed by
 
 /***/ }),
 
-/***/ 2665:
+/***/ 2675:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(2077);
+        var result = __webpack_require__(2087);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -748,11 +748,11 @@ module.exports = "<div class=\"posts\">\n        <p>The post list is composed by
 
 /***/ }),
 
-/***/ 2666:
+/***/ 2676:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(2078);
+        var result = __webpack_require__(2088);
 
         if (typeof result === "string") {
             module.exports = result;

@@ -20,7 +20,7 @@ export class BanService {
                .catch(this.handleError);
   }
 
-  getBan(id: string): Promise<Hero> {
+  getBan(id: string): Promise<Ban> {
     const url = `${this.bansUrl}/${id}`;
     return this.http.get(url)
       .toPromise()

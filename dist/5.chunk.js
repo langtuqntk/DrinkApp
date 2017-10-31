@@ -1,12 +1,12 @@
 webpackJsonpac__name_([5],{
 
-/***/ 1505:
+/***/ 1513:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AngularEchartsModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directive_angular_echarts_directive__ = __webpack_require__(1792);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directive_angular_echarts_directive__ = __webpack_require__(1800);
 /* unused harmony namespace reexport */
 
 
@@ -32,13 +32,13 @@ AngularEchartsModule.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 1528:
+/***/ 1536:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var DashboardComponent = (function () {
@@ -49,8 +49,8 @@ var DashboardComponent = (function () {
 DashboardComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-dashboard',
-        styles: [__webpack_require__(2629)],
-        template: __webpack_require__(2363),
+        styles: [__webpack_require__(2639)],
+        template: __webpack_require__(2373),
     })
 ], DashboardComponent);
 
@@ -58,14 +58,14 @@ DashboardComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1529:
+/***/ 1537:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_menu__ = __webpack_require__(1909);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_menu__ = __webpack_require__(1917);
 
 
 
@@ -86,19 +86,19 @@ PagesComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1661:
+/***/ 1667:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "b7c0827326f8d621b1ed9aa93c8815b8.svg";
 
 /***/ }),
 
-/***/ 1792:
+/***/ 1800:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(echarts) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AngularEchartsDirective; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 
 var AngularEchartsDirective = (function () {
     function AngularEchartsDirective(el, renderer) {
@@ -258,15 +258,15 @@ AngularEchartsDirective.propDecorators = {
     'onWindowResize': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["HostListener"], args: ['window:resize', ['$event'],] },],
 };
 //# sourceMappingURL=angular-echarts.directive.js.map
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(583)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(589)))
 
 /***/ }),
 
-/***/ 1813:
+/***/ 1821:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(2053);
+        var result = __webpack_require__(2063);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -277,15 +277,15 @@ AngularEchartsDirective.propDecorators = {
 
 /***/ }),
 
-/***/ 1874:
+/***/ 1882:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_data_users_service__ = __webpack_require__(1426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_data_users_service__ = __webpack_require__(1433);
 
 
 
@@ -335,8 +335,8 @@ var ContactsComponent = (function () {
 ContactsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-contacts',
-        styles: [__webpack_require__(2628)],
-        template: __webpack_require__(2362),
+        styles: [__webpack_require__(2638)],
+        template: __webpack_require__(2372),
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__core_data_users_service__["a" /* UserService */],
         __WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */],
@@ -347,32 +347,32 @@ ContactsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1875:
+/***/ 1883:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ngx_echarts__ = __webpack_require__(1505);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_theme_module__ = __webpack_require__(1339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_component__ = __webpack_require__(1528);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__status_card_status_card_component__ = __webpack_require__(1884);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__contacts_contacts_component__ = __webpack_require__(1874);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__rooms_rooms_component__ = __webpack_require__(1881);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__rooms_room_selector_room_selector_component__ = __webpack_require__(1880);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__temperature_temperature_component__ = __webpack_require__(1887);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__temperature_temperature_dragger_temperature_dragger_component__ = __webpack_require__(1886);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__team_team_component__ = __webpack_require__(1885);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__kitten_kitten_component__ = __webpack_require__(1878);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__security_cameras_security_cameras_component__ = __webpack_require__(1882);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__electricity_electricity_component__ = __webpack_require__(1877);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__electricity_electricity_chart_electricity_chart_component__ = __webpack_require__(1876);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__weather_weather_component__ = __webpack_require__(1890);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__solar_solar_component__ = __webpack_require__(1883);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__rooms_player_player_component__ = __webpack_require__(1879);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__traffic_traffic_component__ = __webpack_require__(1889);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__traffic_traffic_chart_component__ = __webpack_require__(1888);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ngx_echarts__ = __webpack_require__(1513);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_theme_module__ = __webpack_require__(1346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_component__ = __webpack_require__(1536);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__status_card_status_card_component__ = __webpack_require__(1892);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__contacts_contacts_component__ = __webpack_require__(1882);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__rooms_rooms_component__ = __webpack_require__(1889);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__rooms_room_selector_room_selector_component__ = __webpack_require__(1888);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__temperature_temperature_component__ = __webpack_require__(1895);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__temperature_temperature_dragger_temperature_dragger_component__ = __webpack_require__(1894);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__team_team_component__ = __webpack_require__(1893);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__kitten_kitten_component__ = __webpack_require__(1886);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__security_cameras_security_cameras_component__ = __webpack_require__(1890);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__electricity_electricity_component__ = __webpack_require__(1885);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__electricity_electricity_chart_electricity_chart_component__ = __webpack_require__(1884);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__weather_weather_component__ = __webpack_require__(1898);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__solar_solar_component__ = __webpack_require__(1891);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__rooms_player_player_component__ = __webpack_require__(1887);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__traffic_traffic_component__ = __webpack_require__(1897);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__traffic_traffic_chart_component__ = __webpack_require__(1896);
 
 
 
@@ -431,14 +431,14 @@ DashboardModule = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1876:
+/***/ 1884:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(echarts) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElectricityChartComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
 
 
 
@@ -615,26 +615,26 @@ var ElectricityChartComponent = (function () {
 ElectricityChartComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-electricity-chart',
-        styles: [__webpack_require__(2630)],
+        styles: [__webpack_require__(2640)],
         template: "\n    <div echarts [options]=\"option\" class=\"echart\"></div>\n  ",
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */]])
 ], ElectricityChartComponent);
 
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(583)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(589)))
 
 /***/ }),
 
-/***/ 1877:
+/***/ 1885:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElectricityComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_data_electricity_service__ = __webpack_require__(1526);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_data_electricity_service__ = __webpack_require__(1534);
 
 
 
@@ -659,8 +659,8 @@ var ElectricityComponent = (function () {
 ElectricityComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-electricity',
-        styles: [__webpack_require__(2631)],
-        template: __webpack_require__(2364),
+        styles: [__webpack_require__(2641)],
+        template: __webpack_require__(2374),
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__core_data_electricity_service__["a" /* ElectricityService */], __WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */]])
 ], ElectricityComponent);
@@ -669,14 +669,14 @@ ElectricityComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]
 
 /***/ }),
 
-/***/ 1878:
+/***/ 1886:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return KittenComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
 
 
 
@@ -696,8 +696,8 @@ var KittenComponent = (function () {
 KittenComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-kitten',
-        styles: [__webpack_require__(2632)],
-        template: __webpack_require__(2365),
+        styles: [__webpack_require__(2642)],
+        template: __webpack_require__(2375),
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */]])
 ], KittenComponent);
@@ -706,14 +706,14 @@ KittenComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1879:
+/***/ 1887:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlayerComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_data_player_service__ = __webpack_require__(1527);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_data_player_service__ = __webpack_require__(1535);
 
 
 
@@ -800,8 +800,8 @@ __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 PlayerComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-player',
-        styles: [__webpack_require__(2633)],
-        template: __webpack_require__(2366),
+        styles: [__webpack_require__(2643)],
+        template: __webpack_require__(2376),
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__core_data_player_service__["a" /* PlayerService */]])
 ], PlayerComponent);
@@ -810,13 +810,13 @@ PlayerComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1880:
+/***/ 1888:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RoomSelectorComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var RoomSelectorComponent = (function () {
@@ -898,8 +898,8 @@ __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 RoomSelectorComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-room-selector',
-        template: __webpack_require__(2367),
-        styles: [__webpack_require__(2634)],
+        template: __webpack_require__(2377),
+        styles: [__webpack_require__(2644)],
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [])
 ], RoomSelectorComponent);
@@ -908,14 +908,14 @@ RoomSelectorComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */
 
 /***/ }),
 
-/***/ 1881:
+/***/ 1889:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RoomsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
 
 
 
@@ -964,7 +964,7 @@ __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 RoomsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-rooms',
-        styles: [__webpack_require__(2635)],
+        styles: [__webpack_require__(2645)],
         template: "\n    <nb-card [size]=\"breakpoint.width >= breakpoints.sm ? 'large' : 'medium'\">\n      <i (click)=\"collapse()\" class=\"nb-arrow-down collapse\" [hidden]=\"isCollapsed()\"></i>\n      <ngx-room-selector (select)=\"select($event)\"></ngx-room-selector>\n      <ngx-player [collapsed]=\"isCollapsed() && breakpoint.width <= breakpoints.md\"></ngx-player>\n    </nb-card>\n  ",
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */],
@@ -975,13 +975,13 @@ RoomsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1882:
+/***/ 1890:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SecurityCamerasComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var SecurityCamerasComponent = (function () {
@@ -1016,8 +1016,8 @@ var SecurityCamerasComponent = (function () {
 SecurityCamerasComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-security-cameras',
-        styles: [__webpack_require__(2636)],
-        template: __webpack_require__(2368),
+        styles: [__webpack_require__(2646)],
+        template: __webpack_require__(2378),
     })
 ], SecurityCamerasComponent);
 
@@ -1025,14 +1025,14 @@ SecurityCamerasComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate
 
 /***/ }),
 
-/***/ 1883:
+/***/ 1891:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(echarts) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SolarComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
 
 
 
@@ -1203,24 +1203,24 @@ __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 SolarComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-solar',
-        styles: [__webpack_require__(2637)],
+        styles: [__webpack_require__(2647)],
         template: "\n    <nb-card size=\"xsmall\" class=\"solar-card\">\n      <nb-card-header>Solar Energy Consumption</nb-card-header>\n      <nb-card-body>\n        <div echarts [options]=\"option\" class=\"echart\">\n        </div>\n        <div class=\"info\">\n          <div class=\"value\">6. 421 kWh</div>\n          <div class=\"details\"><span>out of</span> 8.421 kWh</div>\n        </div>\n      </nb-card-body>\n    </nb-card>\n  ",
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */]])
 ], SolarComponent);
 
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(583)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(589)))
 
 /***/ }),
 
-/***/ 1884:
+/***/ 1892:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatusCardComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var StatusCardComponent = (function () {
@@ -1244,7 +1244,7 @@ __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 StatusCardComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-status-card',
-        styles: [__webpack_require__(2638)],
+        styles: [__webpack_require__(2648)],
         template: "\n    <nb-card (click)=\"on = !on\" [ngClass]=\"{'off': !on}\">\n      <div class=\"icon-container\">\n        <div class=\"icon {{ type }}\">\n          <ng-content></ng-content>\n        </div>\n      </div>\n\n      <div class=\"details\">\n        <div class=\"title\">{{ title }}</div>\n        <div class=\"status\">{{ on ? 'ON' : 'OFF' }}</div>\n      </div>\n    </nb-card>\n  ",
     })
 ], StatusCardComponent);
@@ -1253,13 +1253,13 @@ StatusCardComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */](
 
 /***/ }),
 
-/***/ 1885:
+/***/ 1893:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TeamComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var TeamComponent = (function () {
@@ -1270,8 +1270,8 @@ var TeamComponent = (function () {
 TeamComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-team',
-        styles: [__webpack_require__(2639)],
-        template: __webpack_require__(2369),
+        styles: [__webpack_require__(2649)],
+        template: __webpack_require__(2379),
     })
 ], TeamComponent);
 
@@ -1279,13 +1279,13 @@ TeamComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1886:
+/***/ 1894:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TemperatureDraggerComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var VIEW_BOX_SIZE = 300;
@@ -1639,8 +1639,8 @@ __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 TemperatureDraggerComponent = TemperatureDraggerComponent_1 = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-temperature-dragger',
-        template: __webpack_require__(2370),
-        styles: [__webpack_require__(2640)],
+        template: __webpack_require__(2380),
+        styles: [__webpack_require__(2650)],
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [])
 ], TemperatureDraggerComponent);
@@ -1650,14 +1650,14 @@ var TemperatureDraggerComponent_1;
 
 /***/ }),
 
-/***/ 1887:
+/***/ 1895:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TemperatureComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
 
 
 
@@ -1683,8 +1683,8 @@ var TemperatureComponent = (function () {
 TemperatureComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-temperature',
-        styles: [__webpack_require__(2641)],
-        template: __webpack_require__(2371),
+        styles: [__webpack_require__(2651)],
+        template: __webpack_require__(2381),
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */]])
 ], TemperatureComponent);
@@ -1693,14 +1693,14 @@ TemperatureComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]
 
 /***/ }),
 
-/***/ 1888:
+/***/ 1896:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(echarts) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TrafficChartComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
 
 
 
@@ -1840,25 +1840,25 @@ var TrafficChartComponent = (function () {
 TrafficChartComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-traffic-chart',
-        styles: [__webpack_require__(1813)],
+        styles: [__webpack_require__(1821)],
         template: "\n    <div echarts [options]=\"option\" class=\"echart\"></div>\n  ",
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */]])
 ], TrafficChartComponent);
 
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(583)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(589)))
 
 /***/ }),
 
-/***/ 1889:
+/***/ 1897:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TrafficComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
 
 
 
@@ -1880,7 +1880,7 @@ var TrafficComponent = (function () {
 TrafficComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-traffic',
-        styles: [__webpack_require__(1813)],
+        styles: [__webpack_require__(1821)],
         template: "\n    <nb-card size=\"xsmall\">\n      <nb-card-header>\n        <span>Traffic Consumption</span>\n        <div class=\"ghost-dropdown\" ngbDropdown>\n          <button type=\"button\" class=\"btn btn-sm\" ngbDropdownToggle\n                  [ngClass]=\"{ 'btn-success': currentTheme == 'default', 'btn-primary': currentTheme != 'default'}\">\n            {{ type }}\n          </button>\n          <ul class=\"dropdown-menu\">\n            <li class=\"dropdown-item\" *ngFor=\"let t of types\" (click)=\"type = t\">{{ t }}</li>\n          </ul>\n        </div>\n      </nb-card-header>\n      <nb-card-body class=\"p-0\">\n        <ngx-traffic-chart></ngx-traffic-chart>\n      </nb-card-body>\n    </nb-card>\n  ",
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */]])
@@ -1890,13 +1890,13 @@ TrafficComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1890:
+/***/ 1898:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WeatherComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var WeatherComponent = (function () {
@@ -1907,8 +1907,8 @@ var WeatherComponent = (function () {
 WeatherComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-weather',
-        styles: [__webpack_require__(2642)],
-        template: __webpack_require__(2372),
+        styles: [__webpack_require__(2652)],
+        template: __webpack_require__(2382),
     })
 ], WeatherComponent);
 
@@ -1916,19 +1916,19 @@ WeatherComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1902:
+/***/ 1910:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_module__ = __webpack_require__(1911);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_module__ = __webpack_require__(1919);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PagesModule", function() { return __WEBPACK_IMPORTED_MODULE_0__pages_module__["a"]; });
 
 
 
 /***/ }),
 
-/***/ 1909:
+/***/ 1917:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1941,8 +1941,78 @@ var MENU_ITEMS = [
         home: true,
     },
     {
-        title: 'FEATURES',
+        title: 'BÁN HÀNG',
         group: true,
+    },
+    {
+        title: 'NHẬP HÀNG',
+        group: true,
+    },
+    {
+        title: 'CẬP NHẬT GIÁ BÁN',
+        group: true,
+    },
+    {
+        title: 'QUẢN LÝ DANH MỤC',
+        icon: 'nb-tables',
+        children: [
+            {
+                title: 'QUẢN LÝ BÀN',
+                link: '/app/pages/tables/bans',
+            },
+            {
+                title: 'QUẢN LÝ KHÁCH',
+                link: '/app/pages/tables/smart-table',
+            },
+            {
+                title: 'QUẢN LÝ HÀNG',
+                link: '/app/pages/tables/smart-table',
+            },
+            {
+                title: 'QUẢN LÝ PHIẾU NHẬP',
+                link: '/app/pages/tables/smart-table',
+            },
+            {
+                title: 'QUẢN LÝ HÀNG BÁN',
+                link: '/app/pages/tables/smart-table',
+            },
+            {
+                title: 'QUẢN LÝ NHÂN VIÊN',
+                link: '/app/pages/tables/smart-table',
+            },
+        ],
+    },
+    {
+        title: 'THỐNG KÊ',
+        icon: 'nb-tables',
+        children: [
+            {
+                title: 'THỐNG KÊ BÁN HÀNG',
+                link: '/app/pages/tables/smart-table',
+            },
+            {
+                title: 'THỐNG KÊ HÀNG TRONG KHO',
+                link: '/app/pages/tables/smart-table',
+            },
+        ],
+    },
+    {
+        title: 'HỆ THỐNG',
+        icon: 'nb-tables',
+        children: [
+            {
+                title: 'QUẢN LÝ TÀI KHOẢN',
+                link: '/app/pages/tables/smart-table',
+            },
+            {
+                title: 'THIẾT LẬP',
+                link: '/app/pages/tables/smart-table',
+            },
+            {
+                title: 'HƯỚNG DẪN',
+                link: '/app/pages/tables/smart-table',
+            },
+        ],
     },
     {
         title: 'UI Features',
@@ -2093,16 +2163,16 @@ var MENU_ITEMS = [
 
 /***/ }),
 
-/***/ 1910:
+/***/ 1918:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesRoutingModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(580);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_component__ = __webpack_require__(1529);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__ = __webpack_require__(1528);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_component__ = __webpack_require__(1537);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__ = __webpack_require__(1536);
 
 
 
@@ -2116,25 +2186,25 @@ var routes = [{
                 component: __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__["a" /* DashboardComponent */],
             }, {
                 path: 'ui-features',
-                loadChildren: function() { return __webpack_require__.e/* import() */(6).then(__webpack_require__.bind(null, 1928))  .then( function(module) { return module['UiFeaturesModule']; } ); },
+                loadChildren: function() { return __webpack_require__.e/* import() */(6).then(__webpack_require__.bind(null, 1937))  .then( function(module) { return module['UiFeaturesModule']; } ); },
             }, {
                 path: 'components',
-                loadChildren: function() { return __webpack_require__.e/* import() */(3).then(__webpack_require__.bind(null, 1871))  .then( function(module) { return module['ComponentsModule']; } ); },
+                loadChildren: function() { return __webpack_require__.e/* import() */(3).then(__webpack_require__.bind(null, 1879))  .then( function(module) { return module['ComponentsModule']; } ); },
             }, {
                 path: 'maps',
-                loadChildren: function() { return __webpack_require__.e/* import() */(7).then(__webpack_require__.bind(null, 1908))  .then( function(module) { return module['MapsModule']; } ); },
+                loadChildren: function() { return __webpack_require__.e/* import() */(7).then(__webpack_require__.bind(null, 1916))  .then( function(module) { return module['MapsModule']; } ); },
             }, {
                 path: 'charts',
-                loadChildren: function() { return __webpack_require__.e/* import() */(2).then(__webpack_require__.bind(null, 1853))  .then( function(module) { return module['ChartsModule']; } ); },
+                loadChildren: function() { return __webpack_require__.e/* import() */(2).then(__webpack_require__.bind(null, 1861))  .then( function(module) { return module['ChartsModule']; } ); },
             }, {
                 path: 'editors',
-                loadChildren: function() { return __webpack_require__.e/* import() */(8).then(__webpack_require__.bind(null, 1895))  .then( function(module) { return module['EditorsModule']; } ); },
+                loadChildren: function() { return __webpack_require__.e/* import() */(8).then(__webpack_require__.bind(null, 1903))  .then( function(module) { return module['EditorsModule']; } ); },
             }, {
                 path: 'forms',
-                loadChildren: function() { return __webpack_require__.e/* import() */(9).then(__webpack_require__.bind(null, 1901))  .then( function(module) { return module['FormsModule']; } ); },
+                loadChildren: function() { return __webpack_require__.e/* import() */(9).then(__webpack_require__.bind(null, 1909))  .then( function(module) { return module['FormsModule']; } ); },
             }, {
                 path: 'tables',
-                loadChildren: function() { return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, 1915))  .then( function(module) { return module['TablesModule']; } ); },
+                loadChildren: function() { return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, 1924))  .then( function(module) { return module['TablesModule']; } ); },
             }, {
                 path: '',
                 redirectTo: 'dashboard',
@@ -2157,17 +2227,17 @@ PagesRoutingModule = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1911:
+/***/ 1919:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_component__ = __webpack_require__(1529);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dashboard_dashboard_module__ = __webpack_require__(1875);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_routing_module__ = __webpack_require__(1910);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_theme_module__ = __webpack_require__(1339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_component__ = __webpack_require__(1537);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dashboard_dashboard_module__ = __webpack_require__(1883);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_routing_module__ = __webpack_require__(1918);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_theme_module__ = __webpack_require__(1346);
 
 
 
@@ -2197,10 +2267,10 @@ PagesModule = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 2039:
+/***/ 2049:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2212,10 +2282,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2040:
+/***/ 2050:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2227,10 +2297,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2041:
+/***/ 2051:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2242,10 +2312,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2042:
+/***/ 2052:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2257,10 +2327,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2043:
+/***/ 2053:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2272,10 +2342,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2044:
+/***/ 2054:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2287,10 +2357,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2045:
+/***/ 2055:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2302,25 +2372,25 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2046:
+/***/ 2056:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
 // module
-exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This is a starting point where we declare the maps of themes and globally available functions/mixins\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This mixin generates keyfames.\n * Because of all keyframes can't be scoped,\n * we need to puts unique name in each btn-pulse call.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This mixin generates keyfames.\n * Because of all keyframes can't be scoped,\n * we need to puts unique name in each btn-pulse call.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This mixin generates keyfames.\n * Because of all keyframes can't be scoped,\n * we need to puts unique name in each btn-pulse call.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This mixin generates keyfames.\n * Because of all keyframes can't be scoped,\n * we need to puts unique name in each btn-pulse call.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n:host-context(.nb-theme-default) ngx-room-selector {\n  width: 70%;\n  border-right: 2px solid #ebeef2;\n  background: url(" + __webpack_require__(1661) + ") repeat;\n  background-size: 75px; }\n\n:host-context(.nb-theme-default) ngx-player {\n  width: 30%; }\n\n:host-context(.nb-theme-default) nb-card {\n  display: flex;\n  flex-direction: row; }\n\n:host-context(.nb-theme-default) ngx-room-selector {\n  display: flex;\n  flex-direction: column;\n  flex: 1; }\n  :host-context(.nb-theme-default) ngx-room-selector /deep/ .room-selector {\n    display: flex;\n    align-items: center;\n    justify-items: center;\n    flex: 1;\n    margin: 0 auto;\n    width: 90%;\n    max-width: 650px;\n    padding-bottom: 1rem; }\n\n@media (max-width: 991px) {\n  :host-context(.nb-theme-default).expanded ngx-room-selector {\n    display: none; }\n  :host-context(.nb-theme-default) ngx-room-selector, :host-context(.nb-theme-default) ngx-player {\n    width: 100%;\n    border: none; }\n  :host-context(.nb-theme-default) nb-card {\n    flex-direction: column;\n    justify-content: space-between; }\n    :host-context(.nb-theme-default) nb-card .collapse {\n      display: inline-block;\n      position: absolute;\n      top: 0.5rem;\n      left: 50%;\n      transform: translateX(-50%);\n      font-size: 3rem;\n      color: #a4abb3; }\n      :host-context(.nb-theme-default) nb-card .collapse:focus {\n        outline: none; } }\n\n:host-context(.nb-theme-cosmic) ngx-room-selector {\n  width: 70%;\n  border-right: 2px solid #342e73;\n  background: url(" + __webpack_require__(1661) + ") repeat;\n  background-size: 75px;\n  background-image: url(" + __webpack_require__(2302) + "); }\n\n:host-context(.nb-theme-cosmic) ngx-player {\n  width: 30%; }\n\n:host-context(.nb-theme-cosmic) nb-card {\n  display: flex;\n  flex-direction: row; }\n\n:host-context(.nb-theme-cosmic) ngx-room-selector {\n  display: flex;\n  flex-direction: column;\n  flex: 1; }\n  :host-context(.nb-theme-cosmic) ngx-room-selector /deep/ .room-selector {\n    display: flex;\n    align-items: center;\n    justify-items: center;\n    flex: 1;\n    margin: 0 auto;\n    width: 90%;\n    max-width: 650px;\n    padding-bottom: 1rem; }\n\n@media (max-width: 991px) {\n  :host-context(.nb-theme-cosmic).expanded ngx-room-selector {\n    display: none; }\n  :host-context(.nb-theme-cosmic) ngx-room-selector, :host-context(.nb-theme-cosmic) ngx-player {\n    width: 100%;\n    border: none; }\n  :host-context(.nb-theme-cosmic) nb-card {\n    flex-direction: column;\n    justify-content: space-between; }\n    :host-context(.nb-theme-cosmic) nb-card .collapse {\n      display: inline-block;\n      position: absolute;\n      top: 0.5rem;\n      left: 50%;\n      transform: translateX(-50%);\n      font-size: 3rem;\n      color: #a1a1e5; }\n      :host-context(.nb-theme-cosmic) nb-card .collapse:focus {\n        outline: none; } }\n", ""]);
+exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This is a starting point where we declare the maps of themes and globally available functions/mixins\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This mixin generates keyfames.\n * Because of all keyframes can't be scoped,\n * we need to puts unique name in each btn-pulse call.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This mixin generates keyfames.\n * Because of all keyframes can't be scoped,\n * we need to puts unique name in each btn-pulse call.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This mixin generates keyfames.\n * Because of all keyframes can't be scoped,\n * we need to puts unique name in each btn-pulse call.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n/**\n * This mixin generates keyfames.\n * Because of all keyframes can't be scoped,\n * we need to puts unique name in each btn-pulse call.\n */\n/**\n * @license\n * Copyright Akveo. All Rights Reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n */\n:host-context(.nb-theme-default) ngx-room-selector {\n  width: 70%;\n  border-right: 2px solid #ebeef2;\n  background: url(" + __webpack_require__(1667) + ") repeat;\n  background-size: 75px; }\n\n:host-context(.nb-theme-default) ngx-player {\n  width: 30%; }\n\n:host-context(.nb-theme-default) nb-card {\n  display: flex;\n  flex-direction: row; }\n\n:host-context(.nb-theme-default) ngx-room-selector {\n  display: flex;\n  flex-direction: column;\n  flex: 1; }\n  :host-context(.nb-theme-default) ngx-room-selector /deep/ .room-selector {\n    display: flex;\n    align-items: center;\n    justify-items: center;\n    flex: 1;\n    margin: 0 auto;\n    width: 90%;\n    max-width: 650px;\n    padding-bottom: 1rem; }\n\n@media (max-width: 991px) {\n  :host-context(.nb-theme-default).expanded ngx-room-selector {\n    display: none; }\n  :host-context(.nb-theme-default) ngx-room-selector, :host-context(.nb-theme-default) ngx-player {\n    width: 100%;\n    border: none; }\n  :host-context(.nb-theme-default) nb-card {\n    flex-direction: column;\n    justify-content: space-between; }\n    :host-context(.nb-theme-default) nb-card .collapse {\n      display: inline-block;\n      position: absolute;\n      top: 0.5rem;\n      left: 50%;\n      transform: translateX(-50%);\n      font-size: 3rem;\n      color: #a4abb3; }\n      :host-context(.nb-theme-default) nb-card .collapse:focus {\n        outline: none; } }\n\n:host-context(.nb-theme-cosmic) ngx-room-selector {\n  width: 70%;\n  border-right: 2px solid #342e73;\n  background: url(" + __webpack_require__(1667) + ") repeat;\n  background-size: 75px;\n  background-image: url(" + __webpack_require__(2312) + "); }\n\n:host-context(.nb-theme-cosmic) ngx-player {\n  width: 30%; }\n\n:host-context(.nb-theme-cosmic) nb-card {\n  display: flex;\n  flex-direction: row; }\n\n:host-context(.nb-theme-cosmic) ngx-room-selector {\n  display: flex;\n  flex-direction: column;\n  flex: 1; }\n  :host-context(.nb-theme-cosmic) ngx-room-selector /deep/ .room-selector {\n    display: flex;\n    align-items: center;\n    justify-items: center;\n    flex: 1;\n    margin: 0 auto;\n    width: 90%;\n    max-width: 650px;\n    padding-bottom: 1rem; }\n\n@media (max-width: 991px) {\n  :host-context(.nb-theme-cosmic).expanded ngx-room-selector {\n    display: none; }\n  :host-context(.nb-theme-cosmic) ngx-room-selector, :host-context(.nb-theme-cosmic) ngx-player {\n    width: 100%;\n    border: none; }\n  :host-context(.nb-theme-cosmic) nb-card {\n    flex-direction: column;\n    justify-content: space-between; }\n    :host-context(.nb-theme-cosmic) nb-card .collapse {\n      display: inline-block;\n      position: absolute;\n      top: 0.5rem;\n      left: 50%;\n      transform: translateX(-50%);\n      font-size: 3rem;\n      color: #a1a1e5; }\n      :host-context(.nb-theme-cosmic) nb-card .collapse:focus {\n        outline: none; } }\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 2047:
+/***/ 2057:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2332,10 +2402,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2048:
+/***/ 2058:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2347,10 +2417,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2049:
+/***/ 2059:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2362,10 +2432,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2050:
+/***/ 2060:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2377,10 +2447,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2051:
+/***/ 2061:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2392,10 +2462,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2052:
+/***/ 2062:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2407,10 +2477,10 @@ exports.push([module.i, "@charset \"UTF-8\";\n/**\n * @license\n * Copyright Akv
 
 /***/ }),
 
-/***/ 2053:
+/***/ 2063:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2422,10 +2492,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2054:
+/***/ 2064:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -2437,237 +2507,87 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2302:
+/***/ 2312:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "b8dd34d94d07e430fdc6aec6df1b7890.svg";
 
 /***/ }),
 
-/***/ 2362:
+/***/ 2372:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card [size]=\"breakpoint.width >= breakpoints.xxxl || breakpoint.width < breakpoints.md ? 'large' : 'xlarge'\">\n  <nb-tabset fullWidth>\n    <nb-tab tabTitle=\"Contacts\">\n      <div class=\"contact\" *ngFor=\"let c of contacts\">\n        <nb-user [picture]=\"c.user.picture\" [name]=\"c.user.name\" [title]=\"c.type\" size=\"large\"></nb-user>\n        <i class=\"i-contact nb-phone\"></i>\n      </div>\n    </nb-tab>\n    <nb-tab tabTitle=\"Recent\">\n      <div class=\"contact\" *ngFor=\"let c of recent\">\n        <nb-user [picture]=\"c.user.picture\" [name]=\"c.user.name\" [title]=\"c.type\" size=\"large\"></nb-user>\n        <span class=\"time\">{{ c.time }}</span>\n      </div>\n    </nb-tab>\n  </nb-tabset>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2363:
+/***/ 2373:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-xxxl-3 col-md-6\">\n    <ngx-status-card title=\"Light\" type=\"primary\">\n      <i class=\"nb-lightbulb\"></i>\n    </ngx-status-card>\n  </div>\n\n  <div class=\"col-xxxl-3 col-md-6\">\n    <ngx-status-card title=\"Roller Shades\" type=\"success\">\n      <i class=\"nb-roller-shades\"></i>\n    </ngx-status-card>\n  </div>\n\n  <div class=\"col-xxxl-3 col-md-6\">\n    <ngx-status-card title=\"Wireless Audio\" type=\"info\">\n      <i class=\"nb-audio\"></i>\n    </ngx-status-card>\n  </div>\n\n  <div class=\"col-xxxl-3 col-md-6\">\n    <ngx-status-card title=\"Coffee Maker\" type=\"warning\">\n      <i class=\"nb-coffee-maker\"></i>\n    </ngx-status-card>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-xxxl-3 col-xxl-4 col-lg-5 col-md-6\">\n    <ngx-temperature></ngx-temperature>\n  </div>\n\n  <div class=\"col-xxxl-9 col-xxl-8 col-lg-7 col-md-6\">\n    <ngx-electricity></ngx-electricity>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-xxxl-9 col-xl-12\">\n    <ngx-rooms></ngx-rooms>\n  </div>\n\n  <div class=\"col-xxxl-3 col-xxl-4 col-lg-7 col-md-6\">\n    <ngx-contacts></ngx-contacts>\n  </div>\n\n  <div class=\"col-xxxl-3 col-xxl-4 col-lg-5 col-md-6\">\n    <ngx-solar [chartValue]=\"72\"></ngx-solar>\n\n    <ngx-kitten></ngx-kitten>\n  </div>\n\n  <div class=\"col-xxxl-3 col-xxl-4 col-md-5\">\n    <ngx-traffic></ngx-traffic>\n    <ngx-weather></ngx-weather>\n  </div>\n\n  <div class=\"col-xxxl-6 col-xxl-12 col-md-7\">\n    <ngx-security-cameras></ngx-security-cameras>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 2364:
+/***/ 2374:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card size=\"large\">\n  <div class=\"consumption-table\">\n    <div class=\"table-header\">\n      <div>Electricity</div>\n      <div class=\"subtitle\">Consumption</div>\n    </div>\n\n    <nb-tabset fullWidth>\n      <nb-tab *ngFor=\"let year of data\" [tabTitle]=\"year.title\" [active]=\"year.active\">\n        <div class=\"stats-month\" *ngFor=\"let month of year.months\">\n          <div>\n            <span class=\"month\">{{ month.month }}</span>\n            <span class=\"delta\" [ngClass]=\"{ 'down': month.down }\">{{ month.delta }}</span>\n          </div>\n          <div class=\"results\">\n            <b>{{ month.kWatts }}</b> kWh / <b>{{ month.cost }}</b> USD\n          </div>\n        </div>\n      </nb-tab>\n    </nb-tabset>\n  </div>\n\n  <div class=\"chart-container\">\n    <div class=\"chart-header\">\n      <div class=\"header-stats\">\n        <div class=\"stats-block\">\n          <div class=\"subtitle\">Consumed</div>\n          <div>\n            <span class=\"value\">816</span>\n            <span class=\"unit\">kWh</span>\n          </div>\n        </div>\n\n        <div class=\"stats-block\">\n          <div class=\"subtitle\">Spent</div>\n          <div>\n            <span class=\"value\">291</span>\n            <span class=\"unit\">USD</span>\n          </div>\n        </div>\n      </div>\n\n      <div ngbDropdown>\n        <button type=\"button\" ngbDropdownToggle class=\"btn\"\n                [ngClass]=\"{ 'btn-outline-success': currentTheme == 'default', 'btn-primary': currentTheme != 'default'}\">\n          {{ type }}\n        </button>\n        <ul class=\"dropdown-menu\">\n          <li class=\"dropdown-item\" *ngFor=\"let t of types\" (click)=\"type = t\">{{ t }}</li>\n        </ul>\n      </div>\n\n    </div>\n    <ngx-electricity-chart></ngx-electricity-chart>\n  </div>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2365:
+/***/ 2375:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card size=\"medium\">\n  <nb-card-body>\n    <div class=\"picture\" style.background-image=\"url('assets/images/kitten-{{currentTheme}}.png')\"></div>\n\n    <div class=\"details\">\n      <div class=\"title\">\n        React Native UI Kitten\n      </div>\n      <div class=\"description\">\n        React Native UI Kitten is a framework that contains a set of commonly used UI components styled in a similar way. The most awesome thing: you can change themes on the fly by just passing a different set of variables. 100% native. Give our kitten a try!\n      </div>\n    </div>\n  </nb-card-body>\n\n\n  <nb-card-footer>\n    <a href=\"https://akveo.github.io/react-native-ui-kitten\" target=\"_blank\">\n      <i class=\"ion-ios-world\"></i>\n    </a>\n    <a href=\"https://itunes.apple.com/us/app/kitten-tricks/id1246143230\" target=\"_blank\">\n      <i class=\"ion-social-apple\"></i>\n    </a>\n    <a href=\"https://play.google.com/store/apps/details?id=com.akveo.kittenTricks\" target=\"_blank\">\n      <i class=\"ion-social-android\"></i>\n    </a>\n    <a href=\"https://github.com/akveo/react-native-ui-kitten\" target=\"_blank\">\n      <i class=\"ion-social-github\"></i>\n    </a>\n  </nb-card-footer>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2366:
+/***/ 2376:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"header\">My Playlist</div>\n\n<div class=\"body\">\n\n  <div class=\"track-info\">\n    <div class=\"cover\" style.background-image=\"url('{{track.cover}}')\"></div>\n    <div class=\"details\">\n      <h4>{{ track.name }}</h4>\n      <span>{{ track.artist }}</span>\n    </div>\n  </div>\n\n  <div class=\"progress-wrap\">\n    <input type=\"range\" class=\"progress\" [value]=\"getProgress()\" min=\"0\" max=\"100\" step=\"0.01\"\n           (input)=\"setProgress(duration.value)\" #duration>\n    <div class=\"progress-foreground\" [style.width.%]=\"getProgress()\"></div>\n  </div>\n\n  <div class=\"timing\">\n    <small class=\"current\">{{ player.currentTime | timing }}</small>\n    <small class=\"remaining\">- {{ player.duration - player.currentTime | timing }}</small>\n  </div>\n\n  <div class=\"controls\">\n    <i class=\"nb-shuffle shuffle\" [class.active]=\"shuffle\" (click)=\"toggleShuffle()\"></i>\n    <i class=\"nb-skip-backward prev\" (click)=\"prev()\"></i>\n    <i class=\"play\" [class.nb-play]=\"player.paused\" [class.nb-pause]=\"!player.paused\" (click)=\"playPause()\"></i>\n    <i class=\"nb-skip-forward next\" (click)=\"next()\"></i>\n    <i class=\"nb-loop loop\" [class.active]=\"player.loop\" (click)=\"toggleLoop()\"></i>\n  </div>\n\n</div>\n\n<div class=\"footer\">\n\n  <div class=\"volume\">\n    <i class=\"nb-volume-mute\"></i>\n    <div class=\"progress-wrap\">\n      <input type=\"range\" class=\"progress\" [value]=\"getVolume()\" max=\"100\"\n             (input)=\"setVolume(volume.value)\" #volume>\n      <div class=\"progress-foreground\" [style.width.%]=\"getVolume()\"></div>\n    </div>\n    <i class=\"nb-volume-high\"></i>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
-/***/ 2367:
+/***/ 2377:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"header\">Room Management</div>\n<div class=\"room-selector\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n       [attr.viewBox]=\"viewBox\" preserveAspectRatio=\"xMidYMid\">\n    <defs>\n\n      <filter id=\"f2\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\">\n        <feGaussianBlur result=\"blurOut\" in=\"StrokePaint\" stdDeviation=\"3\"/>\n      </filter>\n\n      <pattern id=\"New_Pattern_Swatch_1\" data-name=\"New Pattern Swatch 1\" width=\"60\" height=\"60\"\n               patternUnits=\"userSpaceOnUse\" viewBox=\"0 0 60 60\">\n        <line class=\"stroke-pattern\" x1=\"-113.26\" y1=\"123.26\" x2=\"3.26\" y2=\"6.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-103.26\" y1=\"133.26\" x2=\"13.26\" y2=\"16.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-93.26\" y1=\"143.26\" x2=\"23.26\" y2=\"26.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-83.26\" y1=\"153.26\" x2=\"33.26\" y2=\"36.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-73.26\" y1=\"163.26\" x2=\"43.26\" y2=\"46.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-63.26\" y1=\"173.26\" x2=\"53.26\" y2=\"56.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-53.26\" y1=\"123.26\" x2=\"63.26\" y2=\"6.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-43.26\" y1=\"133.26\" x2=\"73.26\" y2=\"16.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-33.26\" y1=\"143.26\" x2=\"83.26\" y2=\"26.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-23.26\" y1=\"153.26\" x2=\"93.26\" y2=\"36.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-13.26\" y1=\"163.26\" x2=\"103.26\" y2=\"46.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-3.26\" y1=\"173.26\" x2=\"113.26\" y2=\"56.74\"/>\n        <line class=\"stroke-pattern\" x1=\"6.74\" y1=\"123.26\" x2=\"123.26\" y2=\"6.74\"/>\n        <line class=\"stroke-pattern\" x1=\"16.74\" y1=\"133.26\" x2=\"133.26\" y2=\"16.74\"/>\n        <line class=\"stroke-pattern\" x1=\"26.74\" y1=\"143.26\" x2=\"143.26\" y2=\"26.74\"/>\n        <line class=\"stroke-pattern\" x1=\"36.74\" y1=\"153.26\" x2=\"153.26\" y2=\"36.74\"/>\n        <line class=\"stroke-pattern\" x1=\"46.74\" y1=\"163.26\" x2=\"163.26\" y2=\"46.74\"/>\n        <line class=\"stroke-pattern\" x1=\"56.74\" y1=\"173.26\" x2=\"173.26\" y2=\"56.74\"/>\n        <line class=\"stroke-pattern\" x1=\"-113.26\" y1=\"63.26\" x2=\"3.26\" y2=\"-53.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-103.26\" y1=\"73.26\" x2=\"13.26\" y2=\"-43.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-93.26\" y1=\"83.26\" x2=\"23.26\" y2=\"-33.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-83.26\" y1=\"93.26\" x2=\"33.26\" y2=\"-23.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-73.26\" y1=\"103.26\" x2=\"43.26\" y2=\"-13.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-63.26\" y1=\"113.26\" x2=\"53.26\" y2=\"-3.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-53.26\" y1=\"63.26\" x2=\"63.26\" y2=\"-53.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-43.26\" y1=\"73.26\" x2=\"73.26\" y2=\"-43.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-33.26\" y1=\"83.26\" x2=\"83.26\" y2=\"-33.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-23.26\" y1=\"93.26\" x2=\"93.26\" y2=\"-23.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-13.26\" y1=\"103.26\" x2=\"103.26\" y2=\"-13.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-3.26\" y1=\"113.26\" x2=\"113.26\" y2=\"-3.26\"/>\n        <line class=\"stroke-pattern\" x1=\"6.74\" y1=\"63.26\" x2=\"123.26\" y2=\"-53.26\"/>\n        <line class=\"stroke-pattern\" x1=\"16.74\" y1=\"73.26\" x2=\"133.26\" y2=\"-43.26\"/>\n        <line class=\"stroke-pattern\" x1=\"26.74\" y1=\"83.26\" x2=\"143.26\" y2=\"-33.26\"/>\n        <line class=\"stroke-pattern\" x1=\"36.74\" y1=\"93.26\" x2=\"153.26\" y2=\"-23.26\"/>\n        <line class=\"stroke-pattern\" x1=\"46.74\" y1=\"103.26\" x2=\"163.26\" y2=\"-13.26\"/>\n        <line class=\"stroke-pattern\" x1=\"56.74\" y1=\"113.26\" x2=\"173.26\" y2=\"-3.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-113.26\" y1=\"3.26\" x2=\"3.26\" y2=\"-113.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-103.26\" y1=\"13.26\" x2=\"13.26\" y2=\"-103.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-93.26\" y1=\"23.26\" x2=\"23.26\" y2=\"-93.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-83.26\" y1=\"33.26\" x2=\"33.26\" y2=\"-83.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-73.26\" y1=\"43.26\" x2=\"43.26\" y2=\"-73.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-63.26\" y1=\"53.26\" x2=\"53.26\" y2=\"-63.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-53.26\" y1=\"3.26\" x2=\"63.26\" y2=\"-113.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-43.26\" y1=\"13.26\" x2=\"73.26\" y2=\"-103.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-33.26\" y1=\"23.26\" x2=\"83.26\" y2=\"-93.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-23.26\" y1=\"33.26\" x2=\"93.26\" y2=\"-83.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-13.26\" y1=\"43.26\" x2=\"103.26\" y2=\"-73.26\"/>\n        <line class=\"stroke-pattern\" x1=\"-3.26\" y1=\"53.26\" x2=\"113.26\" y2=\"-63.26\"/>\n        <line class=\"stroke-pattern\" x1=\"6.74\" y1=\"3.26\" x2=\"123.26\" y2=\"-113.26\"/>\n        <line class=\"stroke-pattern\" x1=\"16.74\" y1=\"13.26\" x2=\"133.26\" y2=\"-103.26\"/>\n        <line class=\"stroke-pattern\" x1=\"26.74\" y1=\"23.26\" x2=\"143.26\" y2=\"-93.26\"/>\n        <line class=\"stroke-pattern\" x1=\"36.74\" y1=\"33.26\" x2=\"153.26\" y2=\"-83.26\"/>\n        <line class=\"stroke-pattern\" x1=\"46.74\" y1=\"43.26\" x2=\"163.26\" y2=\"-73.26\"/>\n        <line class=\"stroke-pattern\" x1=\"56.74\" y1=\"53.26\" x2=\"173.26\" y2=\"-63.26\"/>\n      </pattern>\n    </defs>\n\n    <g>\n      <path class=\"room-border\" [attr.d]=\"border.d\" *ngFor=\"let border of roomSvg.borders\" />\n    </g>\n\n    <g>\n      <path class=\"stroked-element\" [attr.d]=\"strokedArea.d\" *ngFor=\"let strokedArea of roomSvg.stokedAreas\"/>\n    </g>\n\n    <g [attr.id]=\"room.id\" [class.selected-room]=\"selectedRoom == room.id\" *ngFor=\"let room of sortedRooms\">\n      <path class=\"room-bg\" (click)=\"selectRoom(room.id)\" [attr.d]=\"room.area.d\" [style.filter]=\"isIE || isFirefox ? 'inherit': ''\" />\n      <path class=\"room-border\" [attr.d]=\"room.border.d\" />\n      <path class=\"room-border room-border-glow\" [attr.d]=\"room.border.d\" [style.filter]=\"isIE || isFirefox ? 'inherit': ''\" />\n      <text class=\"room-text\" (click)=\"selectRoom(room.id)\" text-anchor=\"middle\"\n            [attr.x]=\"room.name.x\" [attr.y]=\"room.name.y\">{{room.name.text}}</text>\n    </g>\n  </svg>\n</div>\n"
 
 /***/ }),
 
-/***/ 2368:
+/***/ 2378:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card size=\"xlarge\">\n  <nb-card-header>\n    <div class=\"cameras-card-header\">\n      <span class=\"cameras-card-title\">Security Cameras</span>\n      <span class=\"cameras-filter\">\n        <a [class.active]=\"isSingleView\" (click)=\"isSingleView = true\">\n          <i class=\"nb-square\"></i>\n        </a>\n        <a [class.active]=\"!isSingleView\" (click)=\"isSingleView = false\">\n          <i class=\"nb-grid-a\"></i>\n        </a>\n      </span>\n    </div>\n  </nb-card-header>\n  <nb-card-body>\n    <div class=\"cameras single-view\" *ngIf=\"isSingleView\">\n      <div class=\"camera\" [style.background-image]=\"'url(' + selectedCamera.source + ')'\">\n        <span>{{ selectedCamera.title }}</span>\n      </div>\n    </div>\n    <div class=\"cameras\" *ngIf=\"!isSingleView\">\n      <div class=\"camera col-sm-6\" *ngFor=\"let camera of cameras\" [style.background-image]=\"'url(' + camera.source + ')'\"\n           (click)=\"selectCamera(camera)\">\n        <span>{{ camera.title }}</span>\n      </div>\n    </div>\n  </nb-card-body>\n  <nb-card-footer>\n    <nb-actions size=\"medium\" fullWidth>\n      <nb-action>\n        <i class=\"nb-pause-outline\"></i><span>Pause</span>\n      </nb-action>\n      <nb-action>\n        <i class=\"nb-list\"></i><span>Logs</span>\n      </nb-action>\n      <nb-action>\n        <i class=\"nb-search\"></i><span>Search</span>\n      </nb-action>\n      <nb-action>\n        <i class=\"nb-gear\"></i><span>Setup</span>\n      </nb-action>\n    </nb-actions>\n  </nb-card-footer>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2369:
+/***/ 2379:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card size=\"medium\">\n  <div class=\"team-photo\">\n    <a href=\"mailto:contact@akveo.com\">\n      <button type=\"button\" class=\"btn btn-success btn-icon team-link\">\n        <i class=\"ion-paper-airplane\"></i>\n      </button>\n    </a>\n  </div>\n\n  <div class=\"team-info\">\n    <div class=\"team-title\">\n      <h2>Akveo Team</h2>\n    </div>\n    <div class=\"team-subtitle\">Design & Development</div>\n    <div class=\"team-bio\">\n      We're small team of fullstack software experts. We're crazy about creation of modern and secure software. We help to make\n      your product amazing.\n    </div>\n  </div>\n\n  <div class=\"links\">\n    <a href=\"https://www.akveo.com\" target=\"_blank\">\n      <i class=\"ion-ios-world-outline\"></i>\n    </a>\n    <a href=\"https://www.facebook.com/akveo\" target=\"_blank\">\n      <i class=\"ion-social-facebook\"></i>\n    </a>\n    <a href=\"https://twitter.com/akveo_inc\" target=\"_blank\">\n      <i class=\"ion-social-twitter\"></i>\n    </a>\n    <a href=\"https://github.com/akveo\" target=\"_blank\">\n      <i class=\"ion-social-github\"></i>\n    </a>\n  </div>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2370:
+/***/ 2380:
 /***/ (function(module, exports) {
 
 module.exports = "<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQMAAABDsxw2AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaN7twTEBAAAAwiD7pzbFPmAAAAAAAAAAAAAAAGQOLbQAAU3zwM4AAAAASUVORK5CYII=\">\n\n<div class=\"svg-container\">\n  <svg #svgRoot xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\"\n       [attr.viewBox]=\"styles.viewBox\" preserveAspectRatio=\"xMinYMin meet\" (mousedown)=\"mouseDown($event)\">\n    <defs>\n\n      <filter [attr.id]=\"'blurFilter' + svgControlId\" x=\"0\" y=\"0\" width=\"100%\" height=\"100%\">\n        <feGaussianBlur in=\"SourceGraphic\" [attr.stdDeviation]=\"styles.blurRadius\" />\n        <feComponentTransfer>\n          <feFuncA type=\"discrete\" tableValues=\"1 1\"/>\n        </feComponentTransfer>\n      </filter>\n\n      <clipPath [attr.id]=\"'sliderClip' + svgControlId\">\n        <path [attr.d]=\"styles.clipPathStr\" stroke=\"black\"></path>\n      </clipPath>\n\n    </defs>\n    <g [attr.transform]=\"styles.arcTranslateStr\">\n\n      <g class=\"toClip\" [attr.clip-path]=\"'url(#sliderClip' + svgControlId +')'\">\n        <g class=\"toFilter\" [attr.filter]=\"'url(#blurFilter' + svgControlId +')'\">\n          <path [attr.d]=\"arc.d\" [attr.fill]=\"arc.color\" *ngFor=\"let arc of styles.gradArcs\"></path>\n        </g>\n        <!-- ngFor is a quirk fix for webkit rendering issues -->\n        <path [attr.d]=\"styles.nonSelectedArc.d\" [attr.fill]=\"styles.nonSelectedArc.color\" *ngFor=\"let number of [0,1,2,3,4,5]\"></path>\n      </g>\n\n      <circle [attr.cx]=\"styles.thumbPosition.x\" [attr.cy]=\"styles.thumbPosition.y\" [attr.r]=\"pinRadius\"\n              [attr.stroke-width]=\"thumbBorder / scaleFactor\" class=\"circle\"></circle>\n    </g>\n  </svg>\n</div>\n\n<div class=\"temperature-bg\">\n  <ng-content></ng-content>\n</div>\n\n<div class=\"power-bg\" [ngClass]=\"{'off': off}\" (click)=\"switchPower()\">\n  <i class=\"nb-power-circled\"></i>\n</div>\n"
 
 /***/ }),
 
-/***/ 2371:
+/***/ 2381:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card size=\"large\">\n  <nb-tabset fullWidth>\n\n    <nb-tab tabTitle=\"Temperature\">\n\n      <div class=\"slider-container\">\n        <ngx-temperature-dragger [(value)]=\"temperature\" (power)=\"temperatureOff = !$event\"\n                                 [min]=\"12\" [max]=\"30\" [disableArcColor]=\"colors.layoutBg\"\n                                 [fillColors]=\"colors.temperature\">\n\n          <div class=\"slider-value-container\"  [ngClass]=\"{ 'off': temperatureOff }\">\n            <div class=\"value temperature\">\n              {{ temperatureOff ? '--' : (temperature | ngxRound) }}\n            </div>\n            <div class=\"desc\">\n              Celsius\n            </div>\n          </div>\n        </ngx-temperature-dragger>\n      </div>\n\n      <div [(ngModel)]=\"temperatureMode\" ngbRadioGroup data-toggle=\"buttons\"\n           class=\"btn-group btn-divided-group btn-outline-divided-group btn-group-full-width\">\n        <label class=\"btn btn-icon\">\n          <input type=\"radio\" value=\"cool\"/><i class=\"nb-snowy-circled\"></i>\n        </label>\n        <label class=\"btn btn-icon\">\n          <input type=\"radio\" value=\"warm\"/><i class=\"nb-sunny-circled\"></i>\n        </label>\n        <label class=\"btn btn-icon\">\n          <input type=\"radio\" value=\"heat\"/><i class=\"nb-flame-circled\"></i>\n        </label>\n        <label class=\"btn btn-icon\">\n          <input type=\"radio\" value=\"fan\"/><i class=\"nb-loop-circled\"></i>\n        </label>\n      </div>\n    </nb-tab>\n\n    <nb-tab tabTitle=\"Humidity\">\n\n      <div class=\"slider-container\">\n        <ngx-temperature-dragger [(value)]=\"humidity\" (power)=\"humidityOff = !$event\"\n                                 [min]=\"0\" [max]=\"100\" [disableArcColor]=\"colors.layoutBg\"\n                                 [fillColors]=\"colors.temperature\">\n\n          <div class=\"slider-value-container\"  [ngClass]=\"{ 'off': humidityOff }\">\n            <div class=\"value humidity\">\n              {{ humidityOff ? '--' : (humidity | ngxRound) }}\n            </div>\n          </div>\n        </ngx-temperature-dragger>\n      </div>\n\n      <div [(ngModel)]=\"humidityMode\" ngbRadioGroup data-toggle=\"buttons\"\n           class=\"btn-group btn-divided-group btn-outline-divided-group btn-group-full-width\">\n        <label class=\"btn btn-icon\">\n          <input type=\"radio\" value=\"cool\"/><i class=\"nb-snowy-circled\"></i>\n        </label>\n        <label class=\"btn btn-icon\">\n          <input type=\"radio\" value=\"warm\"/><i class=\"nb-sunny-circled\"></i>\n        </label>\n        <label class=\"btn btn-icon\">\n          <input type=\"radio\" value=\"heat\"/><i class=\"nb-flame-circled\"></i>\n        </label>\n        <label class=\"btn btn-icon\">\n          <input type=\"radio\" value=\"fan\"/><i class=\"nb-loop-circled\"></i>\n        </label>\n      </div>\n    </nb-tab>\n  </nb-tabset>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2372:
+/***/ 2382:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card size=\"medium\">\n  <nb-card-body>\n    <div class=\"location\">\n      <span>New York</span>\n    </div>\n    <div class=\"date\">\n      <span>Mon 29 May</span>\n    </div>\n    <div class=\"daily-forecast\">\n      <div class=\"info\">\n        <div class=\"temperature\">\n          <span>20&deg;</span>\n        </div>\n        <div class=\"icon\">\n          <i class=\"ion-ios-sunny-outline\"></i>\n        </div>\n      </div>\n      <div class=\"details\">\n        <div class=\"parameter\">\n          <span class=\"parameter-name\">max</span>\n          <span class=\"parameter-value\">23&deg;</span>\n        </div>\n        <div class=\"parameter\">\n          <span class=\"parameter-name\">min</span>\n          <span class=\"parameter-value\">19&deg;</span>\n        </div>\n        <div class=\"parameter\">\n          <span class=\"parameter-name\">wind</span>\n          <span class=\"parameter-value\">4 km/h</span>\n        </div>\n        <div class=\"parameter\">\n          <span class=\"parameter-name\">hum</span>\n          <span class=\"parameter-value\">87%</span>\n        </div>\n      </div>\n    </div>\n    <div class=\"weekly-forecast\">\n      <div class=\"day\">\n        <span class=\"caption\">Sun</span>\n        <i class=\"ion-ios-cloudy-outline\"></i>\n        <span class=\"temperature\">17&deg;</span>\n      </div>\n      <div class=\"day\">\n        <span class=\"caption\">Mon</span>\n        <i class=\"ion-ios-sunny-outline\"></i>\n        <span class=\"temperature\">19&deg;</span>\n      </div>\n      <div class=\"day\">\n        <span class=\"caption\">Tue</span>\n        <i class=\"ion-ios-rainy-outline\"></i>\n        <span class=\"temperature\">22&deg;</span>\n      </div>\n      <div class=\"day\">\n        <span class=\"caption\">Wed</span>\n        <i class=\"ion-ios-partlysunny-outline\"></i>\n        <span class=\"temperature\">21&deg;</span>\n      </div>\n    </div>\n  </nb-card-body>\n</nb-card>\n"
-
-/***/ }),
-
-/***/ 2628:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2039);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2629:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2040);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2630:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2041);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2631:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2042);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2632:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2043);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2633:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2044);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2634:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2045);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2635:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2046);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2636:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2047);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2637:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2048);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
 
 /***/ }),
 
@@ -2735,7 +2655,157 @@ module.exports = "<nb-card size=\"medium\">\n  <nb-card-body>\n    <div class=\"
 /***/ (function(module, exports, __webpack_require__) {
 
 
+        var result = __webpack_require__(2053);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2643:
+/***/ (function(module, exports, __webpack_require__) {
+
+
         var result = __webpack_require__(2054);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2644:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2055);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2645:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2056);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2646:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2057);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2647:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2058);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2648:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2059);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2649:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2060);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2650:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2061);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2651:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2062);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2652:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2064);
 
         if (typeof result === "string") {
             module.exports = result;
