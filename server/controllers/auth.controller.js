@@ -5,7 +5,7 @@ import config from '../config/config';
 
 // sample user, used for authentication
 const user = {
-  username: 'react',
+  email: 'react@gmail.com',
   password: 'express'
 };
 
@@ -19,13 +19,13 @@ const user = {
 function login(req, res, next) {
   // Ideally you'll fetch this from the db
   // Idea here was to show how jwt works with simplicity
-  if (req.body.username === user.username && req.body.password === user.password) {
+  if (req.body.email === user.email && req.body.password === user.password) {
     const token = jwt.sign({
-      username: user.username
+      email: user.email
     }, config.jwtSecret);
     return res.json({
       token,
-      username: user.username
+      username: user.email
     });
   }
 
