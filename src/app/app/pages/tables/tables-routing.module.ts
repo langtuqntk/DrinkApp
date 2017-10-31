@@ -4,6 +4,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { TablesComponent } from './tables.component';
 import { SmartTableComponent } from './smart-table/smart-table.component';
 import { BansComponent } from './bans/bans.component';
+import { HangsComponent } from './hangs/hangs.component';
+import { KhachHangsComponent } from './khachhangs/khachhangs.component';
+import { NhanViensComponent } from './nhanviens/nhanviens.component';
 
 const routes: Routes = [{
   path: '',
@@ -16,6 +19,18 @@ const routes: Routes = [{
     {
       path: 'bans',
       component: BansComponent,
+    },
+    {
+      path: 'hangs',
+      component: HangsComponent,
+    },
+    {
+      path: 'khachhangs',
+      component: KhachHangsComponent,
+    },
+    {
+      path: 'nhanviens',
+      component: NhanViensComponent,
     }
   ],
 }];
@@ -30,4 +45,7 @@ export const routedComponents = [
   TablesComponent,
   SmartTableComponent,
   BansComponent,
+  HangsComponent,
+  KhachHangsComponent,
+  NhanViensComponent
 ];

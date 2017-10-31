@@ -1,12 +1,12 @@
 webpackJsonpac__name_([6],{
 
-/***/ 1530:
+/***/ 1538:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ButtonsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var ButtonsComponent = (function () {
@@ -17,8 +17,8 @@ var ButtonsComponent = (function () {
 ButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-buttons',
-        styles: [__webpack_require__(2650)],
-        template: __webpack_require__(2379),
+        styles: [__webpack_require__(2660)],
+        template: __webpack_require__(2390),
     })
 ], ButtonsComponent);
 
@@ -26,13 +26,13 @@ ButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1531:
+/***/ 1539:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GridComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var GridComponent = (function () {
@@ -43,8 +43,8 @@ var GridComponent = (function () {
 GridComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-grid',
-        styles: [__webpack_require__(2658)],
-        template: __webpack_require__(2387),
+        styles: [__webpack_require__(2668)],
+        template: __webpack_require__(2398),
     })
 ], GridComponent);
 
@@ -52,13 +52,13 @@ GridComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1532:
+/***/ 1540:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IconsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var IconsComponent = (function () {
@@ -111,8 +111,8 @@ var IconsComponent = (function () {
 IconsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-icons',
-        styles: [__webpack_require__(2659)],
-        template: __webpack_require__(2388),
+        styles: [__webpack_require__(2669)],
+        template: __webpack_require__(2399),
     })
 ], IconsComponent);
 
@@ -120,14 +120,14 @@ IconsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1533:
+/***/ 1541:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ng_bootstrap_ng_bootstrap__ = __webpack_require__(1392);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ng_bootstrap_ng_bootstrap__ = __webpack_require__(1398);
 
 
 
@@ -153,15 +153,15 @@ ModalComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1534:
+/***/ 1542:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ng_bootstrap_ng_bootstrap__ = __webpack_require__(1392);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_modal_component__ = __webpack_require__(1533);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ng_bootstrap_ng_bootstrap__ = __webpack_require__(1398);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_modal_component__ = __webpack_require__(1541);
 
 
 
@@ -192,8 +192,8 @@ var ModalsComponent = (function () {
 ModalsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-modals',
-        styles: [__webpack_require__(2660)],
-        template: __webpack_require__(2389),
+        styles: [__webpack_require__(2670)],
+        template: __webpack_require__(2400),
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ng_bootstrap_ng_bootstrap__["c" /* NgbModal */]])
 ], ModalsComponent);
@@ -202,13 +202,13 @@ ModalsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1535:
+/***/ 1543:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var SearchComponent = (function () {
@@ -219,7 +219,7 @@ var SearchComponent = (function () {
 SearchComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-search-fields',
-        template: __webpack_require__(2390),
+        template: __webpack_require__(2401),
     })
 ], SearchComponent);
 
@@ -227,15 +227,15 @@ SearchComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1536:
+/***/ 1544:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Tab1Component; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return Tab2Component; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var Tab1Component = (function () {
@@ -280,8 +280,8 @@ var TabsComponent = (function () {
 TabsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-tabs',
-        styles: [__webpack_require__(2661)],
-        template: __webpack_require__(2391),
+        styles: [__webpack_require__(2671)],
+        template: __webpack_require__(2402),
     })
 ], TabsComponent);
 
@@ -289,14 +289,14 @@ TabsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1537:
+/***/ 1545:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TypographyComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
 
 
 
@@ -320,8 +320,8 @@ var TypographyComponent = (function () {
 TypographyComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-typography',
-        styles: [__webpack_require__(2662)],
-        template: __webpack_require__(2392),
+        styles: [__webpack_require__(2672)],
+        template: __webpack_require__(2403),
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */],
         __WEBPACK_IMPORTED_MODULE_2__nebular_theme__["n" /* NbMediaBreakpointsService */]])
@@ -331,13 +331,13 @@ TypographyComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */](
 
 /***/ }),
 
-/***/ 1538:
+/***/ 1546:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UiFeaturesComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var UiFeaturesComponent = (function () {
@@ -356,13 +356,13 @@ UiFeaturesComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */](
 
 /***/ }),
 
-/***/ 1916:
+/***/ 1925:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionGroupsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var ActionGroupsComponent = (function () {
@@ -373,8 +373,8 @@ var ActionGroupsComponent = (function () {
 ActionGroupsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-action-groups',
-        styles: [__webpack_require__(2648)],
-        template: __webpack_require__(2376),
+        styles: [__webpack_require__(2658)],
+        template: __webpack_require__(2387),
     })
 ], ActionGroupsComponent);
 
@@ -382,13 +382,13 @@ ActionGroupsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */
 
 /***/ }),
 
-/***/ 1917:
+/***/ 1926:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BlockLevelButtonsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var BlockLevelButtonsComponent = (function () {
@@ -399,7 +399,7 @@ var BlockLevelButtonsComponent = (function () {
 BlockLevelButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-block-level-buttons',
-        template: __webpack_require__(2377),
+        template: __webpack_require__(2388),
     })
 ], BlockLevelButtonsComponent);
 
@@ -407,13 +407,13 @@ BlockLevelButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decora
 
 /***/ }),
 
-/***/ 1918:
+/***/ 1927:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ButtonGroupsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var ButtonGroupsComponent = (function () {
@@ -452,8 +452,8 @@ var ButtonGroupsComponent = (function () {
 ButtonGroupsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-button-groups',
-        styles: [__webpack_require__(2649)],
-        template: __webpack_require__(2378),
+        styles: [__webpack_require__(2659)],
+        template: __webpack_require__(2389),
     })
 ], ButtonGroupsComponent);
 
@@ -461,25 +461,25 @@ ButtonGroupsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */
 
 /***/ }),
 
-/***/ 1919:
+/***/ 1928:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ButtonsModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_theme_module__ = __webpack_require__(1339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__default_buttons_default_buttons_component__ = __webpack_require__(1920);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__hero_buttons_hero_buttons_component__ = __webpack_require__(1922);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shape_buttons_shape_buttons_component__ = __webpack_require__(1925);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__size_buttons_size_buttons_component__ = __webpack_require__(1926);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__buttons_component__ = __webpack_require__(1530);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__action_groups_action_groups_component__ = __webpack_require__(1916);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dropdown_buttons_dropdown_button_component__ = __webpack_require__(1921);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__block_level_buttons_block_level_buttons_component__ = __webpack_require__(1917);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__button_groups_button_groups_component__ = __webpack_require__(1918);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__icon_buttons_icon_buttons_component__ = __webpack_require__(1923);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__labeled_actions_group_labeled_actions_group_component__ = __webpack_require__(1924);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_theme_module__ = __webpack_require__(1346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__default_buttons_default_buttons_component__ = __webpack_require__(1929);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__hero_buttons_hero_buttons_component__ = __webpack_require__(1931);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shape_buttons_shape_buttons_component__ = __webpack_require__(1934);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__size_buttons_size_buttons_component__ = __webpack_require__(1935);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__buttons_component__ = __webpack_require__(1538);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__action_groups_action_groups_component__ = __webpack_require__(1925);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dropdown_buttons_dropdown_button_component__ = __webpack_require__(1930);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__block_level_buttons_block_level_buttons_component__ = __webpack_require__(1926);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__button_groups_button_groups_component__ = __webpack_require__(1927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__icon_buttons_icon_buttons_component__ = __webpack_require__(1932);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__labeled_actions_group_labeled_actions_group_component__ = __webpack_require__(1933);
 
 
 
@@ -527,13 +527,13 @@ ButtonsModule = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1920:
+/***/ 1929:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DefaultButtonsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var DefaultButtonsComponent = (function () {
@@ -632,8 +632,8 @@ var DefaultButtonsComponent = (function () {
 DefaultButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-default-buttons',
-        styles: [__webpack_require__(2651)],
-        template: __webpack_require__(2380),
+        styles: [__webpack_require__(2661)],
+        template: __webpack_require__(2391),
     })
 ], DefaultButtonsComponent);
 
@@ -641,13 +641,13 @@ DefaultButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate 
 
 /***/ }),
 
-/***/ 1921:
+/***/ 1930:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DropdownButtonsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var DropdownButtonsComponent = (function () {
@@ -658,8 +658,8 @@ var DropdownButtonsComponent = (function () {
 DropdownButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-dropdown-buttons',
-        styles: [__webpack_require__(2652)],
-        template: __webpack_require__(2381),
+        styles: [__webpack_require__(2662)],
+        template: __webpack_require__(2392),
     })
 ], DropdownButtonsComponent);
 
@@ -667,14 +667,14 @@ DropdownButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate
 
 /***/ }),
 
-/***/ 1922:
+/***/ 1931:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeroButtonComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nebular_theme__ = __webpack_require__(1340);
 
 
 
@@ -793,8 +793,8 @@ var HeroButtonComponent = (function () {
 HeroButtonComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-hero-buttons',
-        styles: [__webpack_require__(2653)],
-        template: __webpack_require__(2382),
+        styles: [__webpack_require__(2663)],
+        template: __webpack_require__(2393),
     }),
     __WEBPACK_IMPORTED_MODULE_0_tslib__["c" /* __metadata */]("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__nebular_theme__["m" /* NbThemeService */]])
 ], HeroButtonComponent);
@@ -803,13 +803,13 @@ HeroButtonComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */](
 
 /***/ }),
 
-/***/ 1923:
+/***/ 1932:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IconButtonsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var IconButtonsComponent = (function () {
@@ -820,8 +820,8 @@ var IconButtonsComponent = (function () {
 IconButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-icon-buttons',
-        styles: [__webpack_require__(2654)],
-        template: __webpack_require__(2383),
+        styles: [__webpack_require__(2664)],
+        template: __webpack_require__(2394),
     })
 ], IconButtonsComponent);
 
@@ -829,13 +829,13 @@ IconButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]
 
 /***/ }),
 
-/***/ 1924:
+/***/ 1933:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LabeledActionsGroupComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var LabeledActionsGroupComponent = (function () {
@@ -846,8 +846,8 @@ var LabeledActionsGroupComponent = (function () {
 LabeledActionsGroupComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-labeled-actions-group',
-        styles: [__webpack_require__(2655)],
-        template: __webpack_require__(2384),
+        styles: [__webpack_require__(2665)],
+        template: __webpack_require__(2395),
     })
 ], LabeledActionsGroupComponent);
 
@@ -855,13 +855,13 @@ LabeledActionsGroupComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __deco
 
 /***/ }),
 
-/***/ 1925:
+/***/ 1934:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShapeButtonsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var ShapeButtonsComponent = (function () {
@@ -872,8 +872,8 @@ var ShapeButtonsComponent = (function () {
 ShapeButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-shape-buttons',
-        styles: [__webpack_require__(2656)],
-        template: __webpack_require__(2385),
+        styles: [__webpack_require__(2666)],
+        template: __webpack_require__(2396),
     })
 ], ShapeButtonsComponent);
 
@@ -881,13 +881,13 @@ ShapeButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */
 
 /***/ }),
 
-/***/ 1926:
+/***/ 1935:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SizeButtonsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var SizeButtonsComponent = (function () {
@@ -898,8 +898,8 @@ var SizeButtonsComponent = (function () {
 SizeButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-size-buttons',
-        styles: [__webpack_require__(2657)],
-        template: __webpack_require__(2386),
+        styles: [__webpack_require__(2667)],
+        template: __webpack_require__(2397),
     })
 ], SizeButtonsComponent);
 
@@ -907,22 +907,22 @@ SizeButtonsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]
 
 /***/ }),
 
-/***/ 1927:
+/***/ 1936:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UiFeaturesRoutingModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(580);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ui_features_component__ = __webpack_require__(1538);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__buttons_buttons_component__ = __webpack_require__(1530);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__grid_grid_component__ = __webpack_require__(1531);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__icons_icons_component__ = __webpack_require__(1532);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__modals_modals_component__ = __webpack_require__(1534);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__typography_typography_component__ = __webpack_require__(1537);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__tabs_tabs_component__ = __webpack_require__(1536);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__search_fields_search_fields_component__ = __webpack_require__(1535);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ui_features_component__ = __webpack_require__(1546);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__buttons_buttons_component__ = __webpack_require__(1538);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__grid_grid_component__ = __webpack_require__(1539);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__icons_icons_component__ = __webpack_require__(1540);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__modals_modals_component__ = __webpack_require__(1542);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__typography_typography_component__ = __webpack_require__(1545);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__tabs_tabs_component__ = __webpack_require__(1544);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__search_fields_search_fields_component__ = __webpack_require__(1543);
 
 
 
@@ -987,25 +987,25 @@ UiFeaturesRoutingModule = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate 
 
 /***/ }),
 
-/***/ 1928:
+/***/ 1937:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UiFeaturesModule", function() { return UiFeaturesModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_theme_module__ = __webpack_require__(1339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buttons_buttons_module__ = __webpack_require__(1919);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ui_features_routing_module__ = __webpack_require__(1927);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ui_features_component__ = __webpack_require__(1538);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__grid_grid_component__ = __webpack_require__(1531);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__modals_modals_component__ = __webpack_require__(1534);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__icons_icons_component__ = __webpack_require__(1532);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__modals_modal_modal_component__ = __webpack_require__(1533);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__typography_typography_component__ = __webpack_require__(1537);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__tabs_tabs_component__ = __webpack_require__(1536);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__search_fields_search_fields_component__ = __webpack_require__(1535);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_theme_module__ = __webpack_require__(1346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buttons_buttons_module__ = __webpack_require__(1928);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ui_features_routing_module__ = __webpack_require__(1936);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ui_features_component__ = __webpack_require__(1546);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__grid_grid_component__ = __webpack_require__(1539);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__modals_modals_component__ = __webpack_require__(1542);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__icons_icons_component__ = __webpack_require__(1540);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__modals_modal_modal_component__ = __webpack_require__(1541);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__typography_typography_component__ = __webpack_require__(1545);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__tabs_tabs_component__ = __webpack_require__(1544);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__search_fields_search_fields_component__ = __webpack_require__(1543);
 
 
 
@@ -1054,10 +1054,10 @@ UiFeaturesModule = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 2060:
+/***/ 2070:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1069,10 +1069,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2061:
+/***/ 2071:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1084,10 +1084,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2062:
+/***/ 2072:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1099,10 +1099,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2063:
+/***/ 2073:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1114,10 +1114,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2064:
+/***/ 2074:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1129,10 +1129,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2065:
+/***/ 2075:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1144,10 +1144,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2066:
+/***/ 2076:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1159,10 +1159,10 @@ exports.push([module.i, "nb-card-body div:not(:last-child) {\n  margin-bottom: 1
 
 /***/ }),
 
-/***/ 2067:
+/***/ 2077:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1174,10 +1174,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2068:
+/***/ 2078:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1189,10 +1189,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2069:
+/***/ 2079:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1204,10 +1204,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2070:
+/***/ 2080:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1219,10 +1219,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2071:
+/***/ 2081:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1234,10 +1234,10 @@ exports.push([module.i, ".icon {\n  display: inline-block;\n  width: 4rem;\n  pa
 
 /***/ }),
 
-/***/ 2072:
+/***/ 2082:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1249,10 +1249,10 @@ exports.push([module.i, "button {\n  margin: 0 0.75rem 2rem 0; }\n", ""]);
 
 /***/ }),
 
-/***/ 2073:
+/***/ 2083:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1264,10 +1264,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2074:
+/***/ 2084:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -1279,272 +1279,122 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2376:
+/***/ 2387:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-body>\n    <div class=\"action-groups-header\">\n      Action Groups\n    </div>\n    <nb-actions size=\"medium\">\n      <nb-action icon=\"nb-menu\"></nb-action>\n      <nb-action icon=\"nb-search\"></nb-action>\n      <nb-action icon=\"nb-email\"></nb-action>\n      <nb-action disabled icon=\"nb-notifications\"></nb-action>\n      <nb-action>\n        <nb-user name=\"Han Solo\"></nb-user>\n      </nb-action>\n      <nb-action icon=\"nb-gear\"></nb-action>\n    </nb-actions>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2377:
+/***/ 2388:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-header>Block Level Buttons</nb-card-header>\n  <nb-card-body>\n    <div class=\"row block-level-buttons\">\n      <div class=\"col-md-12\">\n        <div class=\"btn-group btn-group-full-width\" role=\"group\">\n          <button type=\"button\" class=\"btn btn-primary btn-group-icon btn-group-divider btn-fixed\">\n            <i class=\"nb-home\"></i>\n          </button>\n          <button type=\"button\" class=\"btn btn-primary\">Icon Block Button</button>\n        </div>\n        <button type=\"button\" class=\"btn btn-outline-primary btn-block\">Block Button</button>\n      </div>\n    </div>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2378:
+/***/ 2389:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-header>Button Groups</nb-card-header>\n  <nb-card-body>\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <div class=\"example-container toggle-types\">\n          <div class=\"container-title\">Toggle Types</div>\n          <div [(ngModel)]=\"radioModel\" ngbRadioGroup\n               class=\"btn-group btn-toggle-group btn-outline-toggle-group btn-group-full-width btn-toggle-radio-group\">\n            <label class=\"btn btn-outline-primary\">\n              <input type=\"radio\" value=\"left\"> Left\n            </label>\n            <label class=\"btn btn-outline-primary\">\n              <input type=\"radio\" value=\"middle\"> Middle\n            </label>\n            <label class=\"btn btn-outline-primary\">\n              <input type=\"radio\" value=\"right\"> Right\n            </label>\n          </div>\n          <div class=\"btn-group btn-toggle-group btn-group-full-width\" data-toggle=\"buttons\">\n            <label class=\"btn btn-primary\" [class.active]=\"checkboxModel.left\">\n              <input type=\"checkbox\" [(ngModel)]=\"checkboxModel.left\"> Left\n            </label>\n            <label class=\"btn btn-primary\" [class.active]=\"checkboxModel.middle\">\n              <input type=\"checkbox\" [(ngModel)]=\"checkboxModel.middle\"> Middle\n            </label>\n            <label class=\"btn btn-primary\" [class.active]=\"checkboxModel.right\">\n              <input type=\"checkbox\" [(ngModel)]=\"checkboxModel.right\"> Right\n            </label>\n          </div>\n        </div>\n        <div class=\"example-container toolbars-container\">\n          <div class=\"pagination-container\">\n            <div class=\"container-title\">Pagination</div>\n            <div class=\"btn-group btn-toggle-group btn-outline-toggle-group\" data-toggle=\"buttons\"\n                 [(ngModel)]=\"paginationModel\" ngbRadioGroup>\n              <label class=\"btn btn-outline-success\">\n                <input type=\"radio\" [value]=\"1\"> 1\n              </label>\n              <label class=\"btn btn-outline-success\">\n                <input type=\"radio\" [value]=\"2\"> 2\n              </label>\n              <label class=\"btn btn-outline-success\">\n                <input type=\"radio\" [value]=\"3\"> 3\n              </label>\n              <label class=\"btn btn-outline-success\">\n                <input type=\"radio\" [value]=\"4\"> 4\n              </label>\n              <label class=\"btn btn-outline-success\">\n                <input type=\"radio\" [value]=\"5\"> 5\n              </label>\n            </div>\n          </div>\n\n          <div class=\"icon-toolbar-container\">\n            <div class=\"container-title\">Icon Toolbar</div>\n            <div class=\"btn-group btn-toggle-group\" data-toggle=\"buttons\">\n              <label class=\"btn btn-success\" [class.active]=\"iconToolbarModel.one\">\n                <input type=\"checkbox\" [(ngModel)]=\"iconToolbarModel.one\"> 1\n              </label>\n              <label class=\"btn btn-success\" [class.active]=\"iconToolbarModel.two\">\n                <input type=\"checkbox\" [(ngModel)]=\"iconToolbarModel.two\"> 2\n              </label>\n              <label class=\"btn btn-success\" [class.active]=\"iconToolbarModel.three\">\n                <input type=\"checkbox\" [(ngModel)]=\"iconToolbarModel.three\"> 3\n              </label>\n              <label class=\"btn btn-success\" [class.active]=\"iconToolbarModel.four\">\n                <input type=\"checkbox\" [(ngModel)]=\"iconToolbarModel.four\"> 4\n              </label>\n              <label class=\"btn btn-success\" [class.active]=\"iconToolbarModel.five\">\n                <input type=\"checkbox\" [(ngModel)]=\"iconToolbarModel.five\"> 5\n              </label>\n            </div>\n          </div>\n        </div>\n        <div class=\"example-container\">\n          <div class=\"container-title divided-button-group\">Divided Button Group</div>\n          <div class=\"btn-group btn-divided-group btn-outline-divided-group btn-group-full-width btn-divided-checkbox-group \"\n            data-toggle=\"buttons\">\n            <label class=\"btn btn-outline-success btn-icon\" [class.active]=\"dividedCheckboxModel.monday\">\n              <input type=\"checkbox\" [(ngModel)]=\"dividedCheckboxModel.monday\"> <i\n              class=\"nb-arrow-thin-down\"></i>\n            </label>\n            <label class=\"btn btn-outline-success btn-icon\" [class.active]=\"dividedCheckboxModel.tuesday\">\n              <input type=\"checkbox\" [(ngModel)]=\"dividedCheckboxModel.tuesday\"> <i\n              class=\"nb-arrow-thin-up\"></i>\n            </label>\n            <label class=\"btn btn-outline-success btn-icon\" [class.active]=\"dividedCheckboxModel.wednesday\">\n              <input type=\"checkbox\" [(ngModel)]=\"dividedCheckboxModel.wednesday\"> <i class=\"nb-arrow-thin-left\"></i>\n            </label>\n            <label class=\"btn btn-outline-success btn-icon\" [class.active]=\"dividedCheckboxModel.thursday\">\n              <input type=\"checkbox\" [(ngModel)]=\"dividedCheckboxModel.thursday\"> <i\n              class=\"nb-arrow-thin-right\"></i>\n            </label>\n            <label class=\"btn btn-outline-success btn-icon\" [class.active]=\"dividedCheckboxModel.friday\">\n              <input type=\"checkbox\" [(ngModel)]=\"dividedCheckboxModel.friday\"> <i class=\"nb-arrow-left\"></i>\n            </label>\n            <label class=\"btn btn-outline-success btn-icon\" [class.active]=\"dividedCheckboxModel.saturday\">\n              <input type=\"checkbox\" [(ngModel)]=\"dividedCheckboxModel.saturday\"> <i\n              class=\"nb-arrow-right\"></i>\n            </label>\n          </div>\n        </div>\n        <div class=\"example-container\">\n          <div class=\"container-title\">Divided Button Group</div>\n          <div class=\"row\">\n            <div [(ngModel)]=\"dividedButtonGroupOne\" ngbRadioGroup\n                 class=\"btn-group btn-divided-group btn-outline-divided-group btn-group-full-width col-md-12\">\n              <label class=\"btn btn-outline-primary\">\n                <input type=\"radio\" value=\"left\"> Left\n              </label>\n              <label class=\"btn btn-outline-primary\">\n                <input type=\"radio\" value=\"middle\"> Middle\n              </label>\n              <label class=\"btn btn-outline-primary\">\n                <input type=\"radio\" value=\"right\"> Right\n              </label>\n            </div>\n          </div>\n          <div class=\"btn-group btn-divided-group btn-group-full-width\" data-toggle=\"buttons\">\n            <label class=\"btn btn-primary\" [class.active]=\"dividedButtonGroupTwo.left\">\n              <input type=\"checkbox\" [(ngModel)]=\"dividedButtonGroupTwo.left\"> Left\n            </label>\n            <label class=\"btn btn-primary\" [class.active]=\"dividedButtonGroupTwo.middle\">\n              <input type=\"checkbox\" [(ngModel)]=\"dividedButtonGroupTwo.middle\"> Middle\n            </label>\n            <label class=\"btn btn-primary\" [class.active]=\"dividedButtonGroupTwo.right\">\n              <input type=\"checkbox\" [(ngModel)]=\"dividedButtonGroupTwo.right\"> Right\n            </label>\n          </div>\n        </div>\n      </div>\n    </div>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2379:
+/***/ 2390:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-lg-12\">\n    <ngx-hero-buttons></ngx-hero-buttons>\n  </div>\n  <div class=\"col-md-12 col-lg-12 col-xxxl-6\">\n    <ngx-shape-buttons></ngx-shape-buttons>\n    <ngx-action-groups></ngx-action-groups>\n    <ngx-labeled-actions-group></ngx-labeled-actions-group>\n\n    <div class=\"row\">\n      <div class=\"col-lg-5\">\n        <ngx-dropdown-buttons></ngx-dropdown-buttons>\n        <ngx-icon-buttons></ngx-icon-buttons>\n      </div>\n      <div class=\"col-lg-7\">\n        <ngx-button-groups></ngx-button-groups>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-12 col-lg-12 col-xxxl-6\">\n    <ngx-size-buttons></ngx-size-buttons>\n    <ngx-default-buttons></ngx-default-buttons>\n    <ngx-block-level-buttons></ngx-block-level-buttons>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 2380:
+/***/ 2391:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-header>\n    <span>Default Buttons</span>\n    <div ngbDropdown>\n      <button class=\"btn btn-primary\" type=\"button\" ngbDropdownToggle>\n        {{ selectedView.title }}\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\" *ngFor=\"let v of buttonsViews\" (click)=\"this.selectedView = v\">{{ v.title }}</li>\n      </ul>\n    </div>\n  </nb-card-header>\n  <nb-card-body>\n    <div class=\"row\">\n      <div class=\"example-container col-md-4\" *ngFor=\"let b of buttons[selectedView.key]\">\n        <div class=\"container-title\">\n          <span>{{ b.containerTitle }}</span>\n        </div>\n        <div class=\"container-btn\">\n          <button class=\"btn {{ b.class }} btn-demo\">{{ b.title }}</button>\n        </div>\n        <div class=\"{{ b.container }}\">\n          <div class=\"state-container\">\n            <div class=\"state-value original\"></div>\n            <div class=\"state-details\">\n              <span class=\"header\">Default</span>\n              <span class=\"subheader\">{{ b.default }}</span>\n            </div>\n          </div>\n          <div class=\"state-container\">\n            <div class=\"state-value hover\"></div>\n            <div class=\"state-details\">\n              <span class=\"header\">Hover</span>\n              <span class=\"subheader\">14% white</span>\n            </div>\n          </div>\n          <div class=\"state-container\">\n            <div class=\"state-value active\"></div>\n            <div class=\"state-details\">\n              <span class=\"header\">Active</span>\n              <span class=\"subheader\">14% black</span>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2381:
+/***/ 2392:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-header>Button Dropdowns</nb-card-header>\n  <nb-card-body>\n    <div class=\"btn-group\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-primary\">Dropdown</button>\n      <button type=\"button\" class=\"btn btn-primary\" ngbDropdownToggle></button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\">Icon Button</li>\n        <li class=\"dropdown-item\">Hero Button</li>\n        <li class=\"dropdown-item\">Default</li>\n      </ul>\n    </div>\n    <div ngbDropdown>\n      <button class=\"btn btn-primary\" type=\"button\" ngbDropdownToggle>\n        Dropdown\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\">Icon Button</li>\n        <li class=\"dropdown-item\">Hero Button</li>\n        <li class=\"dropdown-item\">Default</li>\n      </ul>\n    </div>\n    <div ngbDropdown>\n      <button class=\"btn btn-outline-primary\" type=\"button\" ngbDropdownToggle>\n        Dropdown\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\">Icon Button</li>\n        <li class=\"dropdown-item\">Hero Button</li>\n        <li class=\"dropdown-item\">Default</li>\n      </ul>\n    </div>\n    <div class=\"ghost-dropdown\" ngbDropdown>\n      <button class=\"btn btn-primary\" type=\"button\" ngbDropdownToggle>\n        Dropdown\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\">Icon Button</li>\n        <li class=\"dropdown-item\">Hero Button</li>\n        <li class=\"dropdown-item\">Default</li>\n      </ul>\n    </div>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2382:
+/***/ 2393:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-header>Hero Buttons</nb-card-header>\n  <nb-card-body>\n    <div class=\"row\">\n      <div class=\"example-container col-sm-6 col-md-4 col-xl-3 col-xxxl-2\" *ngFor=\"let hb of settings\">\n        <div class=\"container-title\">\n          <span>{{ hb.title }}</span>\n        </div>\n        <div class=\"container-btn\">\n          <button class=\"btn {{ hb.class }} btn-demo\">{{ hb.buttonTitle }}</button>\n        </div>\n        <div class=\"{{ hb.container }}\">\n          <div class=\"state-container\" *ngIf=\"hb[themeName].border\">\n            <div class=\"state-value border\"></div>\n            <div class=\"state-details\">\n              <span class=\"header\">Border</span>\n              <span class=\"subheader\">{{ hb[themeName].border }}</span>\n            </div>\n          </div>\n          <div class=\"state-container\" *ngIf=\"hb[themeName].gradientLeft\">\n            <div class=\"state-value gradient\"></div>\n            <div class=\"state-details\">\n              <span class=\"header\">Linear Gradient</span>\n              <span class=\"subheader\">{{ hb[themeName].gradientLeft }}</span>\n              <span class=\"subheader\">{{ hb[themeName].gradientRight }}</span>\n            </div>\n          </div>\n          <div class=\"state-container\">\n            <div class=\"state-value bevel\" [ngClass]=\"{ 'none': !hb[themeName].bevel }\"></div>\n            <div class=\"state-details\" *ngIf=\"hb[themeName].bevel\">\n              <span class=\"header\">Bevel</span>\n              <span class=\"subheader\">0 3px 0 0</span>\n              <span class=\"subheader\">{{ hb[themeName].bevel }}</span>\n            </div>\n            <div class=\"state-details\" *ngIf=\"!hb[themeName].bevel\">\n              <span class=\"header\">No Bevel</span>\n            </div>\n          </div>\n          <div class=\"state-container\">\n            <div class=\"state-value shadow\" [ngClass]=\"{ 'none': !hb[themeName].shadow }\"></div>\n            <div class=\"state-details\" *ngIf=\"hb[themeName].shadow\">\n              <span class=\"header\">Shadow</span>\n              <span class=\"subheader\">0 4px 10px 0</span>\n              <span class=\"subheader\">{{ hb[themeName].shadow }}</span>\n            </div>\n            <div class=\"state-details\" *ngIf=\"!hb[themeName].shadow\">\n              <span class=\"header\">No Shadow</span>\n            </div>\n          </div>\n          <div class=\"state-container\">\n            <div class=\"state-value glow\" [ngClass]=\"{ 'none': !hb[themeName].glow }\"></div>\n            <div class=\"state-details\" *ngIf=\"hb[themeName].glow\">\n              <span class=\"header\">Glow</span>\n              <span class=\"subheader\">0 2px 12px 0</span>\n              <span class=\"subheader\">{{ hb[themeName].glow }}</span>\n            </div>\n            <div class=\"state-details\" *ngIf=\"!hb[themeName].glow\">\n              <span class=\"header\">No Glow</span>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2383:
+/***/ 2394:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-header>Icon buttons</nb-card-header>\n  <nb-card-body>\n    <div class=\"row icon-buttons\">\n      <div class=\"col-md-12\">\n        <div class=\"btn-group\">\n          <button type=\"button\" class=\"btn btn-primary btn-group-icon btn-group-divider\">\n            <i class=\"nb-home\"></i>\n          </button>\n          <button type=\"button\" class=\"btn btn-primary\">Icon Button</button>\n        </div>\n        <div class=\"btn-with-icon-example\">\n          <button type=\"button\" class=\"btn btn-primary btn-with-icon\">\n            <i class=\"nb-home\"></i>\n            <span>Icon Button</span>\n          </button>\n        </div>\n        <div class=\"icon-button-examples\">\n          <button type=\"button\" class=\"btn btn-outline-primary btn-icon\">\n            <i class=\"nb-layout-centre\"></i>\n          </button>\n          <button type=\"button\" class=\"btn btn-outline-success btn-icon\">\n            <i class=\"nb-layout-default\"></i>\n          </button>\n          <button type=\"button\" class=\"btn btn-outline-danger btn-icon\">\n            <i class=\"nb-layout-one-column\"></i>\n          </button>\n        </div>\n        <div class=\"icon-button-examples\">\n          <button type=\"button\" class=\"btn btn-primary btn-icon\">\n            <i class=\"nb-shuffle\"></i>\n          </button>\n          <button type=\"button\" class=\"btn btn-success btn-icon\">\n            <i class=\"nb-skip-backward-outline\"></i>\n          </button>\n          <button type=\"button\" class=\"btn btn-danger btn-icon\">\n            <i class=\"nb-skip-forward-outline\"></i>\n          </button>\n        </div>\n      </div>\n    </div>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2384:
+/***/ 2395:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-body>\n    <nb-actions size=\"medium\" fullWidth>\n      <nb-action>\n        <i class=\"nb-pause-outline\"></i><span>Pause</span>\n      </nb-action>\n      <nb-action>\n        <i class=\"nb-list\"></i><span>Logs</span>\n      </nb-action>\n      <nb-action>\n        <i class=\"nb-search\"></i><span>Search</span>\n      </nb-action>\n      <nb-action>\n        <i class=\"nb-gear\"></i><span>Setup</span>\n      </nb-action>\n    </nb-actions>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2385:
+/***/ 2396:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-header>Button Shapes</nb-card-header>\n  <nb-card-body>\n    <div class=\"shape-container\">\n      <div class=\"container-title\">\n        <span>Rectangle Button</span>\n      </div>\n      <div class=\"subheader\">\n        <span>Border radius:</span>\n        <span>4px</span>\n      </div>\n      <div>\n        <button class=\"btn btn-success btn-rectangle btn-demo\">Rectangle</button>\n      </div>\n    </div>\n\n    <div class=\"shape-container\">\n      <div class=\"container-title\">\n        <span>Semi-round Button</span>\n      </div>\n      <div class=\"subheader\">\n        <span>Border radius:</span>\n        <span>12px</span>\n      </div>\n      <div>\n        <button class=\"btn btn-success btn-semi-round btn-demo\">Semi-round</button>\n      </div>\n    </div>\n\n    <div class=\"shape-container\">\n      <div class=\"container-title\">\n        <span>Rounded Button</span>\n      </div>\n      <div class=\"subheader\">\n        <span>Border radius:</span>\n        <span>round</span>\n      </div>\n      <div>\n        <button class=\"btn btn-success btn-round btn-demo\">Round</button>\n      </div>\n    </div>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2386:
+/***/ 2397:
 /***/ (function(module, exports) {
 
 module.exports = "<nb-card>\n  <nb-card-header>Button Sizes</nb-card-header>\n\n  <nb-card-body>\n    <div class=\"size-container\">\n      <div class=\"container-title\">\n        <span>Large Button</span>\n      </div>\n      <div class=\"subheader\">\n        <span>0.875rem 1.75rem</span>\n      </div>\n      <div>\n        <button class=\"btn btn-primary btn-lg\">Large Button</button>\n      </div>\n    </div>\n    <div class=\"size-container\">\n      <div class=\"container-title\">\n        <span>Medium Button</span>\n      </div>\n      <div class=\"subheader\">\n        <span>0.75rem 1.5rem</span>\n      </div>\n      <div>\n        <button class=\"btn btn-primary btn-md\">Medium Button</button>\n      </div>\n    </div>\n    <div class=\"size-container\">\n      <div class=\"container-title\">\n        <span>Small Button</span>\n      </div>\n      <div class=\"subheader\">\n        <span>0.675rem 1.5rem</span>\n      </div>\n      <div>\n        <button class=\"btn btn-primary btn-sm\">Small Button</button>\n      </div>\n    </div>\n    <div class=\"size-container\">\n      <div class=\"container-title\">\n        <span>Tiny Button</span>\n      </div>\n      <div class=\"subheader\">\n        <span>0.5rem 1.25rem</span>\n      </div>\n      <div>\n        <button class=\"btn btn-primary btn-tn\">Tiny</button>\n      </div>\n    </div>\n  </nb-card-body>\n</nb-card>\n"
 
 /***/ }),
 
-/***/ 2387:
+/***/ 2398:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <nb-card>\n      <nb-card-header>\n        Grid System\n      </nb-card-header>\n      <nb-card-body>\n        <h5 class=\"grid-h\">Stacked to horizontal</h5>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-8\">\n            <div>.col-md-8</div>\n          </div>\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-6\">\n            <div>.col-md-6</div>\n          </div>\n          <div class=\"col-md-6\">\n            <div>.col-md-6</div>\n          </div>\n        </div>\n\n        <h5 class=\"grid-h\">Mobile and desktop</h5>\n        <div class=\"row show-grid\">\n          <div class=\"col-12 col-md-8\">\n            <div>.col-12 .col-md-8</div>\n          </div>\n          <div class=\"col-6 col-md-4\">\n            <div>.col-6 .col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-6 col-md-4\">\n            <div>.col-6 .col-md-4</div>\n          </div>\n          <div class=\"col-6 col-md-4\">\n            <div>col-6 .col-md-4</div>\n          </div>\n          <div class=\"col-6 col-md-4\">\n            <div>.col-6 .col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-6\">\n            <div>.col-6</div>\n          </div>\n          <div class=\"col-6\">\n            <div>.col-6</div>\n          </div>\n        </div>\n\n        <h5 class=\"grid-h\">Mobile, tablet, desktop</h5>\n        <div class=\"row show-grid\">\n          <div class=\"col-12 col-sm-6 col-md-8\">\n            <div>.col-12 .col-sm-6 .col-md-8</div>\n          </div>\n          <div class=\"col-6 col-md-4\">\n            <div>.col-6 .col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-6 col-sm-4\">\n            <div>.col-6 .col-sm-4</div>\n          </div>\n          <div class=\"col-6 col-sm-4\">\n            <div>.col-6 .col-sm-4</div>\n          </div>\n          <div class=\"col-6 col-sm-4\">\n            <div>.col-6 .col-sm-4</div>\n          </div>\n        </div>\n\n        <h5 class=\"grid-h\">Column wrapping</h5>\n        <div class=\"row show-grid\">\n          <div class=\"col-9\">\n            <div>.col-9</div>\n          </div>\n          <div class=\"col-4\">\n            <div>.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.\n            </div>\n          </div>\n          <div class=\"col-6\">\n            <div>.col-6<br>Subsequent columns continue along the new line.</div>\n          </div>\n        </div>\n\n        <h5 class=\"grid-h\">Responsive column resets</h5>\n        <div class=\"row show-grid\">\n          <div class=\"col-6 col-sm-3\">\n            <div>.col-6 .col-sm-3\n              <p>Resize your viewport or check it out on your phone for an example.</p>\n            </div>\n          </div>\n          <div class=\"col-6 col-sm-3\">\n            <div>.col-6 .col-sm-3</div>\n          </div>\n          <div class=\"col-6 col-sm-3\">\n            <div>.col-6 .col-sm-3</div>\n          </div>\n          <div class=\"col-6 col-sm-3\">\n            <div>.col-6 .col-sm-3</div>\n          </div>\n        </div>\n\n        <h5 class=\"grid-h\">Offsetting columns</h5>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n          <div class=\"col-md-4 offset-md-4\">\n            <div>.col-md-4 .offset-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-3 offset-md-3\">\n            <div>.col-md-3 .offset-md-3</div>\n          </div>\n          <div class=\"col-md-3 offset-md-3\">\n            <div>.col-md-3 .offset-md-3</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-6 offset-md-3\">\n            <div>.col-md-6 .offset-md-3</div>\n          </div>\n        </div>\n\n        <h5 class=\"grid-h\">Grid options</h5>\n        <div class=\"table-responsive\">\n          <table class=\"table table-bordered table-striped\">\n            <thead>\n              <tr>\n                <th></th>\n                <th> Extra small devices\n                  <small>Phones (&lt;576px)</small>\n                </th>\n                <th> Small devices\n                  <small>Tablets (≥576px)</small>\n                </th>\n                <th> Medium devices\n                  <small>Desktops (≥768px)</small>\n                </th>\n                <th> Large devices\n                  <small>Desktops (≥992px)</small>\n                </th>\n                <th> Large devices\n                  <small>Desktops (≥1200px)</small>\n                </th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <th class=\"text-nowrap\" scope=\"row\">Grid behavior</th>\n                <td>Horizontal at all times</td>\n                <td colspan=\"4\">Collapsed to start, horizontal above breakpoints</td>\n              </tr>\n              <tr>\n                <th class=\"text-nowrap\" scope=\"row\">Container width</th>\n                <td>None (auto)</td>\n                <td>540px</td>\n                <td>720px</td>\n                <td>960px</td>\n                <td>1140px</td>\n              </tr>\n              <tr>\n                <th class=\"text-nowrap\" scope=\"row\">Class prefix</th>\n                <td><code>.col-</code></td>\n                <td><code>.col-sm-</code></td>\n                <td><code>.col-md-</code></td>\n                <td><code>.col-lg-</code></td>\n                <td><code>.col-xl-</code></td>\n              </tr>\n              <tr>\n                <th class=\"text-nowrap\" scope=\"row\"># of columns</th>\n                <td colspan=\"5\">12</td>\n              </tr>\n              <tr>\n                <th class=\"text-nowrap\" scope=\"row\">Gutter width</th>\n                <td colspan=\"5\">1.875rem / 30px (15px on each side of a column)</td>\n              </tr>\n              <tr>\n                <th class=\"text-nowrap\" scope=\"row\">Nestable</th>\n                <td colspan=\"5\">Yes</td>\n              </tr>\n              <tr>\n                <th class=\"text-nowrap\" scope=\"row\">Offsets</th>\n                <td colspan=\"5\">Yes</td>\n              </tr>\n              <tr>\n                <th class=\"text-nowrap\" scope=\"row\">Column ordering</th>\n                <td colspan=\"5\">Yes</td>\n              </tr>\n            </tbody>\n          </table>\n        </div>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 2388:
+/***/ 2399:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-md-12 col-lg-6\">\n    <nb-card class=\"nb-icons\">\n      <nb-card-header>\n        Nebular\n      </nb-card-header>\n      <nb-card-body>\n        <div class=\"icon\" *ngFor=\"let icon of icons.nebular\"><i class=\"{{ icon }}\"></i></div>\n      </nb-card-body>\n      <nb-card-footer>\n        <a href=\"https://www.npmjs.com/package/nebular-icons\" target=\"_blank\">See all Nebular icons</a>\n      </nb-card-footer>\n    </nb-card>\n\n    <nb-card>\n      <nb-card-header>\n        Font awesome icons\n      </nb-card-header>\n      <nb-card-body>\n        <div class=\"icon\" *ngFor=\"let icon of icons.fontAwesome\"><i class=\"fa {{ icon }}\"></i></div>\n      </nb-card-body>\n      <nb-card-footer>\n        <a href=\"http://fortawesome.github.io/Font-Awesome/icons/\" target=\"_blank\">\n          See all Font Awesome icons\n        </a>\n      </nb-card-footer>\n    </nb-card>\n  </div>\n\n  <div class=\"col-md-12 col-lg-6\">\n    <nb-card>\n      <nb-card-header>\n        Ionicons\n      </nb-card-header>\n      <nb-card-body>\n        <div class=\"icon\" *ngFor=\"let icon of icons.ionicons\"><i class=\"{{ icon }}\"></i></div>\n      </nb-card-body>\n      <nb-card-footer>\n        <a href=\"http://ionicons.com/\" target=\"_blank\">See all ionicons icons</a>\n      </nb-card-footer>\n    </nb-card>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 2389:
+/***/ 2400:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <nb-card>\n      <nb-card-header>Modals</nb-card-header>\n      <nb-card-body>\n        <button class=\"btn btn-success\" (click)=\"showLargeModal()\">Large modal</button>\n        <button class=\"btn btn-warning\" (click)=\"showSmallModal()\">Small modal</button>\n        <button class=\"btn btn-primary\" (click)=\"showStaticModal()\">Static modal</button>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 2390:
+/***/ 2401:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>\n        Layout Rotate Search\n      </nb-card-header>\n      <nb-card-body>\n        <nb-search type=\"rotate-layout\" tag=\"rotate-layout\"></nb-search>\n      </nb-card-body>\n    </nb-card>\n  </div>\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>\n        Modal Zoomin Search\n      </nb-card-header>\n      <nb-card-body>\n        <nb-search type=\"modal-zoomin\" tag=\"modal-zoomin\"></nb-search>\n      </nb-card-body>\n    </nb-card>\n  </div>\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>\n        Modal Move Search\n      </nb-card-header>\n      <nb-card-body>\n        <nb-search type=\"modal-move\" tag=\"modal-move\"></nb-search>\n      </nb-card-body>\n    </nb-card>\n  </div>\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>\n        Modal Drop Search\n      </nb-card-header>\n      <nb-card-body>\n        <nb-search type=\"modal-drop\" tag=\"modal-drop\"></nb-search>\n      </nb-card-body>\n    </nb-card>\n  </div>\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>\n        Modal Half Search\n      </nb-card-header>\n      <nb-card-body>\n        <nb-search type=\"modal-half\" tag=\"modal-half\"></nb-search>\n      </nb-card-body>\n    </nb-card>\n  </div>\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>\n        Curtain Search\n      </nb-card-header>\n      <nb-card-body>\n        <nb-search type=\"curtain\" tag=\"curtain\"></nb-search>\n      </nb-card-body>\n    </nb-card>\n  </div>\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>\n        Column Curtain Search\n      </nb-card-header>\n      <nb-card-body>\n        <nb-search type=\"column-curtain\" tag=\"column-curtain\"></nb-search>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n\n"
 
 /***/ }),
 
-/***/ 2391:
+/***/ 2402:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-md-12 col-lg-6\">\n    <nb-card size=\"small\">\n      <nb-tabset>\n        <nb-tab tabTitle=\"Simple Tab #1\">\n          <p>In 1975, the first general purpose home automation network technology, <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/X10_(industry_standard)\" title=\"X10 (industry standard)\">X10</a>, was developed. It is a communication protocol for electronic devices. It primarily uses <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Electric_power_transmission\" title=\"Electric power transmission\">electric power transmission</a> wiring for signalling and control, where the signals involve brief <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Radio_frequency\" title=\"Radio frequency\">radio frequency</a> bursts of <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Digital_data\" title=\"Digital data\">digital data</a>, and remains the most widely available.<sup id=\"cite_ref-8\" class=\"reference\"><a target=\"_blank\" href=\"https://en.wikipedia.org#cite_note-8\">[8]</a></sup> By 1978, X10 products included a 16 channel command console, a lamp module, and an appliance module. Soon after came the wall switch module and the first X10 timer.</p>\n        </nb-tab>\n        <nb-tab tabTitle=\"Simple Tab #2\">\n          <span>Content #2</span>\n        </nb-tab>\n        <nb-tab tabTitle=\"Simple Tab #3\">\n          <span>Content #3</span>\n        </nb-tab>\n      </nb-tabset>\n    </nb-card>\n  </div>\n\n  <div class=\"col-md-6\">\n    <nb-card size=\"small\">\n      <nb-tabset fullWidth>\n        <nb-tab tabTitle=\"Full width tab #1\">\n          <p><b>Home automation</b> or <b>smart home</b><sup id=\"cite_ref-Smart_Home_1-0\" class=\"reference\"><a target=\"_blank\" href=\"https://en.wikipedia.org#cite_note-Smart_Home-1\">[1]</a></sup> (also known as <b>domotics</b><sup id=\"cite_ref-t3_2-0\" class=\"reference\"><a target=\"_blank\" href=\"https://en.wikipedia.org#cite_note-t3-2\">[2]</a></sup>) is <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Building_automation\" title=\"Building automation\">building automation</a> for the home. It involves the control and automation of lighting, heating (such as <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Smart_thermostat\" title=\"Smart thermostat\">smart thermostats</a>), ventilation, air conditioning (<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/HVAC\" title=\"HVAC\">HVAC</a>), and security, as well as <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Home_appliance\" title=\"Home appliance\">home appliances</a> such as washer/dryers, ovens or refrigerators/freezers. <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Wi-Fi\" title=\"Wi-Fi\">Wi-Fi</a> is often used for remote monitoring and control. Home devices, when remotely monitored and controlled via the Internet, are an important constituent of the <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Internet_of_Things\" class=\"mw-redirect\" title=\"Internet of Things\">Internet of Things</a>. Modern systems generally consist of switches and sensors connected to a central hub sometimes called a \"gateway\" from which the system is controlled with a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/User_interface\" title=\"User interface\">user interface</a> that is interacted either with a wall-mounted terminal, mobile phone software, <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Tablet_computer\" title=\"Tablet computer\">tablet computer</a> or a web interface, often but not always via Internet cloud services.</p>\n          <p>While there are many competing vendors, there are very few worldwide accepted industry standards and the smart home space is heavily fragmented.<sup id=\"cite_ref-3\" class=\"reference\"><a target=\"_blank\" href=\"https://en.wikipedia.org#cite_note-3\">[3]</a></sup> Popular <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Communications_protocol\" title=\"Communications protocol\">communications protocol</a> for products include <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/X10_(industry_standard)\" title=\"X10 (industry standard)\">X10</a>, <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Ethernet\" title=\"Ethernet\">Ethernet</a>, <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/RS-485\" title=\"RS-485\">RS-485</a>, <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/6LoWPAN\" title=\"6LoWPAN\">6LoWPAN</a>, <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bluetooth_low_energy\" class=\"mw-redirect\" title=\"Bluetooth low energy\">Bluetooth LE (BLE)</a>, <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/ZigBee\" class=\"mw-redirect\" title=\"ZigBee\">ZigBee</a> and <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Z-Wave\" title=\"Z-Wave\">Z-Wave</a>, or other proprietary protocols all of which are incompatible with each other.<sup id=\"cite_ref-crhomephone_4-0\" class=\"reference\"><a target=\"_blank\" href=\"https://en.wikipedia.org#cite_note-crhomephone-4\">[4]</a></sup> Manufacturers often prevent independent implementations by withholding documentation and by litigation.<sup id=\"cite_ref-5\" class=\"reference\"><a target=\"_blank\" href=\"https://en.wikipedia.org#cite_note-5\">[5]</a></sup></p>\n        </nb-tab>\n        <nb-tab tabTitle=\"Full width tab #2\">\n          <span>Content #2</span>\n        </nb-tab>\n        <nb-tab tabTitle=\"Full width tab #3\">\n          <span>Content #3</span>\n        </nb-tab>\n      </nb-tabset>\n    </nb-card>\n  </div>\n\n  <div class=\"col-md-6\">\n    <nb-card size=\"small\">\n      <nb-route-tabset [tabs]=\"tabs\"></nb-route-tabset>\n    </nb-card>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 2392:
+/***/ 2403:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-xxxl-8\">\n    <div class=\"row\">\n      <div class=\"col-md-6 col-xxl-7\">\n        <nb-card size=\"medium\">\n          <nb-card-header>\n            Used Fonts\n          </nb-card-header>\n          <nb-card-body>\n            <div class=\"font-row font-secondary\">\n              <div class=\"header\">\n                <div class=\"name bold\">Exo</div>\n\n                <div class=\"variants\">\n                  <span class=\"font-w-bold\">Bold</span>\n                  <span class=\"font-w-regular\">Regular</span>\n                  <span class=\"font-w-light\">Light</span>\n                </div>\n              </div>\n              <p>\n                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,\n                there live the blind texts.\n                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.\n              </p>\n            </div>\n\n            <div class=\"font-row font-main\">\n              <div class=\"header\">\n                <div class=\"name bold\">Roboto</div>\n\n                <div class=\"variants\">\n                  <span class=\"font-w-bold\">Bold</span>\n                  <span class=\"font-w-regular\">Regular</span>\n                  <span class=\"font-w-light\">Light</span>\n                </div>\n              </div>\n              <p>\n                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,\n                there live the blind texts.\n                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.\n              </p>\n            </div>\n          </nb-card-body>\n        </nb-card>\n\n        <nb-card size=\"small\">\n          <nb-card-header>\n            Article Example\n          </nb-card-header>\n          <nb-card-body>\n            <h4>So what's About the grammar?</h4>\n            <p class=\"text-indent\">\n              Far far away, behind the word mountains, far from the countries <strong>Vokalia</strong> and <strong>Consonantia</strong>,\n              there live the blind texts.\n              They live in <strong>Bookmarksgrove</strong>.\n            </p>\n            <p class=\"text-indent\">\n              A small <strong>river named Duden</strong> flows by their place and supplies it with the\n              necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly\n              into your mouth.\n              Even the all-powerful Pointing has no control about the blind texts it is an almost\n              unorthographic life One day however a small\n              line of blind text by the name of\n              <a href=\"http://google.com\" target=\"_blank\">Lorem Ipsum</a> decided to leave for\n              the far <strong>World of Grammar</strong>.\n            </p>\n          </nb-card-body>\n        </nb-card>\n      </div>\n      <div class=\"col-md-6 col-xxl-5\">\n        <nb-card size=\"medium\" class=\"headings-card\">\n          <nb-card-header>\n            Headings\n          </nb-card-header>\n          <nb-card-body>\n            <div class=\"header\">\n              <div>\n                <h1>H1. Heading</h1>\n              </div>\n\n              <div class=\"detail font-w-light\">\n                Demibold 2.5rem (40px)\n              </div>\n            </div>\n            <div class=\"header\">\n              <div>\n                <h2>H2. Heading</h2>\n              </div>\n\n              <div class=\"detail font-w-light\">\n                Demibold 2rem (32px)\n              </div>\n            </div>\n            <div class=\"header\">\n              <div>\n                <h3>H3. Heading</h3>\n              </div>\n\n              <div class=\"detail font-w-light\">\n                Demibold 1.75rem (28px)\n              </div>\n            </div>\n            <div class=\"header\">\n              <div>\n                <h4>H4. Heading</h4>\n              </div>\n\n              <div class=\"detail font-w-light\">\n                Demibold 1.5rem (24px)\n              </div>\n            </div>\n            <div class=\"header\">\n              <div>\n                <h5>H5. Heading</h5>\n              </div>\n\n              <div class=\"detail font-w-light\">\n                Demibold 1.25rem (20px)\n              </div>\n            </div>\n            <div class=\"header\">\n              <div>\n                <h6>H6. Heading</h6>\n              </div>\n\n              <div class=\"detail font-w-light\">\n                Demibold 1rem (16px)\n              </div>\n            </div>\n          </nb-card-body>\n        </nb-card>\n\n        <nb-card size=\"small\">\n          <nb-card-header>\n            Blockquotes\n          </nb-card-header>\n          <nb-card-body>\n            <blockquote class=\"blockquote\">\n              <p class=\"mb-0\">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.\n            </blockquote>\n            <blockquote class=\"blockquote\">\n              <p class=\"mb-0\">Far far away, behind the word mountains, far from the countries.</p>\n              <footer class=\"blockquote-footer\">Vladimir Lugovsky</footer>\n            </blockquote>\n            <blockquote class=\"blockquote-reverse\">\n              <p class=\"mb-0\">Far far away, behind the word mountains.</p>\n              <footer class=\"blockquote-footer\">Vladimir Lugovsky</footer>\n            </blockquote>\n          </nb-card-body>\n        </nb-card>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"col-md-6 col-xxxl-4\">\n    <nb-card [size]=\"breakpoint.width >= breakpoints.xxxl ? 'xxlarge' : 'large'\">\n      <nb-card-header>\n        Font Colors\n      </nb-card-header>\n      <nb-card-body>\n        <div class=\"colors\">\n          <div class=\"item text-heading\">\n            <div class=\"color bg-heading\"></div>\n            <div>\n              <h5 class=\"text-heading\">Heading Text</h5>\n              Far far away, behind the your awesomeness.\n            </div>\n          </div>\n          <div class=\"item text-body\">\n            <div class=\"color bg-body\"></div>\n            <div>\n              <h5 class=\"text-body\">Body Text</h5>\n              Far far away, behind the your awesomeness.\n            </div>\n          </div>\n          <div class=\"item text-hint\">\n            <div class=\"color bg-hint\"></div>\n            <div>\n              <h5 class=\"text-hint\">Hint Text</h5>\n              Far far away, behind the your awesomeness.\n            </div>\n          </div>\n          <div class=\"item text-link\">\n            <div class=\"color bg-link\"></div>\n            <div>\n              <h5 class=\"text-link\">Link Text</h5>\n              Far far away, behind the your awesomeness.\n            </div>\n          </div>\n          <div class=\"item text-primary\">\n            <div class=\"color bg-primary\"></div>\n            <div>\n              <h5 class=\"text-primary\">Primary Text</h5>\n              Far far away, behind the your awesomeness.\n            </div>\n          </div>\n          <div class=\"item text-success\">\n            <div class=\"color bg-success\"></div>\n            <div>\n              <h5 class=\"text-success\">Success Text</h5>\n              Far far away, behind the your awesomeness.\n            </div>\n          </div>\n          <div class=\"item text-info\">\n            <div class=\"color bg-info\"></div>\n            <div>\n              <h5 class=\"text-info\">Info Text</h5>\n              Far far away, behind the your awesomeness.\n            </div>\n          </div>\n          <div class=\"item text-warning\">\n            <div class=\"color bg-warning\"></div>\n            <div>\n              <h5 class=\"text-warning\">Warning Text</h5>\n              Far far away, behind the your awesomeness.\n            </div>\n          </div>\n          <div class=\"item text-danger\">\n            <div class=\"color bg-danger\"></div>\n            <div>\n              <h5 class=\"text-danger\">Danger Text</h5>\n              Far far away, behind the your awesomeness.\n            </div>\n          </div>\n        </div>\n      </nb-card-body>\n    </nb-card>\n  </div>\n\n  <div class=\"col-md-6 col-xxxl-4\">\n    <nb-card size=\"large\">\n      <nb-card-header>\n        Alerts\n      </nb-card-header>\n      <nb-card-body>\n        <div class=\"alert alert-primary\" role=\"alert\">\n          <strong>Oh snap!</strong> <a href=\"#\" class=\"alert-link\">Change a few things up</a> and try submitting again.\n        </div>\n        <div class=\"alert alert-hint\" role=\"alert\">\n          <strong>Heads up!</strong> This <a href=\"#\" class=\"alert-link\">alert needs your attention</a>, but it's not super important.\n        </div>\n        <div class=\"alert alert-success\" role=\"alert\">\n          <strong>Well done!</strong> You successfully read <a href=\"#\" class=\"alert-link\">this important alert message</a>.\n        </div>\n        <div class=\"alert alert-info\" role=\"alert\">\n          <strong>Heads up!</strong> This <a href=\"#\" class=\"alert-link\">alert needs your attention</a>, but it's not super important.\n        </div>\n        <div class=\"alert alert-warning\" role=\"alert\">\n          <strong>Warning!</strong> Better check yourself, you're <a href=\"#\" class=\"alert-link\">not looking too good</a>.\n        </div>\n        <div class=\"alert alert-danger\" role=\"alert\">\n          <strong>Oh snap!</strong> <a href=\"#\" class=\"alert-link\">Change a few things up</a> and try submitting again.\n        </div>\n      </nb-card-body>\n    </nb-card>\n  </div>\n\n  <div class=\"col-md-6 col-xxxl-4\">\n    <nb-card size=\"large\">\n      <nb-card-header>\n        Text Types\n      </nb-card-header>\n      <nb-card-body>\n        <h4>Highlighted text</h4>\n        <p class=\"mb-5\">\n          Far far away, behind the word mountains, far from the countries\n          Vokalia and <mark>Consonantia, there live the blind texts.</mark>\n        </p>\n        <h4>Bold Text</h4>\n        <p class=\"mb-5\">\n          Far far away, behind the word mountains, far from the countries\n          Vokalia and <strong>Consonantia, there live the blind texts.</strong>\n        </p>\n        <h4>Link Text</h4>\n        <p class=\"mb-5\">\n          Far far away, behind the word mountains, far from the countries\n          Vokalia and <a href=\"http://google.com\" target=\"_blank\">Consonantia, there live the blind texts.</a>\n        </p>\n      </nb-card-body>\n    </nb-card>\n  </div>\n\n  <div class=\"col-md-6 col-xxxl-4\">\n    <nb-card size=\"large\">\n      <nb-card-header>\n        Lists\n      </nb-card-header>\n      <nb-card-body>\n        <h4>Ordered List</h4>\n        <ol class=\"mb-5\">\n          <li>Far far away, behind the word mountains</li>\n          <li>Far from the countries Vokalia and Consonantia</li>\n          <li>There live the blind texts.</li>\n          <li>Right at the coast of the Semantics.</li>\n          <li>A small river named Duden flows</li>\n        </ol>\n\n        <h4>Unordered List</h4>\n        <ul class=\"mb-5\">\n          <li>Far far away, behind the word mountains</li>\n          <li>Far from the countries Vokalia and Consonantia</li>\n          <li>There live the blind texts.</li>\n          <li>Right at the coast of the Semantics.</li>\n          <li>A small river named Duden flows</li>\n        </ul>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ 2648:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2060);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2649:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2061);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2650:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2062);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2651:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2063);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2652:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2064);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2653:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2065);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2654:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2066);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2655:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2067);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2656:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2068);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-
-/***/ 2657:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(2069);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
 
 /***/ }),
 
@@ -1613,6 +1463,156 @@ module.exports = "<div class=\"row\">\n  <div class=\"col-xxxl-8\">\n    <div cl
 
 
         var result = __webpack_require__(2074);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2663:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2075);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2664:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2076);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2665:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2077);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2666:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2078);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2667:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2079);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2668:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2080);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2669:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2081);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2670:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2082);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2671:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2083);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+
+/***/ 2672:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(2084);
 
         if (typeof result === "string") {
             module.exports = result;

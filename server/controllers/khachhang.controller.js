@@ -1,79 +1,81 @@
-import User from '../models/user.model';
+import KhachHang from '../models/KhachHang.model';
 
 /**
- * Load user and append to req.
+ * Load KhachHang and append to req.
  */
 function load(req, res, next, id) {
-  User.get(id)
-    .then((user) => {
-      req.user = user; // eslint-disable-line no-param-reassign
+  KhachHang.get(id)
+    .then((KhachHang) => {
+      req.KhachHang = KhachHang; // eslint-disable-line no-param-reassign
       return next();
     })
     .catch(e => next(e));
 }
 
 /**
- * Get user
- * @returns {User}
+ * Get KhachHang
+ * @returns {KhachHang}
  */
 function get(req, res) {
-  return res.json(req.user);
+  return res.json(req.KhachHang);
 }
 
 /**
- * Create new user
- * @property {string} req.body.username - The username of user.
- * @property {string} req.body.mobileNumber - The mobileNumber of user.
- * @returns {User}
+ * Create new KhachHang
+ * @property {string} req.body.KhachHangname - The KhachHangname of KhachHang.
+ * @property {string} req.body.mobileNumber - The mobileNumber of KhachHang.
+ * @returns {KhachHang}
  */
 function create(req, res, next) {
-  const user = new User({
-    username: req.body.username,
-    mobileNumber: req.body.mobileNumber
+  const khachHang = new KhachHang({
+    LoaiKH: req.body.LoaiKH,
+    TenKH: req.body.TenKH,
+    Ghichu: req.body.Ghichu
   });
 
-  user.save()
-    .then(savedUser => res.json(savedUser))
+  khachHang.save()
+    .then(savedKhachHang => res.json(savedKhachHang))
     .catch(e => next(e));
 }
 
 /**
- * Update existing user
- * @property {string} req.body.username - The username of user.
- * @property {string} req.body.mobileNumber - The mobileNumber of user.
- * @returns {User}
+ * Update existing KhachHang
+ * @property {string} req.body.KhachHangname - The KhachHangname of KhachHang.
+ * @property {string} req.body.mobileNumber - The mobileNumber of KhachHang.
+ * @returns {KhachHang}
  */
 function update(req, res, next) {
-  const user = req.user;
-  user.username = req.body.username;
-  user.mobileNumber = req.body.mobileNumber;
+  const khachHang = req.KhachHang;
+  khachHang.LoaiKH = req.body.LoaiKH;
+  khachHang.TenKH = req.body.TenKH;
+  khachHang.Ghichu = req.body.Ghichu;
 
-  user.save()
-    .then(savedUser => res.json(savedUser))
+  khachHang.save()
+    .then(savedKhachHang => res.json(savedKhachHang))
     .catch(e => next(e));
 }
 
 /**
- * Get user list.
- * @property {number} req.query.skip - Number of users to be skipped.
- * @property {number} req.query.limit - Limit number of users to be returned.
- * @returns {User[]}
+ * Get KhachHang list.
+ * @property {number} req.query.skip - Number of KhachHangs to be skipped.
+ * @property {number} req.query.limit - Limit number of KhachHangs to be returned.
+ * @returns {KhachHang[]}
  */
 function list(req, res, next) {
   const { limit = 50, skip = 0 } = req.query;
-  User.list({ limit, skip })
-    .then(users => res.json(users))
+  KhachHang.list({ limit, skip })
+    .then(KhachHangs => res.json(KhachHangs))
     .catch(e => next(e));
 }
 
 /**
- * Delete user.
- * @returns {User}
+ * Delete KhachHang.
+ * @returns {KhachHang}
  */
 function remove(req, res, next) {
-  const user = req.user;
-  user.remove()
-    .then(deletedUser => res.json(deletedUser))
+  const khachHang = req.KhachHang;
+  khachHang.remove()
+    .then(deletedKhachHang => res.json(deletedKhachHang))
     .catch(e => next(e));
 }
 

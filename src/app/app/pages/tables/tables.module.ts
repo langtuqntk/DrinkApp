@@ -5,6 +5,9 @@ import { ThemeModule } from '../../@theme/theme.module';
 import { TablesRoutingModule, routedComponents } from './tables-routing.module';
 import { SmartTableService } from '../../@core/data/smart-table.service';
 import { BanService } from '../../@core/data/ban.service'
+import { HangService } from '../../@core/data/hang.service'
+import { KhachHangService } from '../../@core/data/khachhang.service'
+import { NhanVienService } from '../../@core/data/nhanvien.service'
  
 @NgModule({
   imports: [
@@ -18,6 +21,9 @@ import { BanService } from '../../@core/data/ban.service'
   providers: [
     SmartTableService,
     BanService,
+    HangService,
+    KhachHangService,
+    NhanVienService
   ],
 })
 export class TablesModule { }

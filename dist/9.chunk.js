@@ -1,12 +1,12 @@
 webpackJsonpac__name_([9],{
 
-/***/ 1897:
+/***/ 1905:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormInputsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var FormInputsComponent = (function () {
@@ -19,8 +19,8 @@ var FormInputsComponent = (function () {
 FormInputsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-form-inputs',
-        styles: [__webpack_require__(2643)],
-        template: __webpack_require__(2373),
+        styles: [__webpack_require__(2653)],
+        template: __webpack_require__(2383),
     })
 ], FormInputsComponent);
 
@@ -28,13 +28,13 @@ FormInputsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */](
 
 /***/ }),
 
-/***/ 1898:
+/***/ 1906:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormLayoutsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var FormLayoutsComponent = (function () {
@@ -45,8 +45,8 @@ var FormLayoutsComponent = (function () {
 FormLayoutsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'ngx-form-layouts',
-        styles: [__webpack_require__(2644)],
-        template: __webpack_require__(2374),
+        styles: [__webpack_require__(2654)],
+        template: __webpack_require__(2384),
     })
 ], FormLayoutsComponent);
 
@@ -54,18 +54,18 @@ FormLayoutsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]
 
 /***/ }),
 
-/***/ 1899:
+/***/ 1907:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormsRoutingModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return routedComponents; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(580);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forms_component__ = __webpack_require__(1900);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__form_inputs_form_inputs_component__ = __webpack_require__(1897);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__form_layouts_form_layouts_component__ = __webpack_require__(1898);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forms_component__ = __webpack_require__(1908);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__form_inputs_form_inputs_component__ = __webpack_require__(1905);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__form_layouts_form_layouts_component__ = __webpack_require__(1906);
 
 
 
@@ -108,13 +108,13 @@ var routedComponents = [
 
 /***/ }),
 
-/***/ 1900:
+/***/ 1908:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 
 
 var FormsComponent = (function () {
@@ -133,16 +133,16 @@ FormsComponent = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 1901:
+/***/ 1909:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormsModule", function() { return FormsModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_theme_module__ = __webpack_require__(1339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forms_routing_module__ = __webpack_require__(1899);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_theme_module__ = __webpack_require__(1346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forms_routing_module__ = __webpack_require__(1907);
 
 
 
@@ -166,10 +166,10 @@ FormsModule = __WEBPACK_IMPORTED_MODULE_0_tslib__["b" /* __decorate */]([
 
 /***/ }),
 
-/***/ 2055:
+/***/ 2065:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -181,10 +181,10 @@ exports.push([module.i, "/**\n * @license\n * Copyright Akveo. All Rights Reserv
 
 /***/ }),
 
-/***/ 2056:
+/***/ 2066:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(43)(undefined);
+exports = module.exports = __webpack_require__(50)(undefined);
 // imports
 
 
@@ -196,25 +196,25 @@ exports.push([module.i, ".full-width {\n  flex: 1;\n  min-width: 220px; }\n\nnb-
 
 /***/ }),
 
-/***/ 2373:
+/***/ 2383:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-lg-6\">\n    <nb-card>\n      <nb-card-header>Default Inputs</nb-card-header>\n      <nb-card-body>\n        <div class=\"input-group\">\n          <input type=\"text\" placeholder=\"Project\" class=\"form-control\"/>\n        </div>\n        <div class=\"row full-name-inputs\">\n          <div class=\"col-sm-6 input-group\">\n            <input type=\"text\" placeholder=\"Nick\" class=\"form-control\"/>\n          </div>\n          <div class=\"col-sm-6 input-group\">\n            <input type=\"text\" placeholder=\"Last Name\" class=\"form-control\"/>\n          </div>\n        </div>\n        <div class=\"input-group\">\n          <input type=\"password\" placeholder=\"Password\" class=\"form-control\"/>\n        </div>\n        <div class=\"input-group has-person-icon\">\n          <input type=\"text\" placeholder=\"With Icon\" class=\"form-control\"/>\n        </div>\n        <div class=\"input-group input-group-rounded\">\n          <input type=\"text\" placeholder=\"Rounded border\" class=\"form-control\"/>\n        </div>\n        <div class=\"form-group\">\n          <input type=\"text\" placeholder=\"Project\" class=\"form-control\"/>\n          <small class=\"form-text\">A block of help text that breaks into a new line and may extend beyond one line.\n          </small>\n        </div>\n        <div class=\"input-group\">\n          <input type=\"text\" placeholder=\"Disabled input\" class=\"form-control\" disabled/>\n        </div>\n        <div class=\"input-group\">\n          <textarea rows=\"5\" placeholder=\"Text Area\" class=\"form-control\"></textarea>\n        </div>\n        <div class=\"input-group input-group-sm\">\n          <input type=\"text\" placeholder=\"Small Input\" class=\"form-control\"/>\n        </div>\n        <div class=\"input-group input-group-lg\">\n          <input type=\"text\" placeholder=\"Large Input\" class=\"form-control\"/>\n        </div>\n      </nb-card-body>\n    </nb-card>\n\n    <nb-card>\n      <nb-card-header>Input Groups</nb-card-header>\n      <nb-card-body>\n        <div class=\"input-group\">\n          <span class=\"input-group-addon success\">@</span>\n          <input type=\"text\" class=\"form-control\" placeholder=\"Username\"/>\n        </div>\n        <div class=\"input-group mail-btn-group\">\n          <span class=\"input-group-btn\">\n            <button class=\"btn btn-primary btn-icon\">\n              <i class=\"ion-ios-email-outline\"></i>\n            </button>\n          </span>\n          <input type=\"text\" class=\"form-control\" placeholder=\"Recipient's username\">\n          <span class=\"input-group-btn\">\n            <button class=\"btn btn-primary\">\n              @example.com\n            </button>\n          </span>\n        </div>\n        <div class=\"input-group\">\n          <input type=\"text\" class=\"form-control\" placeholder=\"Search for...\">\n          <span class=\"input-group-btn\">\n            <button class=\"btn btn-danger\">\n              Search\n            </button>\n          </span>\n        </div>\n        <div class=\"input-group\">\n          <div class=\"input-group-btn\" ngbDropdown>\n            <button type=\"button\" class=\"btn btn-success dropdown-toggle\" ngbDropdownToggle>\n              Action\n            </button>\n            <ul class=\"dropdown-menu\">\n              <li class=\"dropdown-item\">Action</li>\n              <li class=\"dropdown-item\">Another action</li>\n              <li class=\"dropdown-item\">Something else here</li>\n              <div role=\"separator\" class=\"dropdown-divider\"></div>\n              <li class=\"dropdown-item\">Separated link</li>\n            </ul>\n          </div>\n          <input type=\"text\" class=\"form-control\">\n        </div>\n      </nb-card-body>\n    </nb-card>\n\n    <nb-card>\n      <nb-card-header>Selects</nb-card-header>\n      <nb-card-body>\n        <div class=\"form-group\">\n          <label>Simple Select</label>\n          <select class=\"form-control\">\n            <option>Minsk</option>\n            <option>Gomel</option>\n            <option>Brest</option>\n            <option>Grodno</option>\n            <option>Mogilev</option>\n          </select>\n        </div>\n        <div class=\"form-group\">\n          <label>Multiple Select</label>\n          <select multiple class=\"form-control\">\n            <option>Item 1</option>\n            <option>Item 2</option>\n            <option>Item 3</option>\n            <option>Item 4</option>\n            <option>Item 5</option>\n          </select>\n        </div>\n      </nb-card-body>\n    </nb-card>\n  </div>\n\n  <div class=\"col-lg-6\">\n    <nb-card>\n      <nb-card-header>Input Styles</nb-card-header>\n      <nb-card-body>\n        <div class=\"input-group input-group-border-only\">\n          <input type=\"text\" placeholder=\"Border Only\" class=\"form-control\"/>\n        </div>\n        <div class=\"input-group\">\n          <input type=\"text\" placeholder=\"Default Input\" class=\"form-control\">\n        </div>\n        <div class=\"input-group input-group-fill-only\">\n          <input type=\"text\" placeholder=\"Fill Only\" class=\"form-control\">\n        </div>\n      </nb-card-body>\n    </nb-card>\n\n    <nb-card>\n      <nb-card-header>Validation States</nb-card-header>\n      <nb-card-body>\n        <div class=\"form-group\">\n          <input type=\"text\" placeholder=\"Input with Success\" class=\"form-control form-control-success\">\n        </div>\n        <div class=\"form-group\">\n          <input type=\"text\" placeholder=\"Input with Warning\" class=\"form-control form-control-warning\">\n        </div>\n        <div class=\"form-group\">\n          <input type=\"text\" placeholder=\"Input with Danger\" class=\"form-control form-control-danger\">\n        </div>\n        <div class=\"form-group validation-checkboxes row\">\n          <nb-checkbox status=\"success\" class=\"col-sm-4\">Checkbox with Success</nb-checkbox>\n          <nb-checkbox status=\"warning\" class=\"col-sm-4\">Checkbox with Warning</nb-checkbox>\n          <nb-checkbox status=\"danger\" class=\"col-sm-4\">Checkbox with Danger</nb-checkbox>\n        </div>\n        <div class=\"form-group has-success\">\n          <input type=\"text\" placeholder=\"Input with Success Icon\" class=\"form-control form-control-success\">\n        </div>\n        <div class=\"form-group has-warning\">\n          <input type=\"text\" placeholder=\"Input with Warning Icon\" class=\"form-control form-control-warning\">\n        </div>\n        <div class=\"form-group has-danger\">\n          <input type=\"text\" placeholder=\"Input with Danger Icon\" class=\"form-control form-control-danger\">\n        </div>\n      </nb-card-body>\n    </nb-card>\n\n    <nb-card>\n      <nb-card-header>Checkboxes & Radios</nb-card-header>\n      <nb-card-body>\n        <div class=\"row demo-checkboxes-radio\">\n          <div class=\"demo-checkboxes col-sm-4\">\n            <nb-checkbox>Checkbox 1</nb-checkbox>\n            <nb-checkbox [value]=\"true\">Checkbox 2</nb-checkbox>\n            <label class=\"custom-control custom-checkbox\">\n              <input type=\"checkbox\" class=\"custom-control-input\">\n              <span class=\"custom-control-indicator\"></span>\n              <span class=\"custom-control-description\">Bootstrap Checkbox</span>\n            </label>\n          </div>\n          <div class=\"demo-radio col-sm-4\">\n            <label class=\"custom-control custom-radio\">\n              <input type=\"radio\" class=\"custom-control-input\" name=\"customRadio\">\n              <span class=\"custom-control-indicator\"></span>\n              <span class=\"custom-control-description\">Radio 1</span>\n            </label>\n            <label class=\"custom-control custom-radio\">\n              <input type=\"radio\" class=\"custom-control-input\" name=\"customRadio\" checked>\n              <span class=\"custom-control-indicator\"></span>\n              <span class=\"custom-control-description\">Radio 2</span>\n            </label>\n            <label class=\"custom-control custom-radio\">\n              <input type=\"radio\" class=\"custom-control-input\" name=\"customRadio\">\n              <span class=\"custom-control-indicator\"></span>\n              <span class=\"custom-control-description\">Radio 3</span>\n            </label>\n          </div>\n          <div class=\"demo-disabled-checkbox-radio col-sm-4\">\n            <nb-checkbox disabled>Disabled Checkbox</nb-checkbox>\n            <label class=\"custom-control custom-radio\">\n              <input type=\"radio\" class=\"custom-control-input\" disabled>\n              <span class=\"custom-control-indicator\"></span>\n              <span class=\"custom-control-description\">Disabled Radio</span>\n            </label>\n          </div>\n        </div>\n      </nb-card-body>\n    </nb-card>\n\n    <nb-card>\n      <nb-card-body class=\"demo-rating\">\n        <span class=\"rating-header\">Rating</span>\n        <div>\n          <ngb-rating [(rate)]=\"starRate\" max=5>\n            <ng-template let-fill=\"fill\">\n              <span class=\"star fill\" [class.filled]=\"fill === 100\">\n                <i class=\"ion-android-star\" *ngIf=\"fill === 100\"></i>\n                <i class=\"ion-android-star-outline\" *ngIf=\"fill !== 100\"></i>\n              </span>\n            </ng-template>\n          </ngb-rating>\n          <span class=\"current-rate\">{{ starRate }}</span>\n        </div>\n        <div>\n          <ngb-rating [(rate)]=\"heartRate\" max=5>\n            <ng-template let-fill=\"fill\">\n              <span class=\"star fill\" [class.filled]=\"fill === 100\">\n                <i class=\"ion-ios-heart\" *ngIf=\"fill === 100\"></i>\n                <i class=\"ion-ios-heart-outline\" *ngIf=\"fill !== 100\"></i>\n              </span>\n            </ng-template>\n          </ngb-rating>\n          <span class=\"current-rate\">{{ heartRate }}</span>\n        </div>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 2374:
+/***/ 2384:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <nb-card class=\"inline-form-card\">\n      <nb-card-header>Inline form</nb-card-header>\n      <nb-card-body>\n        <form class=\"form-inline\">\n          <input type=\"text\" class=\"form-control full-width\" placeholder=\"Jane Doe\">\n          <div class=\"input-group full-width\">\n            <div class=\"input-group-addon\">@</div>\n            <input type=\"text\" class=\"form-control\" placeholder=\"Email\">\n          </div>\n          <nb-checkbox>Remember me</nb-checkbox>\n          <button type=\"submit\" class=\"btn btn-primary\">Submit</button>\n        </form>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>Using the Grid</nb-card-header>\n      <nb-card-body>\n        <form>\n          <div class=\"form-group row\">\n            <label for=\"inputEmail1\" class=\"col-sm-3 col-form-label\">Email</label>\n            <div class=\"col-sm-9\">\n              <input type=\"email\" class=\"form-control\" id=\"inputEmail1\" placeholder=\"Email\">\n            </div>\n          </div>\n          <div class=\"form-group row\">\n            <label for=\"inputPassword2\" class=\"col-sm-3 col-form-label\">Password</label>\n            <div class=\"col-sm-9\">\n              <input type=\"password\" class=\"form-control\" id=\"inputPassword2\" placeholder=\"Password\">\n            </div>\n          </div>\n          <div class=\"form-group row\">\n            <label class=\"col-sm-3\">Radios</label>\n            <div class=\"col-sm-9\">\n              <div class=\"form-check\">\n                <label class=\"custom-control custom-radio\">\n                  <input type=\"radio\" class=\"custom-control-input\" name=\"gridRadios\" checked>\n                  <span class=\"custom-control-indicator\"></span>\n                  <span class=\"custom-control-description\">Option one is this and that&mdash;be sure to include why it's great</span>\n                </label>\n              </div>\n              <div class=\"form-check\">\n                <label class=\"custom-control custom-radio\">\n                  <input type=\"radio\" class=\"custom-control-input\" name=\"gridRadios\">\n                  <span class=\"custom-control-indicator\"></span>\n                  <span class=\"custom-control-description\">Option two can be something else and selecting it will deselect option one</span>\n                </label>\n              </div>\n              <div class=\"form-check disabled\">\n                <label class=\"custom-control custom-radio\">\n                  <input type=\"radio\" class=\"custom-control-input\" name=\"gridRadios\" disabled>\n                  <span class=\"custom-control-indicator\"></span>\n                  <span class=\"custom-control-description\">Option three is disabled</span>\n                </label>\n              </div>\n            </div>\n          </div>\n          <div class=\"form-group row\">\n            <div class=\"offset-sm-3 col-sm-9\">\n              <button type=\"submit\" class=\"btn btn-primary\">Sign in</button>\n            </div>\n          </div>\n        </form>\n      </nb-card-body>\n    </nb-card>\n\n    <nb-card>\n      <nb-card-header>Form without labels</nb-card-header>\n      <nb-card-body>\n        <form>\n          <div class=\"form-group\">\n            <input type=\"text\" class=\"form-control\" placeholder=\"Recipients\">\n          </div>\n          <div class=\"form-group\">\n            <input type=\"text\" class=\"form-control\" placeholder=\"Subject\">\n          </div>\n          <div class=\"form-group\">\n            <textarea class=\"form-control\" placeholder=\"Message\"></textarea>\n          </div>\n          <button type=\"submit\" class=\"btn btn-success\">Send</button>\n        </form>\n      </nb-card-body>\n    </nb-card>\n  </div>\n\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>Basic form</nb-card-header>\n      <nb-card-body>\n        <form>\n          <div class=\"form-group\">\n            <label for=\"exampleInputEmail1\">Email address</label>\n            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" placeholder=\"Email\">\n          </div>\n          <div class=\"form-group\">\n            <label for=\"exampleInputPassword1\">Password</label>\n            <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\">\n          </div>\n          <div class=\"form-group\">\n            <nb-checkbox>Check me out</nb-checkbox>\n          </div>\n          <button type=\"submit\" class=\"btn btn-danger\">Submit</button>\n        </form>\n      </nb-card-body>\n    </nb-card>\n\n    <nb-card>\n      <nb-card-header>Block form</nb-card-header>\n      <nb-card-body>\n        <div class=\"row\">\n          <div class=\"col-sm-6\">\n            <div class=\"form-group\">\n              <label for=\"inputFirstName\">First Name</label>\n              <input type=\"text\" class=\"form-control\" id=\"inputFirstName\" placeholder=\"First Name\">\n            </div>\n          </div>\n          <div class=\"col-sm-6\">\n            <div class=\"form-group\">\n              <label for=\"inputLastName\">Last Name</label>\n              <input type=\"text\" class=\"form-control\" id=\"inputLastName\" placeholder=\"Last Name\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-sm-6\">\n            <div class=\"form-group\">\n              <label for=\"inputEmail\">Email</label>\n              <input type=\"email\" class=\"form-control\" id=\"inputEmail\" placeholder=\"Email\">\n            </div>\n          </div>\n          <div class=\"col-sm-6\">\n            <div class=\"form-group\">\n              <label for=\"inputWebsite\">Website</label>\n              <input type=\"text\" class=\"form-control\" id=\"inputWebsite\" placeholder=\"Website\">\n            </div>\n          </div>\n        </div>\n        <button type=\"submit\" class=\"btn btn-primary\">Submit</button>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <nb-card>\n      <nb-card-header>Horizontal form</nb-card-header>\n      <nb-card-body>\n        <form class=\"form-horizontal\">\n          <div class=\"form-group row\">\n            <label for=\"inputEmail3\" class=\"col-sm-3 form-control-label\">Email</label>\n            <div class=\"col-sm-9\">\n              <input type=\"email\" class=\"form-control\" id=\"inputEmail3\" placeholder=\"Email\">\n            </div>\n          </div>\n          <div class=\"form-group row\">\n            <label for=\"inputPassword3\" class=\"col-sm-3 form-control-label\">Password</label>\n            <div class=\"col-sm-9\">\n              <input type=\"password\" class=\"form-control\" id=\"inputPassword3\" placeholder=\"Password\">\n            </div>\n          </div>\n          <div class=\"form-group row\">\n            <div class=\"offset-sm-3 col-sm-9\">\n              <div class=\"checkbox\">\n                <nb-checkbox>Remember me</nb-checkbox>\n              </div>\n            </div>\n          </div>\n          <div class=\"form-group row\">\n            <div class=\"offset-sm-3 col-sm-9\">\n              <button type=\"submit\" class=\"btn btn-warning\">Sign in</button>\n            </div>\n          </div>\n        </form>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 2643:
+/***/ 2653:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(2055);
+        var result = __webpack_require__(2065);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -225,11 +225,11 @@ module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <nb-card
 
 /***/ }),
 
-/***/ 2644:
+/***/ 2654:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(2056);
+        var result = __webpack_require__(2066);
 
         if (typeof result === "string") {
             module.exports = result;
