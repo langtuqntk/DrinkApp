@@ -10,6 +10,15 @@ const routes: Routes = [{
   children: [{
     path: 'dashboard',
     component: DashboardComponent,
+  },{
+    path: 'banhang',
+    component: DashboardComponent,
+  },{
+    path: 'nhaphang',
+    component: DashboardComponent,
+  },{
+    path: 'capnhatgia',
+    component: DashboardComponent,
   }, {
     path: 'ui-features',
     loadChildren: './ui-features/ui-features.module#UiFeaturesModule',

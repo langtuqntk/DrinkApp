@@ -9,15 +9,18 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'BÁN HÀNG',
-    group: true,
+    link: '/app/pages/banhang',
+    home: true,
   },
   {
     title: 'NHẬP HÀNG',
-    group: true,
+    link: '/app/pages/nhaphang',
+    home: true,
   },
   {
     title: 'CẬP NHẬT GIÁ BÁN',
-    group: true,
+    link: '/app/pages/capnhatgia',
+    home: true,
   },
   {
     title: 'QUẢN LÝ DANH MỤC',

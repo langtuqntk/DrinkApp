@@ -41,7 +41,7 @@ const PhieuXuatSchema = new mongoose.Schema({
   },
   ID: {
     type: String,
-    required: true
+    default: "default value"
   },
   Thanhtoan: {
     type: Number,
