@@ -7,7 +7,7 @@ import APIError from '../helpers/APIError';
  * PhieuXuatCtiet Schema
  */
 const PhieuXuatCtietSchema = new mongoose.Schema({
-  Sophiexuat: {
+  Sophieuxuat: {
     type: Number,
     required: true
   },
