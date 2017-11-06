@@ -35,17 +35,13 @@ const PhieuXuatSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  Ghichu: {
-    type: String,
-    default: "default value"
-  },
-  ID: {
-    type: String,
-    default: "default value"
-  },
   Thanhtoan: {
     type: Number,
     required: true
+  },
+  Ghichu: {
+    type: String,
+    default: "default value"
   },
   createdAt: {
     type: Date,
