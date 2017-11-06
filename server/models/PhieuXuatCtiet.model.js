@@ -7,14 +7,25 @@ import APIError from '../helpers/APIError';
  * PhieuXuatCtiet Schema
  */
 const PhieuXuatCtietSchema = new mongoose.Schema({
-  username: {
+  Sophiexuat: {
+    type: Number,
+    required: true
+  },
+  Mahang: {
     type: String,
     required: true
   },
-  mobileNumber: {
-    type: String,
-    required: true,
-    match: [/^[1-9][0-9]{9}$/, 'The value of path {PATH} ({VALUE}) is not a valid mobile number.']
+  Soluong: {
+    type: Number,
+    required: true
+  },
+  Dongia: {
+    type: Number,
+    required: true
+  },
+  Tralai: {
+    type: Boolean,
+    required: true
   },
   createdAt: {
     type: Date,
