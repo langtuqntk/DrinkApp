@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BanHangComponent } from './banhang/banhang.component';
+import { HoaDonComponent } from './banhang/hoadon/hoadon.component';
 import { NhapHangComponent } from './nhaphang/nhaphang.component';
 import { CapNhatGiaComponent } from './capnhatgia/capnhatgia.component';
 
@@ -14,7 +16,10 @@ const routes: Routes = [{
     component: DashboardComponent,
   },{
     path: 'banhang',
-    component: DashboardComponent,
+    component: BanHangComponent,
+  },{
+    path: 'hoadon',
+    component: HoaDonComponent,
   },{
     path: 'nhaphang',
     component: NhapHangComponent,
