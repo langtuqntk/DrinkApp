@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { BanHangComponent } from './banhang/banhang.component';
+import { NhapHangComponent } from './nhaphang/nhaphang.component';
+import { CapNhatGiaComponent } from './capnhatgia/capnhatgia.component';
 
 const routes: Routes = [{
   path: '',
@@ -13,13 +14,13 @@ const routes: Routes = [{
     component: DashboardComponent,
   },{
     path: 'banhang',
-    component: BanHangComponent,
+    component: DashboardComponent,
   },{
     path: 'nhaphang',
-    component: DashboardComponent,
+    component: NhapHangComponent,
   },{
     path: 'capnhatgia',
-    component: DashboardComponent,
+    component: CapNhatGiaComponent,
   }, {
     path: 'ui-features',
     loadChildren: './ui-features/ui-features.module#UiFeaturesModule',

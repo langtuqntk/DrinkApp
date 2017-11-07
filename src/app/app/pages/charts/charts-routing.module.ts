@@ -5,6 +5,8 @@ import { ChartsComponent } from './charts.component';
 import { EchartsComponent } from './echarts/echarts.component';
 import { D3Component } from './d3/d3.component';
 import { ChartjsComponent } from './chartjs/chartjs.component';
+import { TKBanHangComponent } from './thongkebanhang/thongkebanhang.component';
+import { TKHangTrongKhoComponent } from './thongkehangtrongkho/thongkehangtrongkho.component';
 
 const routes: Routes = [{
   path: '',
@@ -18,6 +20,12 @@ const routes: Routes = [{
   }, {
     path: 'chartjs',
     component: ChartjsComponent,
+  },{
+    path: 'thongkebanhang',
+    component: TKBanHangComponent,
+  },{
+    path: 'thongkehangtrongkho',
+    component: TKHangTrongKhoComponent,
   }],
 }];
 

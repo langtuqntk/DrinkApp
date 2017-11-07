@@ -1,0 +1,63 @@
+<div class="row">
+  <div class="col-md-6 offset-md-3">
+    <nb-card>
+      <nb-card-header>Phiếu nhập hàng</nb-card-header>
+      <nb-card-body>
+        <form>
+          <div class="form-group row">
+            <label for="inputEmail1" class="col-sm-3 col-form-label">Số phiếu nhập</label>
+            <div class="col-sm-9">
+              <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword2" class="col-sm-3 col-form-label">Ngày nhập</label>
+            <div class="col-sm-9">
+              <form class="form-inline">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input class="form-control" placeholder="yyyy-mm-dd"
+                           name="dp" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker">
+                    <button class="input-group-addon btn btn-primary btn-icon" (click)="d.toggle()" type="button">
+                      <i style="color:#ffffff;" class="ion-calendar"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>              
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3">Mã nhân viên</label>
+            <div class="col-sm-9">
+              <select class="form-control">
+                <option>A</option>
+                <option>B</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3">Hàng</label>
+            <div class="col-sm-9">
+              <select multiple class="form-control">
+                <option>A</option>
+                <option>B</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3">Ghi chú</label>
+            <div class="col-sm-9">
+              <textarea class="form-control" placeholder="Text Area" rows="5"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-sm-3 col-sm-9">
+              <button type="submit" class="btn btn-primary">Nhập hàng</button>
+            </div>
+          </div>
+        </form>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>
+

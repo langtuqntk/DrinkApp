@@ -58,11 +58,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'THỐNG KÊ BÁN HÀNG',
-        link: '/app/pages/tables/smart-table',
+        link: '/app/pages/charts/thongkebanhang',
       },
       {
         title: 'THỐNG KÊ HÀNG TRONG KHO',
-        link: '/app/pages/tables/smart-table',
+        link: '/app/pages/charts/thongkehangtrongkho',
       },
     ],
   },

@@ -23,10 +23,6 @@ const PhieuNhapSchema = new mongoose.Schema({
     type: String,
     default: "default value"
   },
-  ID: {
-    type: String,
-    default: "Mã phiếu"
-  },
   createdAt: {
     type: Date,
     default: Date.now

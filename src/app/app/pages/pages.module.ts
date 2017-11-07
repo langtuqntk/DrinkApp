@@ -5,11 +5,13 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ThemeModule } from '../@theme/theme.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { BanHangComponent } from './banhang/banhang.component';
+import { NhapHangComponent } from './nhaphang/nhaphang.component';
+import { CapNhatGiaComponent } from './capnhatgia/capnhatgia.component';
 
 const PAGES_COMPONENTS = [
   PagesComponent,
-  BanHangComponent,
+  NhapHangComponent,
+  CapNhatGiaComponent,
 ];
 
 @NgModule({
