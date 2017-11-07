@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BanHangComponent } from './banhang/banhang.component';
 
 const routes: Routes = [{
   path: '',
@@ -12,7 +13,7 @@ const routes: Routes = [{
     component: DashboardComponent,
   },{
     path: 'banhang',
-    component: DashboardComponent,
+    component: BanHangComponent,
   },{
     path: 'nhaphang',
     component: DashboardComponent,
