@@ -1,4 +1,5 @@
 import PhieuXuat from '../models/PhieuXuat.model';
+import PhieuXuatCtiet from '../models/PhieuXuatCtiet.model';
 
 /**
  * Load PhieuXuat and append to req.
@@ -32,9 +33,9 @@ function create(req, res, next) {
     Ngayxuat: req.body.Ngayxuat,
     MaNV: req.body.MaNV,
     LoaiKH: req.body.LoaiKH,
-    MaBan: req.body.MaBan,
-    Tientra: req.body.Tientra,
-    Tiendu: req.body.Tiendu,
+    Maban: req.body.Maban,
+    TienTra: req.body.TienTra,
+    TienDu: req.body.TienDu,
     Thanhtoan: req.body.Thanhtoan,
     Ghichu: req.body.Ghichu
   });
@@ -42,6 +43,23 @@ function create(req, res, next) {
   phieuXuat.save()
     .then(savedPhieuXuat => res.json(savedPhieuXuat))
     .catch(e => next(e));
+}
+
+function createDetail(req, res, next) {
+  console.log(req.body.hangs);
+  for(let item of req.body.hangs){
+    const phieuXuatCtiet = new PhieuXuatCtiet({
+    Sophieuxuat: item.Sophieuxuat,
+    Mahang: item.Mahang,
+    Soluong: item.Soluong,
+    Dongia: item.Dongia,
+    Tralai: item.Tralai
+    });
+
+    phieuXuatCtiet.save()
+      .then(() => res.json(req.body.hangs))
+      .catch(e => next(e));
+  }
 }
 
 /**
@@ -91,4 +109,4 @@ function remove(req, res, next) {
     .catch(e => next(e));
 }
 
-export default { load, get, create, update, list, remove };
+export default { load, get, create, createDetail, update, list, remove };

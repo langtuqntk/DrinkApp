@@ -7,7 +7,7 @@
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Số phiếu xuất</label>
             <div class="col-sm-8">
-              <input type="text" class="form-control" id="inputEmail1" placeholder="Số phiếu xuất">
+              <input type="text" [(ngModel)]="Sophieuxuat" name="sophieuxuat" class="form-control" id="inputEmail1" disabled>
             </div>
           </div>
           <div class="form-group row">
@@ -16,7 +16,7 @@
               <div class="form-group">
                   <div class="input-group">
                     <input class="form-control" placeholder="yyyy-mm-dd"
-                          name="dp" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker">
+                          name="ngayxuat" [(ngModel)]="Ngayxuat" ngbDatepicker #d="ngbDatepicker">
                     <button class="btn btn-primary btn-icon" (click)="d.toggle()" type="button">
                       <i class="ion-calendar"></i>
                     </button>
@@ -27,7 +27,7 @@
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Nhân viên</label>
             <div class="col-sm-8">
-              <select class="form-control">
+              <select [(ngModel)]="MaNV" name="manv" class="form-control">
                 <option>Minsk</option>
                 <option>Gomel</option>
               </select>
@@ -36,7 +36,7 @@
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Khách hàng</label>
             <div class="col-sm-8">
-              <select class="form-control">
+              <select [(ngModel)]="LoaiKH" name="loaikh" class="form-control">
                 <option>Minsk</option>
                 <option>Gomel</option>
               </select>
@@ -45,7 +45,7 @@
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Bàn</label>
             <div class="col-sm-8">
-              <select class="form-control">
+              <select [(ngModel)]="Maban" name="Maban" class="form-control">
                 <option>Minsk</option>
                 <option>Gomel</option>
               </select>
@@ -69,24 +69,24 @@
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Tiền trả</label>
             <div class="col-sm-8">
-              <input type="number" class="form-control" id="inputEmail1" placeholder="Tiền trả">
+              <input type="number" (change)="nhapTien()" [(ngModel)]="TienTra" name="TienTra" class="form-control" id="inputEmail1" placeholder="Tiền trả">
             </div>
           </div>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Tiền dư</label>
             <div class="col-sm-8">
-              <input type="number" class="form-control" id="inputEmail1" placeholder="Tiền dư">
+              <input type="number" [(ngModel)]="TienDu" name="TienDu" class="form-control" id="inputEmail1" disabled>
             </div>
           </div>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Thanh toán</label>
             <div class="col-sm-8">
-              <input type="text" class="form-control" id="inputEmail1" placeholder="Tổng tiền..." value="500.000 VNĐ" disabled>
+              <input type="text" [(ngModel)]="Thanhtoan" name="thanhtoan" class="form-control" id="inputEmail1" disabled>
             </div>
           </div>
           <div class="form-group row">
             <div class="offset-sm-3 col-sm-9">
-              <button class="btn btn-primary" (click)="xuatPhieu()">Xuất phiếu</button>
+              <button class="btn btn-primary" [disabled]="!isReady" (click)="xuatPhieu()">Xuất phiếu</button>
             </div>
           </div>
         </form>

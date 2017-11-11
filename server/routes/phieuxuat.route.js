@@ -11,6 +11,11 @@ router.route('/')
 
   /** POST /api/users - Create new user */
   .post(phieuXuatCtrl.create);
+  
+router.route('/detail')
+  /** POST /api/users - Create new user */
+  .post(phieuXuatCtrl.createDetail);
+
 
 router.route('/:phieuXuatId')
   /** GET /api/users/:userId - Get user */

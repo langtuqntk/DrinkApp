@@ -4,9 +4,18 @@ export class PhieuXuat {
     Ngayxuat: Date;
     MaNV: string;
     LoaiKH: string;
-    MaBan: string;
-    Tientra: number;
-    Tiendu: number;
+    Maban: string;
+    TienTra: number;
+    TienDu: number;
     Thanhtoan: number;
+  }
+  
+export class PhieuXuatCtiet {
+    _id: string;
+    Sophieuxuat: number;
+    Mahang: string;
+    Soluong: number;
+    Dongia: number;
+    Tralai: boolean;
   }
   
