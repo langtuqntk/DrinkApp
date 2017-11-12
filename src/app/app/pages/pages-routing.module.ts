@@ -18,7 +18,7 @@ const routes: Routes = [{
     path: 'banhang',
     component: BanHangComponent,
   },{
-    path: 'hoadon',
+    path: 'hoadon/:sophieuxuat',
     component: HoaDonComponent,
   },{
     path: 'nhaphang',

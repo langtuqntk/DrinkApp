@@ -7,65 +7,71 @@
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-5 col-form-label">Số phiếu xuất:</label>
             <div class="col-sm-7">
-              <b>ABCDE</b>
+              <b>{{phieuxuat.Sophieuxuat}}</b>
             </div>
           </div>
           <div class="form-group row">
             <label for="inputPassword2" class="col-sm-5 col-form-label">Ngày xuất:</label>
             <div class="col-sm-7">
-              <b>11/12/2017</b>
+              <b>{{phieuxuat.Ngayxuat}}</b>
             </div>
           </div>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-5 col-form-label">Nhân viên:</label>
             <div class="col-sm-7">
-              <b>Lê Văn Chương</b>
+              <b>{{phieuxuat.Nhanvien}}</b>
             </div>
           </div>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-5 col-form-label">Khách hàng:</label>
             <div class="col-sm-7">
-              <b>Nguyễn Công Chính</b>
+              <b>{{phieuxuat.Khachhang}}</b>
             </div>
           </div>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-5 col-form-label">Bàn:</label>
             <div class="col-sm-7">
-              <b>5</b>
+              <b>{{phieuxuat.Ban}}</b>
             </div>
           </div>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-5 col-form-label">Hàng</label>
             <div class="col-sm-7">
-              <table border="1">
+              <table class="table table-bordered">
+              <thead>
                 <tr>
-                  <td>Hàng</td>
-                  <td>Giá</td>
+                  <th>Hàng</th>
+                  <th>Đơn giá</th>
+                  <th>Số lượng</th>
                 </tr>
-                <tr>
-                  <td>Cafe</td>
-                  <td>15000 VNĐ</td>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of phieuxuat.Hangs">
+                  <td>{{item.Mahang}}</td>
+                  <td>{{item.Dongia}}</td>
+                  <td>{{item.Soluong}}</td>
                 </tr>
-              </table>
+              </tbody>
+            </table>
             </div>
           </div>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-5 col-form-label">Tiền trả:</label>
             <div class="col-sm-7">
-              <b>15.000 VNĐ</b>
+              <b>{{phieuxuat.Tientra}} VNĐ</b>
             </div>
           </div>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-5 col-form-label">Tiền dư:</label>
             <div class="col-sm-7">
-              <b>5.000 VNĐ</b>
+              <b>{{phieuxuat.Tiendu}} VNĐ</b>
             </div>
           </div>
           <hr>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-5 col-form-label">Thanh toán</label>
             <div class="col-sm-7">
-              <b>10.000 VNĐ</b>
+              <b>{{phieuxuat.Thanhtoan}} VNĐ</b>
             </div>
           </div>
           <div class="form-group row">

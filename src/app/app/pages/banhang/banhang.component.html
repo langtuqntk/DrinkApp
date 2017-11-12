@@ -4,7 +4,7 @@
       <nb-card-header>Thông tin phiếu xuất</nb-card-header>
       <nb-card-body>
         <form>
-          <div class="form-group row">
+          <div style="display:none;" class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Số phiếu xuất</label>
             <div class="col-sm-8">
               <input type="text" [(ngModel)]="Sophieuxuat" name="sophieuxuat" class="form-control" id="inputEmail1" disabled>
@@ -28,8 +28,8 @@
             <label for="inputEmail1" class="col-sm-3 col-form-label">Nhân viên</label>
             <div class="col-sm-8">
               <select [(ngModel)]="MaNV" name="manv" class="form-control">
-                <option>Minsk</option>
-                <option>Gomel</option>
+                <option value="*">Chọn nhân viên</option>
+                <option *ngFor="let item of nhanviens" [ngValue]="item._id">{{item.TenNV}} - {{item.MaNV}}</option>
               </select>
             </div>
           </div>
@@ -37,8 +37,8 @@
             <label for="inputEmail1" class="col-sm-3 col-form-label">Khách hàng</label>
             <div class="col-sm-8">
               <select [(ngModel)]="LoaiKH" name="loaikh" class="form-control">
-                <option>Minsk</option>
-                <option>Gomel</option>
+                <option value="*">Chọn khách hàng</option>
+                <option *ngFor="let item of khachhangs" [ngValue]="item._id">{{item.TenKH}} - {{item.LoaiKH}}</option>
               </select>
             </div>
           </div>
@@ -46,8 +46,8 @@
             <label for="inputEmail1" class="col-sm-3 col-form-label">Bàn</label>
             <div class="col-sm-8">
               <select [(ngModel)]="Maban" name="Maban" class="form-control">
-                <option>Minsk</option>
-                <option>Gomel</option>
+                <option value="*">Chọn bàn</option>
+                <option *ngFor="let item of bans" [ngValue]="item._id">{{item.Tenban}} - {{item.Maban}}</option>
               </select>
             </div>
           </div>

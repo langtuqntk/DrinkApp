@@ -12,10 +12,15 @@ export class PhieuXuat {
   
 export class PhieuXuatCtiet {
     _id: string;
-    Sophieuxuat: number;
+    Sophieuxuat: string;
     Mahang: string;
     Soluong: number;
     Dongia: number;
     Tralai: boolean;
   }
+
+export class HoaDon {
+  phieuxuat: PhieuXuat;
+  phieuXuatCtiets: PhieuXuatCtiet[];
+}
   

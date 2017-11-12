@@ -8,7 +8,7 @@ import APIError from '../helpers/APIError';
  */
 const PhieuXuatCtietSchema = new mongoose.Schema({
   Sophieuxuat: {
-    type: Number,
+    type: String,
     required: true
   },
   Mahang: {
@@ -56,7 +56,7 @@ PhieuXuatCtietSchema.statics = {
    * @returns {Promise<PhieuXuatCtiet, APIError>}
    */
   get(id) {
-    return this.findById(id)
+    return this.find({Sophieuxuat:id})
       .exec()
       .then((phieuxuatctiet) => {
         if (phieuxuatctiet) {

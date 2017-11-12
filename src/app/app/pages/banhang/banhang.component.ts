@@ -1,32 +1,52 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { PhieuXuatService } from '../../@core/data/phieuxuat.service';
+import { NhanVienService } from '../../@core/data/nhanvien.service';
+import { KhachHangService } from '../../@core/data/khachhang.service';
+import { BanService } from '../../@core/data/ban.service';
 import { PhieuXuat, PhieuXuatCtiet } from '../../@core/data/phieuxuat';
 import $ from 'jquery';
 import uuidv1 from  'uuid/v1';
 
 @Component({
   selector: 'ngx-form-layouts',
-  providers: [PhieuXuatService],
+  providers: [PhieuXuatService, NhanVienService, KhachHangService, BanService],
   styleUrls: ['./banhang.component.scss'],
   templateUrl: './banhang.component.html',
 })
 export class BanHangComponent {
-  constructor(private router: Router, private modalService: NgbModal, private service: PhieuXuatService) { }
 
   hangs = [];
+  nhanviens = [];
+  khachhangs = [];
+  bans = [];
   hangSelected = [];
   isReady = false;
 
-  Sophieuxuat: number = Math.floor((Math.random() * 10000) + 1);
-  Ngayxuat: {day:null,month:null,year:null};
+  Sophieuxuat: number = Math.floor((Math.random() * 100000) + 1);
+  Ngayxuat: {day:"",month:"",year:""};
   MaNV: string;
   LoaiKH: string;
   Maban: string;
   TienTra: number = 0;
   TienDu: number = 0;
   Thanhtoan: number = 0;
+
+  constructor(private router: Router, private modalService: NgbModal, private service: PhieuXuatService,
+              private serviceNV: NhanVienService, private serviceKH: KhachHangService,
+              private serviceBan: BanService) { }
+
+  ngOnInit(){
+    this.serviceNV.getNhanViens().then(res => this.nhanviens = res);
+    this.MaNV = "*";
+    this.serviceKH.getKhachHangs().then(res => this.khachhangs = res);
+    this.LoaiKH = "*";
+    this.serviceBan.getBans().then(res => this.bans = res);
+    this.Maban = "*";
+    //let currentDate = new Date();
+    //this.Ngayxuat.day = '1';
+  }
 
   xuatPhieu() {
     let data = new PhieuXuat();
@@ -43,7 +63,7 @@ export class BanHangComponent {
       let listDataCtiet : PhieuXuatCtiet[] = []; 
       for(let i in this.hangs){
         let dataCtiet : PhieuXuatCtiet  = new PhieuXuatCtiet();
-        dataCtiet.Sophieuxuat = phieuxuat.Sophieuxuat;
+        dataCtiet.Sophieuxuat = phieuxuat._id;
         dataCtiet.Mahang = this.hangs[i].hang.split('-')[0];
         dataCtiet.Dongia = this.hangs[i].hang.split('-')[1];
         dataCtiet.Soluong = this.hangs[i].soluong;
@@ -54,7 +74,7 @@ export class BanHangComponent {
       let dataReq = {hangs: listDataCtiet};
       
       this.service.createCtiet(dataReq).then(phieuxuatCtiet => {
-        this.router.navigateByUrl('/app/pages/hoadon');
+        this.router.navigateByUrl('/app/pages/hoadon/' + phieuxuat._id);
       })
     }).catch(error => console.log(error.json().message));
     

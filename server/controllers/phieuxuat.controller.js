@@ -8,6 +8,12 @@ function load(req, res, next, id) {
   PhieuXuat.get(id)
     .then((phieuXuat) => {
       req.PhieuXuat = phieuXuat; // eslint-disable-line no-param-reassign
+    })
+    .catch(e => next(e));
+
+  PhieuXuatCtiet.get(id)
+    .then((phieuXuatCtiet) => {
+      req.PhieuXuatCtiet = phieuXuatCtiet; // eslint-disable-line no-param-reassign
       return next();
     })
     .catch(e => next(e));
@@ -18,7 +24,11 @@ function load(req, res, next, id) {
  * @returns {PhieuXuat}
  */
 function get(req, res) {
-  return res.json(req.PhieuXuat);
+  let resData = {
+    phieuxuat: req.PhieuXuat,
+    phieuXuatCtiets: req.PhieuXuatCtiet
+  }
+  return res.json(resData);
 }
 
 /**

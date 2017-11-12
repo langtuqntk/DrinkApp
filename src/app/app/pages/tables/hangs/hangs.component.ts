@@ -32,10 +32,6 @@ export class HangsComponent {
       confirmDelete: true,
     },
     columns: {
-      _id: {
-        title: 'ID',
-        type: 'string',
-      },
       Mahang: {
         title: 'Mã hàng',
         type: 'string',
@@ -43,6 +39,14 @@ export class HangsComponent {
       Tenhang: {
         title: 'Tên hàng',
         type: 'string',
+      },
+      LoaiKH: {
+        title: 'Loại khách',
+        type: 'string',
+      },
+      Giahang: {
+        title: 'Giá hàng',
+        type: 'number',
       },
       Ghichu: {
         title: 'Ghi chú',

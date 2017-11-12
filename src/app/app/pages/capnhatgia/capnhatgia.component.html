@@ -7,30 +7,30 @@
           <div class="form-group row">
             <label class="col-sm-3">Hàng</label>
             <div class="col-sm-9">
-              <select class="form-control">
-                <option>A</option>
-                <option>B</option>
+              <select [(ngModel)]="Mahang" class="form-control">
+                <option value="*">Chọn mặt hàng</option>
+                <option *ngFor="let item of hangs" [ngValue]="item._id">{{item.Tenhang}} - {{item.Mahang}}</option>
               </select>
             </div>
           </div>
           <div class="form-group row">
             <label class="col-sm-3">Loại khách hàng</label>
             <div class="col-sm-9">
-              <select class="form-control">
-                <option>A</option>
-                <option>B</option>
+              <select [(ngModel)]="LoaiKH" class="form-control">
+                <option value="*">Chọn khách hàng</option>
+                <option *ngFor="let item of khachhangs" [ngValue]="item._id">{{item.TenKH}} - {{item.LoaiKH}}</option>
               </select>
             </div>
           </div>
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Giá bán</label>
             <div class="col-sm-9">
-              <input type="number" class="form-control" id="inputEmail1" placeholder="Giá bán...">
+              <input type="number" [(ngModel)]="Giahang" name="giahang" class="form-control" id="inputEmail1" placeholder="Giá bán...">
             </div>
           </div>
           <div class="form-group row">
             <div class="offset-sm-3 col-sm-9">
-              <button type="submit" class="btn btn-primary">Cập nhật</button>
+              <button [disabled]="isReady" type="submit" class="btn btn-primary">Cập nhật</button>
             </div>
           </div>
         </form>
