@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { LocalDataSource } from 'ng2-smart-table';
+import $ from 'jquery';
 
 import { HangService } from '../../../@core/data/hang.service';
+import { Hang } from '../../../@core/data/hang';
 import { DropdownComponent } from './dropdown/dropdown.component';
 
 @Component({
@@ -42,7 +44,7 @@ export class HangsComponent {
         type: 'string',
       },
       LoaiKH: {
-        title: 'Loại khách',
+        title: 'Khách hàng',
         type: 'html',
         editor: {
           type: 'custom',
@@ -77,8 +79,13 @@ export class HangsComponent {
     }
   }
   onCreate(event): void{
-    console.log(event);
-    this.service.create(event.newData).then(hang => { console.log(hang); 
+    let data: Hang = new Hang();
+    data.Ghichu = event.newData.Ghichu;
+    data.Giahang = event.newData.Giahang;
+    data.LoaiKH = $('#LoaiKH').val();
+    data.Mahang = event.newData.Mahang;
+    data.Tenhang = event.newData.Tenhang;
+    this.service.create(data).then(hang => { 
       event.confirm.resolve();
     }).catch(error => console.log(error.json().message));
   }

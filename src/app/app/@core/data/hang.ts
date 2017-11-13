@@ -3,5 +3,7 @@ export class Hang {
     Mahang: string;
     Tenhang: string;
     Ghichu: string;
+    Giahang: number;
+    LoaiKH: string;
   }
   

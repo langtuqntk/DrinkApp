@@ -59,6 +59,18 @@ GiaHangSchema.statics = {
       });
   },
 
+  getByMahang(id) {
+    return this.findOne({Mahang: id})
+      .exec()
+      .then((giahang) => {
+        if (giahang) {
+          return giahang;
+        }
+        const err = new APIError('No such giahang exists!', httpStatus.NOT_FOUND);
+        return Promise.reject(err);
+      });
+  },
+
   /**
    * List users in descending order of 'createdAt' timestamp.
    * @param {number} skip - Number of users to be skipped.

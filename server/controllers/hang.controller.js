@@ -1,4 +1,6 @@
 import Hang from '../models/Hang.model';
+import GiaHang from '../models/GiaHang.model';
+import KhachHang from '../models/KhachHang.model';
 
 /**
  * Load Hang and append to req.
@@ -34,7 +36,15 @@ function create(req, res, next) {
   });
 
   hang.save()
-    .then(savedHang => res.json(savedHang))
+    .then(savedHang => {
+      const giahang = new GiaHang({
+        Mahang: savedHang._id,
+        LoaiKH: req.body.LoaiKH,
+        Giaban: req.body.Giahang,
+      });
+      giahang.save();
+      res.json(savedHang);
+    })
     .catch(e => next(e));
 }
 
@@ -64,7 +74,32 @@ function update(req, res, next) {
 function list(req, res, next) {
   const { limit = 50, skip = 0 } = req.query;
   Hang.list({ limit, skip })
-    .then(Hangs => res.json(Hangs))
+    .then(hangs => {
+      let resData = [];
+      for(let i in hangs){
+        let obj = {
+          _id: hangs[i]._id, 
+          Mahang: hangs[i].Mahang, 
+          Tenhang: hangs[i].Tenhang, 
+          createdAt: hangs[i].createdAt, 
+          Ghichu: hangs[i].Ghichu,
+        };
+        GiaHang.getByMahang(hangs[i]._id).then((giahang) => {
+          obj.Giahang = giahang.Giaban;
+          KhachHang.get(giahang.LoaiKH).then(khachhang => {
+            obj.LoaiKH = khachhang.TenKH + ' - ' + khachhang.LoaiKH;
+            resData.push(obj);
+            console.log(i);
+            if(i == hangs.length - 1){
+              console.log(i);
+              console.log(hangs.length);
+              console.log(resData)
+              res.json(resData);
+            }
+          });
+        });   
+      }      
+    })
     .catch(e => next(e));
 }
 
