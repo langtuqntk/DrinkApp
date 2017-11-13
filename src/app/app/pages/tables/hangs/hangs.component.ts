@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { LocalDataSource } from 'ng2-smart-table';
 
 import { HangService } from '../../../@core/data/hang.service';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 @Component({
   selector: 'ngx-smart-table',
@@ -42,7 +43,11 @@ export class HangsComponent {
       },
       LoaiKH: {
         title: 'Loại khách',
-        type: 'string',
+        type: 'html',
+        editor: {
+          type: 'custom',
+          component: DropdownComponent,
+        },
       },
       Giahang: {
         title: 'Giá hàng',
@@ -84,3 +89,4 @@ export class HangsComponent {
     this.service.update(event.newData).then(hang => console.log(hang));
   }
 }
+

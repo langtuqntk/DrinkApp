@@ -8,6 +8,7 @@ import { BanService } from '../../@core/data/ban.service'
 import { HangService } from '../../@core/data/hang.service'
 import { KhachHangService } from '../../@core/data/khachhang.service'
 import { NhanVienService } from '../../@core/data/nhanvien.service'
+import { DropdownComponent } from './hangs/dropdown/dropdown.component';
  
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { NhanVienService } from '../../@core/data/nhanvien.service'
   ],
   declarations: [
     ...routedComponents,
+    DropdownComponent,
   ],
   providers: [
     SmartTableService,
@@ -25,5 +27,6 @@ import { NhanVienService } from '../../@core/data/nhanvien.service'
     KhachHangService,
     NhanVienService
   ],
+  entryComponents: [ DropdownComponent ]
 })
 export class TablesModule { }
