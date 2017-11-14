@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { LocalDataSource } from 'ng2-smart-table';
 import $ from 'jquery';
 
@@ -35,6 +35,10 @@ export class HangsComponent {
       confirmDelete: true,
     },
     columns: {
+      _id: {
+        title: "ID",
+        type: 'string',
+      },
       Mahang: {
         title: 'Mã hàng',
         type: 'string',
@@ -69,6 +73,8 @@ export class HangsComponent {
     
   }
 
+  ngOnInit(){}
+
   onDeleteConfirm(event): void {
     if (window.confirm('Are you sure you want to delete?')) {
       event.confirm.resolve();
@@ -85,8 +91,9 @@ export class HangsComponent {
     data.LoaiKH = $('#LoaiKH').val();
     data.Mahang = event.newData.Mahang;
     data.Tenhang = event.newData.Tenhang;
-    this.service.create(data).then(hang => { 
-      event.confirm.resolve();
+    this.service.create(data).then(hang => {
+      event.newData._id = hang._id;
+      event.confirm.resolve(event.newData);
     }).catch(error => console.log(error.json().message));
   }
 

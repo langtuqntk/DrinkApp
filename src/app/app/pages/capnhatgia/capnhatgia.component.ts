@@ -16,6 +16,7 @@ export class CapNhatGiaComponent {
 
   Mahang: string;
   LoaiKH: string;
+  Giahang: number;
 
   constructor(private serviceKH: KhachHangService, private serviceHang: HangService) { }
 
@@ -24,5 +25,19 @@ export class CapNhatGiaComponent {
     this.Mahang = "*";
     this.serviceKH.getKhachHangs().then(res => this.khachhangs = res);
     this.LoaiKH = "*";
+  }
+
+  hangChange(mahang){
+    this.Mahang = mahang;
+    if(this.LoaiKH !== "*" && this.Mahang !== "*"){
+      this.serviceHang.getGiaHang(this.Mahang, this.LoaiKH);
+    }
+  }
+
+  khachChange(loaikh){
+    this.LoaiKH = loaikh;
+    if(this.Mahang !== "*" && this.LoaiKH !== "*"){
+      this.Giahang = 5000;
+    }
   }
 }

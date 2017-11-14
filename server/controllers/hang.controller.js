@@ -8,8 +8,11 @@ import KhachHang from '../models/KhachHang.model';
 function load(req, res, next, id) {
   Hang.get(id)
     .then((hang) => {
-      req.Hang = Hang; // eslint-disable-line no-param-reassign
-      return next();
+      req.Hang = hang; // eslint-disable-line no-param-reassign
+      GiaHang.getByMahang(hang._id).then((giahang) => {
+        req.GiaHang = giahang;
+        return next();
+      });
     })
     .catch(e => next(e));
 }
@@ -61,7 +64,13 @@ function update(req, res, next) {
   hang.Ghichu = req.body.Ghichu
 
   hang.save()
-    .then(savedHang => res.json(savedHang))
+    .then(savedHang => {
+      const giahang = req.GiaHang;
+      giahang.LoaiKH = req.body.LoaiKH;
+      giahang.Giaban = req.body.Giahang;
+      giahang.save();
+      res.json(savedHang);
+    })
     .catch(e => next(e));
 }
 
@@ -110,7 +119,11 @@ function list(req, res, next) {
 function remove(req, res, next) {
   const hang = req.Hang;
   hang.remove()
-    .then(deletedHang => res.json(deletedHang))
+    .then(deletedHang => {
+      const giahang = req.GiaHang;
+      giahang.remove();
+      res.json(deletedHang);
+    })
     .catch(e => next(e));
 }
 

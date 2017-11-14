@@ -22,7 +22,12 @@ router.route('/:giaHangId')
   /** DELETE /api/users/:userId - Delete user */
   .delete(giaHangCtrl.remove);
 
+// router.route('/:mahang/:loaikh')
+//   /** GET /api/users/:userId - Get user */
+//   .get(giaHangCtrl.getGiaHang);
+
 /** Load user when API with userId route parameter is hit */
 router.param('giaHangId', giaHangCtrl.load);
+
 
 export default router;

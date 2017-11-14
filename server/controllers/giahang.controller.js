@@ -4,12 +4,19 @@ import GiaHang from '../models/GiaHang.model';
  * Load GiaHang and append to req.
  */
 function load(req, res, next, id) {
+  console.log(id)
   GiaHang.get(id)
     .then((giaHang) => {
       req.GiaHang = giaHang; // eslint-disable-line no-param-reassign
       return next();
     })
     .catch(e => next(e));
+}
+
+//currentUse
+function getGiaHang(req, res) {
+  console.log(req.params);
+  //return res.json(req.GiaHang);
 }
 
 /**

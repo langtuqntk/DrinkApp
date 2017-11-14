@@ -7,7 +7,7 @@
           <div class="form-group row">
             <label class="col-sm-3">Hàng</label>
             <div class="col-sm-9">
-              <select [(ngModel)]="Mahang" class="form-control">
+              <select [(ngModel)]="Mahang" name="mahang" (change)="hangChange($event.target.value)" class="form-control">
                 <option value="*">Chọn mặt hàng</option>
                 <option *ngFor="let item of hangs" [ngValue]="item._id">{{item.Tenhang}} - {{item.Mahang}}</option>
               </select>
@@ -16,7 +16,7 @@
           <div class="form-group row">
             <label class="col-sm-3">Loại khách hàng</label>
             <div class="col-sm-9">
-              <select [(ngModel)]="LoaiKH" class="form-control">
+              <select [(ngModel)]="LoaiKH" name="loaiKH" (change)="khachChange($event.target.value)" class="form-control">
                 <option value="*">Chọn khách hàng</option>
                 <option *ngFor="let item of khachhangs" [ngValue]="item._id">{{item.TenKH}} - {{item.LoaiKH}}</option>
               </select>

@@ -8,6 +8,7 @@ import authRoutes from './auth.route';
 import postRoutes from './post.route';
 import phieuxuatRoutes from './phieuxuat.route';
 import phieuxuatctietRoutes from './phieuxuatctiet.route';
+import giahangRoutes from './giahang.route';
 
 const router = express.Router(); // eslint-disable-line new-cap
 
@@ -24,6 +25,7 @@ router.use('/hangs', hangRoutes);
 router.use('/bans', banRoutes);
 router.use('/phieuxuats', phieuxuatRoutes);
 router.use('/phieuxuatctiets', phieuxuatctietRoutes);
+router.use('/giahangs', giahangRoutes);
 
 // mount auth routes at /auth
 router.use('/auth', authRoutes);

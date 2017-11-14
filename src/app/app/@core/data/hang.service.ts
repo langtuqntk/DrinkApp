@@ -28,6 +28,14 @@ export class HangService {
       .catch(this.handleError);
   }
 
+  getGiaHang(mahang: string, loaikh:string): Promise<Hang> {
+    const url = `${this.HangsUrl}/${mahang}/${loaikh}`;
+    return this.http.get(url)
+      .toPromise()
+      .then(response => response.json() as Hang)
+      .catch(this.handleError);
+  }
+
   delete(id: string): Promise<void> {
     const url = `${this.HangsUrl}/${id}`;
     return this.http.delete(url, {headers: this.headers})
