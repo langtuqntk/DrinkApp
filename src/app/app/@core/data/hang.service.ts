@@ -10,6 +10,7 @@ export class HangService {
 
   private headers = new Headers({'Content-Type': 'application/json'});
   private HangsUrl = `api/hangs`;
+  private GiaHangUrl = `api/giahangs`;
   
   constructor(private http: Http) { }
 
@@ -29,7 +30,7 @@ export class HangService {
   }
 
   getGiaHang(mahang: string, loaikh:string): Promise<Hang> {
-    const url = `${this.HangsUrl}/${mahang}/${loaikh}`;
+    const url = `${this.GiaHangUrl}/${mahang}/${loaikh}`;
     return this.http.get(url)
       .toPromise()
       .then(response => response.json() as Hang)
@@ -50,6 +51,15 @@ export class HangService {
       .put(url, JSON.stringify(hang), {headers: this.headers})
       .toPromise()
       .then(() => hang)
+      .catch(this.handleError);
+  }
+
+  updateGiaHang(giahang: Hang): Promise<Hang> {
+    const url = `${this.GiaHangUrl}/${giahang._id}`;
+    return this.http
+      .put(url, JSON.stringify(giahang), {headers: this.headers})
+      .toPromise()
+      .then(() => giahang)
       .catch(this.handleError);
   }
 

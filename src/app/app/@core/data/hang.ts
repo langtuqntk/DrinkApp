@@ -4,6 +4,7 @@ export class Hang {
     Tenhang: string;
     Ghichu: string;
     Giahang: number;
+    Giaban: number;
     LoaiKH: string;
   }
   

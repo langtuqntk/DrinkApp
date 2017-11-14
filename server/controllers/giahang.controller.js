@@ -1,4 +1,6 @@
 import GiaHang from '../models/GiaHang.model';
+import APIError from '../helpers/APIError';
+import httpStatus from 'http-status';
 
 /**
  * Load GiaHang and append to req.
@@ -15,8 +17,17 @@ function load(req, res, next, id) {
 
 //currentUse
 function getGiaHang(req, res) {
-  console.log(req.params);
-  //return res.json(req.GiaHang);
+  GiaHang.findOne({Mahang: req.params.mahang, LoaiKH: req.params.loaikh})
+         .select('Giaban')
+         .exec()
+         .then((giahang) => {
+           console.log(giahang);
+            if (giahang) {
+              return res.json(giahang);
+            }
+            const err = new APIError('No such giahang exists!', httpStatus.NOT_FOUND);
+            return res.json(err);
+          });
 }
 
 /**
@@ -86,4 +97,4 @@ function remove(req, res, next) {
     .catch(e => next(e));
 }
 
-export default { load, get, create, update, list, remove };
+export default { load, get, create, update, list, remove, getGiaHang };
