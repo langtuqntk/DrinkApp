@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ToasterService, ToasterConfig, Toast, BodyOutputType } from 'angular2-toaster';
+import 'style-loader!angular2-toaster/toaster.css';
 import { KhachHangService } from '../../@core/data/khachhang.service';
 import { HangService } from '../../@core/data/hang.service';
 import { Hang } from '../../@core/data/hang';
@@ -21,7 +23,19 @@ export class CapNhatGiaComponent {
   LoaiKH: string;
   Giahang: number;
 
-  constructor(private serviceKH: KhachHangService, private serviceHang: HangService) { }
+  config: ToasterConfig;
+
+  position: string = 'toast-top-right';
+  animationType: string = 'fade';
+  title: string = 'Thông báo!';
+  content: string = `Cập nhật thành công.`;
+  timeout: number = 5000;
+  toastsLimit: number = 5;
+  type: string = 'info';
+
+
+  constructor(private serviceKH: KhachHangService, private serviceHang: HangService
+            ,private toasterService: ToasterService) { }
 
   ngOnInit(){
     this.serviceHang.getHangs().then(res => this.hangs = res);
@@ -69,7 +83,29 @@ export class CapNhatGiaComponent {
     giahang.Mahang = this.Mahang;
     giahang.LoaiKH = this.LoaiKH;
     giahang.Giaban = this.Giahang;
-    this.serviceHang.updateGiaHang(giahang).then(res => console.log(res))
+    this.serviceHang.updateGiaHang(giahang).then(res => this.showToast(this.type,this.title,this.content))
     .catch(error => console.log(error.json().message));
+  }
+
+
+  private showToast(type: string, title: string, body: string) {
+    this.config = new ToasterConfig({
+      positionClass: this.position,
+      timeout: this.timeout,
+      newestOnTop: true,
+      tapToDismiss: true,
+      preventDuplicates: false,
+      animation: this.animationType,
+      limit: this.toastsLimit,
+    });
+    const toast: Toast = {
+      type: type,
+      title: title,
+      body: body,
+      timeout: this.timeout,
+      showCloseButton: true,
+      bodyOutputType: BodyOutputType.TrustedHtml,
+    };
+    this.toasterService.popAsync(toast);
   }
 }

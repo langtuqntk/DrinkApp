@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import {ToasterModule, ToasterService} from 'angular2-toaster/angular2-toaster';
 
 import { PagesComponent } from './pages.component';
 import { DashboardModule } from './dashboard/dashboard.module';
@@ -25,10 +26,12 @@ const PAGES_COMPONENTS = [
     ThemeModule,
     DashboardModule,
     NgbModule,
+    ToasterModule,
   ],
   declarations: [
     ...PAGES_COMPONENTS,
   ],
+  providers: [ToasterService],
 })
 export class PagesModule {
 }
