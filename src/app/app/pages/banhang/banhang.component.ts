@@ -5,7 +5,7 @@ import { PhieuXuatService } from '../../@core/data/phieuxuat.service';
 import { NhanVienService } from '../../@core/data/nhanvien.service';
 import { KhachHangService } from '../../@core/data/khachhang.service';
 import { BanService } from '../../@core/data/ban.service';
-import { PhieuXuat, PhieuXuatCtiet } from '../../@core/data/phieuxuat';
+import { PhieuXuat, PhieuXuatCtiet } from '../../@core/data/phieu';
 import $ from 'jquery';
 import uuidv1 from  'uuid/v1';
 

@@ -1,4 +1,4 @@
-import PhieuNhapCtietCtiet from '../models/PhieuNhapCtietCtiet.model';
+import PhieuNhapCtiet from '../models/PhieuNhapCtiet.model';
 
 /**
  * Load PhieuNhapCtiet and append to req.

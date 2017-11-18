@@ -4,10 +4,10 @@
       <nb-card-header>Phiếu nhập hàng</nb-card-header>
       <nb-card-body>
         <form>
-          <div class="form-group row">
+          <div style="display:none;" class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Số phiếu nhập</label>
             <div class="col-sm-9">
-              <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+              <input type="text" class="form-control" [(ngModel)]="Sophieunhap" name="sophieunhap" id="inputEmail1" placeholder="Số phiếu nhập">
             </div>
           </div>
           <div class="form-group row">
@@ -17,7 +17,7 @@
                 <div class="form-group">
                   <div class="input-group">
                     <input class="form-control" placeholder="yyyy-mm-dd"
-                           name="dp" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker">
+                           name="dp" [(ngModel)]="Ngaynhap" ngbDatepicker #d="ngbDatepicker">
                     <button class="input-group-addon btn btn-primary btn-icon" (click)="d.toggle()" type="button">
                       <i style="color:#ffffff;" class="ion-calendar"></i>
                     </button>
@@ -29,30 +29,33 @@
           <div class="form-group row">
             <label class="col-sm-3">Mã nhân viên</label>
             <div class="col-sm-9">
-              <select class="form-control">
-                <option>A</option>
-                <option>B</option>
+              <select [(ngModel)]="MaNV" name="manv" class="form-control">
+                <option value="*">Chọn nhân viên</option>
+                <option *ngFor="let item of listNhanViens" [ngValue]="item._id">{{item.TenNV}} - {{item.MaNV}}</option>
               </select>
             </div>
           </div>
           <div class="form-group row">
             <label class="col-sm-3">Hàng</label>
             <div class="col-sm-9">
-              <button (click)="nhapHang()" class="btn btn-info"><i class="ion-plus-round"></i></button>
-              <select multiple class="form-control">
-                <option *ngFor="let i of hangs">{{i}}</option>
+              <select (change)="chonHang($event)" [(ngModel)]="Mahang" name="mahang" class="form-control">
+                    <option value="*">Chọn mặt hàng</option>
+                    <option *ngFor="let item of listHangs" value="{{item._id}}-{{item.Giahang}}">{{item.Tenhang}} - {{item.Giahang}} VNĐ</option>
+              </select>
+              <select multiple class="form-control" (keyup.delete)="xoaHang($event)">
+                    <option *ngFor="let i of hangs" value="{{i.hang + '-' + i.soluong}}">{{i.text}}</option>
               </select>
             </div>
           </div>
           <div class="form-group row">
             <label class="col-sm-3">Ghi chú</label>
             <div class="col-sm-9">
-              <textarea class="form-control" placeholder="Text Area" rows="5"></textarea>
+              <textarea class="form-control" [(ngModel)]="Ghichu" name="ghichu" placeholder="Ghi chú." rows="5"></textarea>
             </div>
           </div>
           <div class="form-group row">
             <div class="offset-sm-3 col-sm-9">
-              <button type="submit" class="btn btn-primary">Nhập kho</button>
+              <button [disabled]="isReady" (click)="nhapPhieu()" class="btn btn-primary">Nhập kho</button>
             </div>
           </div>
         </form>

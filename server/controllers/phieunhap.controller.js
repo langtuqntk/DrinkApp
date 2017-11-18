@@ -1,4 +1,5 @@
 import PhieuNhap from '../models/PhieuNhap.model';
+import PhieuNhapCtiet from '../models/PhieuNhapCtiet.model';
 
 /**
  * Load PhieuNhap and append to req.
@@ -37,6 +38,22 @@ function create(req, res, next) {
   phieuNhap.save()
     .then(savedPhieuNhap => res.json(savedPhieuNhap))
     .catch(e => next(e));
+}
+
+function createDetail(req, res, next) {
+  console.log(req.body.hangs);
+  for(let item of req.body.hangs){
+    const phieuNhapCtiet = new PhieuNhapCtiet({
+    Sophieunhap: item.Sophieunhap,
+    Mahang: item.Mahang,
+    Soluong: item.Soluong,
+    Gianhap: item.Gianhap
+    });
+
+    phieuNhapCtiet.save()
+      .then(() => res.json(req.body.hangs))
+      .catch(e => next(e));
+  }
 }
 
 /**
@@ -81,4 +98,4 @@ function remove(req, res, next) {
     .catch(e => next(e));
 }
 
-export default { load, get, create, update, list, remove };
+export default { load, get, create, createDetail, update, list, remove };

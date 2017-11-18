@@ -17,7 +17,7 @@ function load(req, res, next, id) {
 
 //currentUse
 function getGiaHang(req, res) {
-  GiaHang.findOne({Mahang: req.params.mahang, LoaiKH: req.params.loaikh})
+  GiaHang.findOne({$or:[{$and:[{Mahang:req.params.mahang}, {LoaiKH:req.params.loaikh}]}, {Mahang:req.params.mahang}]})
          .select('Giaban')
          .exec()
          .then((giahang) => {

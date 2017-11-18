@@ -47,7 +47,7 @@ export class CapNhatGiaComponent {
 
   hangChange(mahang){
     this.Mahang = mahang;
-    if(this.LoaiKH !== "*" && this.Mahang !== "*"){
+    if(this.Mahang !== "*" && this.LoaiKH !== "*"){
       this.serviceHang.getGiaHang(this.Mahang, this.LoaiKH).then(giahang => {
         this.Giahang = giahang.Giaban;
         this.GiaHangID = giahang._id;
@@ -63,8 +63,8 @@ export class CapNhatGiaComponent {
 
   khachChange(loaikh){
     this.LoaiKH = loaikh;
-    if(this.Mahang !== "*" && this.LoaiKH !== "*"){
-       this.serviceHang.getGiaHang(this.Mahang, this.LoaiKH).then(giahang => {
+    if(this.LoaiKH !== "*" && this.Mahang !== "*"){
+      this.serviceHang.getGiaHang(this.Mahang, this.LoaiKH).then(giahang => {
         this.Giahang = giahang.Giaban;
         this.GiaHangID = giahang._id;
         this.isReady = true;
