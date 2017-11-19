@@ -55,10 +55,9 @@
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Hàng</label>
             <div class="col-sm-8">
-              <select (change)="chonHang($event)" class="form-control">
+              <select (change)="chonHang($event)" [(ngModel)]="Mahang" name="mahang" class="form-control">
                     <option value="*">Chọn mặt hàng</option>
-                    <option value="Cafe-15000">Cafe - 15.000 VNĐ</option>
-                    <option value="Sữa-10000">Sữa - 10.000 VNĐ</option>
+                    <option *ngFor="let i of listHangs" value="{{i._id}}-{{i.Giahang}}">{{i.Tenhang}} - {{i.Giahang}} VNĐ</option>
               </select>
               <select multiple class="form-control" (keyup.delete)="xoaHang($event)">
                     <option *ngFor="let i of hangs" value="{{i.hang + '-' + i.soluong}}">{{i.text}}</option>

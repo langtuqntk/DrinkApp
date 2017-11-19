@@ -5,28 +5,32 @@ import { PhieuXuatService } from '../../@core/data/phieuxuat.service';
 import { NhanVienService } from '../../@core/data/nhanvien.service';
 import { KhachHangService } from '../../@core/data/khachhang.service';
 import { BanService } from '../../@core/data/ban.service';
+import { HangService } from '../../@core/data/hang.service';
 import { PhieuXuat, PhieuXuatCtiet } from '../../@core/data/phieu';
 import $ from 'jquery';
 import uuidv1 from  'uuid/v1';
 
 @Component({
   selector: 'ngx-form-layouts',
-  providers: [PhieuXuatService, NhanVienService, KhachHangService, BanService],
+  providers: [PhieuXuatService, NhanVienService, KhachHangService, BanService, HangService],
   styleUrls: ['./banhang.component.scss'],
   templateUrl: './banhang.component.html',
 })
 export class BanHangComponent {
 
   hangs = [];
+  hangSelected = [];
+  isReady = false;
+
+  listHangs = [];
   nhanviens = [];
   khachhangs = [];
   bans = [];
-  hangSelected = [];
-  isReady = false;
 
   Sophieuxuat: number = Math.floor((Math.random() * 100000) + 1);
   Ngayxuat: {day:"",month:"",year:""};
   MaNV: string;
+  Mahang: string;
   LoaiKH: string;
   Maban: string;
   TienTra: number = 0;
@@ -35,7 +39,7 @@ export class BanHangComponent {
 
   constructor(private router: Router, private modalService: NgbModal, private service: PhieuXuatService,
               private serviceNV: NhanVienService, private serviceKH: KhachHangService,
-              private serviceBan: BanService) { }
+              private serviceBan: BanService, private serviceHang: HangService) { }
 
   ngOnInit(){
     this.serviceNV.getNhanViens().then(res => this.nhanviens = res);
@@ -44,6 +48,13 @@ export class BanHangComponent {
     this.LoaiKH = "*";
     this.serviceBan.getBans().then(res => this.bans = res);
     this.Maban = "*";
+    this.serviceHang.getHangs().then(res => {
+      for(let i in res){
+        this.serviceHang.getGiaHang(res[i]._id,"*").then(giahang => res[i].Giahang = giahang.Giaban);
+      }
+      this.listHangs = res;
+    });
+    this.Mahang = "*";
     //let currentDate = new Date();
     //this.Ngayxuat.day = '1';
   }
