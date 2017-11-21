@@ -1,0 +1,68 @@
+<div class="modal-header">
+  <span>{{ modalHeader }}</span>
+  <button class="close" aria-label="Close" (click)="closeModal()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body" style="background:#ebeff5;">
+  <div class="row" id="print-section">
+    <div class="col-md-6 offset-md-3">
+      <nb-card>
+        <nb-card-header>Chi tiết phiếu nhập</nb-card-header>
+        <nb-card-body>
+          <form>
+            <div class="form-group row">
+              <label for="inputEmail1" class="col-sm-5 col-form-label">Số phiếu nhập:</label>
+              <div class="col-sm-7">
+                <b>{{phieunhap.Sophieunhap}}</b>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword2" class="col-sm-5 col-form-label">Ngày nhập:</label>
+              <div class="col-sm-7">
+                <b>{{phieunhap.Ngaynhap}}</b>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail1" class="col-sm-5 col-form-label">Nhân viên:</label>
+              <div class="col-sm-7">
+                <b>{{phieunhap.Nhanvien}}</b>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail1" class="col-sm-5 col-form-label">Hàng</label>
+              <div class="col-sm-7">
+                <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Hàng</th>
+                    <th>Giá nhập</th>
+                    <th>Số lượng</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of phieunhap.Hangs">
+                    <td>{{item.Mahang}}</td>
+                    <td>{{item.Gianhap}}</td>
+                    <td>{{item.Soluong}}</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail1" class="col-sm-5 col-form-label">Ghi chú:</label>
+              <div class="col-sm-7">
+                <b>{{phieunhap.Ghichu}}</b>
+              </div>
+            </div>
+          </form>
+        </nb-card-body>
+      </nb-card>
+    </div>
+  </div>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-md btn-primary" (click)="closeModal()">Đóng</button>
+</div>
+

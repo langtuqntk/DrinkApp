@@ -40,11 +40,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: 'QUẢN LÝ PHIẾU NHẬP',
-        link: '/app/pages/tables/smart-table',
+        link: '/app/pages/tables/phieunhaps',
       },
       {
         title: 'QUẢN LÝ HÀNG BÁN',
-        link: '/app/pages/tables/smart-table',
+        link: '/app/pages/tables/phieuxuats',
       },
       {
         title: 'QUẢN LÝ NHÂN VIÊN',

@@ -52,7 +52,7 @@ PhieuNhapCtietSchema.statics = {
    * @returns {Promise<PhieuNhapCtiet, APIError>}
    */
   get(id) {
-    return this.findById(id)
+    return this.find({Sophieunhap:id})
       .exec()
       .then((phieunhapctiet) => {
         if (phieunhapctiet) {

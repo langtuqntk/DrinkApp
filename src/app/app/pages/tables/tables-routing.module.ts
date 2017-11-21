@@ -7,6 +7,9 @@ import { BansComponent } from './bans/bans.component';
 import { HangsComponent } from './hangs/hangs.component';
 import { KhachHangsComponent } from './khachhangs/khachhangs.component';
 import { NhanViensComponent } from './nhanviens/nhanviens.component';
+import { PhieuNhapComponent } from './phieunhaps/phieunhap.component';
+import { PhieuNhapCtietComponent } from './phieunhaps/phieunhapctiet/phieunhapctiet.component';
+import { PhieuXuatComponent } from './phieuxuats/phieuxuat.component';
 
 const routes: Routes = [{
   path: '',
@@ -31,6 +34,14 @@ const routes: Routes = [{
     {
       path: 'nhanviens',
       component: NhanViensComponent,
+    },
+    {
+      path: 'phieunhaps',
+      component: PhieuNhapComponent,
+    },
+    {
+      path: 'phieuxuats',
+      component: PhieuXuatComponent,
     }
   ],
 }];
@@ -47,5 +58,8 @@ export const routedComponents = [
   BansComponent,
   HangsComponent,
   KhachHangsComponent,
-  NhanViensComponent
+  NhanViensComponent,
+  PhieuNhapComponent,
+  PhieuNhapCtietComponent,
+  PhieuXuatComponent,
 ];

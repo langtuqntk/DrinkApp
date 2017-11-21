@@ -3,7 +3,7 @@ import { Headers, Http } from '@angular/http';
 
 import 'rxjs/add/operator/toPromise';
 
-import { PhieuNhap, PhieuNhapCtiet } from './phieu';
+import { PhieuNhap, PhieuNhapCtiet, Detail } from './phieu';
 
 @Injectable()
 export class PhieuNhapService {
@@ -20,11 +20,11 @@ export class PhieuNhapService {
                .catch(this.handleError);
   }
 
-  getPhieuNhap(id: string): Promise<PhieuNhap> {
+  getPhieuNhap(id: string): Promise<Detail> {
     const url = `${this.PhieuNhapsUrl}/${id}`;
     return this.http.get(url)
       .toPromise()
-      .then(response => response.json() as PhieuNhap)
+      .then(response => response.json() as Detail)
       .catch(this.handleError);
   }
 

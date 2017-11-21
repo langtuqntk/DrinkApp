@@ -8,6 +8,12 @@ function load(req, res, next, id) {
   PhieuNhap.get(id)
     .then((phieuNhap) => {
       req.PhieuNhap = phieuNhap; // eslint-disable-line no-param-reassign
+    })
+    .catch(e => next(e));
+
+    PhieuNhapCtiet.get(id)
+    .then((phieuNhapCtiet) => {
+      req.PhieuNhapCtiet = phieuNhapCtiet; // eslint-disable-line no-param-reassign
       return next();
     })
     .catch(e => next(e));
@@ -18,7 +24,11 @@ function load(req, res, next, id) {
  * @returns {PhieuNhap}
  */
 function get(req, res) {
-  return res.json(req.PhieuNhap);
+  let resData = {
+    phieunhap: req.PhieuNhap,
+    phieuNhapCtiets: req.PhieuNhapCtiet
+  }
+  return res.json(resData);
 }
 
 /**

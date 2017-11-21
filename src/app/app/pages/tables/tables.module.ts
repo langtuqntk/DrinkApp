@@ -8,7 +8,10 @@ import { BanService } from '../../@core/data/ban.service'
 import { HangService } from '../../@core/data/hang.service'
 import { KhachHangService } from '../../@core/data/khachhang.service'
 import { NhanVienService } from '../../@core/data/nhanvien.service'
+import { PhieuNhapService } from '../../@core/data/phieunhap.service'
+import { PhieuXuatService } from '../../@core/data/phieuxuat.service'
 import { DropdownComponent } from './hangs/dropdown/dropdown.component';
+import { PhieuNhapCtietComponent } from './phieunhaps/phieunhapctiet/phieunhapctiet.component';
  
 @NgModule({
   imports: [
@@ -25,8 +28,10 @@ import { DropdownComponent } from './hangs/dropdown/dropdown.component';
     BanService,
     HangService,
     KhachHangService,
-    NhanVienService
+    NhanVienService,
+    PhieuNhapService,
+    PhieuXuatService,
   ],
-  entryComponents: [ DropdownComponent ]
+  entryComponents: [ DropdownComponent, PhieuNhapCtietComponent ]
 })
 export class TablesModule { }

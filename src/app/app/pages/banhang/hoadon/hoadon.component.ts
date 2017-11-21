@@ -27,7 +27,7 @@ export class HoaDonComponent {
 
   constructor(private activatedRoute: ActivatedRoute, private service: PhieuXuatService,
               private serviceNV: NhanVienService, private serviceKH: KhachHangService,
-              private serviceBan: BanService) {}
+              private serviceBan: BanService, private router: Router) {}
 
   ngOnInit() {
     // subscribe to router event
@@ -71,5 +71,9 @@ export class HoaDonComponent {
       </html>`
     );
     popupWin.document.close();
+  }
+
+  quayLai(): void {
+    this.router.navigateByUrl('/app/pages/tables/phieuxuats');
   }
 }
