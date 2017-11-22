@@ -6,7 +6,9 @@ import config from '../config/config';
 // sample user, used for authentication
 const user = {
   email: 'react@gmail.com',
-  password: 'express'
+  password: 'express',
+  name: 'Nguyễn Công Chính',
+  picture: 'https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/22491462_120896778588370_5141330884375383493_n.jpg?oh=75c91a9ce578a24c50ed4e689e8c8276&oe=5AD7CB42'
 };
 
 /**
@@ -21,11 +23,14 @@ function login(req, res, next) {
   // Idea here was to show how jwt works with simplicity
   if (req.body.email === user.email && req.body.password === user.password) {
     const token = jwt.sign({
-      email: user.email
+      email: user.email,
+      name: user.name,
+      picture: user.picture
     }, config.jwtSecret);
-    return res.json({
-      token,
-      username: user.email
+    return res.json({ data:{
+        token,
+        username: user.email
+      }
     });
   }
 

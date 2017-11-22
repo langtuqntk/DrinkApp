@@ -7,6 +7,7 @@ import { BanHangComponent } from './banhang/banhang.component';
 import { HoaDonComponent } from './banhang/hoadon/hoadon.component';
 import { NhapHangComponent } from './nhaphang/nhaphang.component';
 import { CapNhatGiaComponent } from './capnhatgia/capnhatgia.component';
+import { AuthGuard } from '../_guards/auth.guard';
 
 const routes: Routes = [{
   path: '',

@@ -5,7 +5,7 @@ import { ChartsComponent } from './charts.component';
 import { EchartsComponent } from './echarts/echarts.component';
 import { D3Component } from './d3/d3.component';
 import { ChartjsComponent } from './chartjs/chartjs.component';
-import { EChartsComponent } from './echarts/echarts.component';
+import { EChartsComponent } from './echarts/echartjs.component';
 import { TKBanHangComponent } from './thongkebanhang/thongkebanhang.component';
 import { TKHangTrongKhoComponent } from './thongkehangtrongkho/thongkehangtrongkho.component';
 
