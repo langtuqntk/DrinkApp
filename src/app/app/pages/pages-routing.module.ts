@@ -7,14 +7,14 @@ import { BanHangComponent } from './banhang/banhang.component';
 import { HoaDonComponent } from './banhang/hoadon/hoadon.component';
 import { NhapHangComponent } from './nhaphang/nhaphang.component';
 import { CapNhatGiaComponent } from './capnhatgia/capnhatgia.component';
-import { AuthGuard } from '../_guards/auth.guard';
+import { AuthGuard } from '../_guards';
 
 const routes: Routes = [{
   path: '',
   component: PagesComponent,
   children: [{
     path: 'dashboard',
-    component: DashboardComponent,
+    component: DashboardComponent, 
   },{
     path: 'banhang',
     component: BanHangComponent,

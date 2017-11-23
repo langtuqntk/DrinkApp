@@ -6,6 +6,7 @@ import {
   OnInit,
   ViewEncapsulation
 } from '@angular/core';
+import { AnalyticsService } from './app/@core/utils/analytics.service';
 import { AppState } from './app.service';
 import { PostsService } from './posts/posts.service';
 /**
@@ -13,7 +14,7 @@ import { PostsService } from './posts/posts.service';
  * Top Level Component
  */
 @Component({
-  selector: 'app',
+  selector: 'ngx-app',
   encapsulation: ViewEncapsulation.None,
   template: `
     <router-outlet></router-outlet>
@@ -26,11 +27,13 @@ export class AppComponent implements OnInit {
   public url = 'https://mean.io';
 
   constructor(
-    public appState: AppState
+    public appState: AppState,
+    private analytics: AnalyticsService
   ) { }
 
   public ngOnInit() {
     console.log('Initial App State', this.appState.state);
+    this.analytics.trackPageViews();
   }
 
 }
@@ -42,3 +45,11 @@ export class AppComponent implements OnInit {
  * For help or questions please contact us at @AngularClass on twitter
  * or our chat on Slack at https://AngularClass.com/slack-join
  */
+
+
+ /**
+ * @license
+ * Copyright Akveo. All Rights Reserved.
+ * Licensed under the MIT License. See License.txt in the project root for license information.
+ */
+

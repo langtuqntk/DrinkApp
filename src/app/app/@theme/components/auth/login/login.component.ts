@@ -116,11 +116,10 @@ export class DALoginComponent {
       } else {
         this.errors = result.getErrors();
       }
-      console.log(result);
       const redirect = result.getRedirect();
       if (redirect) {
         setTimeout(() => {
-          return this.router.navigateByUrl(redirect + `app/pages`);
+          return this.router.navigateByUrl(redirect);
         }, this.redirectDelay);
       }
     });
