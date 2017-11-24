@@ -25,28 +25,23 @@ import {
 import 'hammerjs';
 
 import { APP_BASE_HREF, CommonModule, Location } from '@angular/common';
-import { CoreModule } from './app/@core/core.module';
-//import { AppComponent } from './app.component';
+import { CoreModule } from './@core/core.module';
 import { AppRoutingModule } from './app.routes';
-import { ThemeModule } from './app/@theme/theme.module';
+import { ThemeModule } from './@theme/theme.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NB_AUTH_TOKEN_WRAPPER_TOKEN, NbAuthJWTToken } from '@nebular/auth';
-import { AuthGuard } from './app/_guards/auth.guard';
+import { AuthGuard } from './@core/guards';
 
 /*
  * Platform and Environment providers/directives/pipes
  */
 import { ENV_PROVIDERS } from './environment';
-//import { ROUTES } from './app.routes';
 // App is our top level component
 import { AppComponent } from './app.component';
 import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InternalStateType } from './app.service';
-import { HomeComponent } from './home';
-import { ReactComponent } from './react';
-import { ProfileComponent } from './profile';
 //import { angularProfileCard } from '../../components/main-profile/index';
-import { NoContentComponent } from './no-content';
+import { NoContentComponent } from './@theme/components';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import '../styles/styles.scss';
@@ -71,9 +66,6 @@ type StoreType = {
   bootstrap: [AppComponent],
   declarations: [
     AppComponent,
-    ProfileComponent,
-    HomeComponent,
-    ReactComponent,
     NoContentComponent,
   ],
   /**

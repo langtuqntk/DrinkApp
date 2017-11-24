@@ -8,18 +8,12 @@ import {
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
 } from '@nebular/auth';
-import { DALoginComponent } from './app/@theme/components/auth/login/login.component';
-import { AuthGuard } from './app/_guards';
-import { HomeComponent } from './home';
-import { ReactComponent } from './react';
-import { ProfileComponent } from './profile';
-import { NoContentComponent } from './no-content';
+import { DALoginComponent } from './@theme/components';
+import { AuthGuard } from './@core/guards';
+import { NoContentComponent } from './@theme/components';
 
 const routes: Routes = [
-  { path: 'pages', loadChildren: './app/pages#PagesModule' },
-  { path: 'posts', loadChildren: './posts#PostsModule' },
-  { path: 'profile', component: ProfileComponent , canActivate: [AuthGuard]},
-  { path: 'react', component: ReactComponent },
+  { path: '', loadChildren: './pages#PagesModule' },
   {
     path: 'auth',
     component: NbAuthComponent,
@@ -34,7 +28,7 @@ const routes: Routes = [
       },
       {
         path: 'register',
-        component: NbRegisterComponent,
+        component: NbRegisterComponent, canActivate: [AuthGuard]
       },
       {
         path: 'logout',
